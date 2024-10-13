@@ -1,0 +1,640 @@
+[
+  {
+    "id": "fostex-fe203sigma-re",
+    "brand": "FOSTEX",
+    "name": "FE203Σ-RE",
+    "model": "FE203Σ-RE",
+    "limited": true,
+    "price": 25300,
+    "release": "2021-11",
+    "category": [
+      "fe",
+      "fe203",
+      "sigma",
+      "sigma-re",
+      "fullrange",
+      "8ohm",
+      "20cm",
+      "4hole",
+      "steel-frame",
+      "limited"
+    ],
+    "ja": {
+      "categoryText": "20cmフルレンジ限定ユニット",
+      "priceText": "¥25,300（税込）／1台",
+      "releaseText": "2021年11月発売",
+      "recommendedEnclosureList": ["炭山アキラ設計「オウサマペンギン」", "FE203Σ-RE標準箱"]
+    },
+    "en": {
+      "categoryText": "20cm Fullrange Limited Unit",
+      "priceText": "¥25,300(tax included)/1pc",
+      "releaseText": "Released in November 2021",
+      "recommendedEnclosureList": ["Ousama-Penguin by Sumiyama Akira", "Standard Box for FE203Σ-RE"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.29,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 54.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 14.01,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.63,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 12.11,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 8.51
+      },
+      "Qes": {
+        "value": 0.23
+      },
+      "Qts": {
+        "value": 0.23
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 81.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 9.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 208.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 35.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 18k Hz"
+      },
+      "Vas": {
+        "value": 37.81,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 185.0,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 1160.0,
+        "unit": "g/unit"
+      },
+      "netWeight": {
+        "value": 4080.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "オウサマペンギン",
+      "FE203Σ-RE標準箱"
+    ]
+  },
+  {
+    "id": "fostex-fe108-sol-2023",
+    "brand": "FOSTEX",
+    "name": "FE108-Sol(2023)",
+    "model": "FE108-Sol",
+    "limited": true,
+    "price": 27500,
+    "release": "2023-12",
+    "category": [
+      "fe",
+      "fe108",
+      "sol",
+      "fullrange",
+      "8ohm",
+      "10cm",
+      "4hole",
+      "aluminum-die-cast-frame",
+      "limited",
+      "reissued"
+    ],
+    "ja": {
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "¥27,500（税込）／1台",
+      "releaseText": "2021年11月発売",
+      "recommendedEnclosureList": ["BK108-Sol", "FE108-Sol標準箱"]
+    },
+    "en": {
+      "categoryText": "10cm Fullrange Limited Unit",
+      "priceText": "¥27,500(tax included)/1pc",
+      "releaseText": "Released in November 2021",
+      "recommendedEnclosureList": ["BK108-Sol", "Standard Box for FE108-Sol"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 6.6,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.035,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 76.3,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.9,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 1.5,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 4.95,
+        "unit": "Tesla/m"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 3.28
+      },
+      "Qes": {
+        "value": 0.38
+      },
+      "Qts": {
+        "value": 0.34
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 90,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 5.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 128.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 35k Hz"
+      },
+      "Vas": {
+        "value": 5.36,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 103.0,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 451.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1260.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-fe108-sol-2015",
+    "brand": "FOSTEX",
+    "name": "FE108-Sol(2015)",
+    "model": "FE108-Sol",
+    "limited": true,
+    "price": 19000,
+    "release": "2023-12",
+    "category": [
+      "fe",
+      "fe108",
+      "sol",
+      "fullrange",
+      "8ohm",
+      "10cm",
+      "4hole",
+      "aluminum-die-cast-frame",
+      "limited",
+      "reissued"
+    ],
+    "ja": {
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "¥19,000（税別）／1台",
+      "releaseText": "2015年12月発売",
+      "recommendedEnclosureList": ["BK108-Sol", "FE108-Sol標準箱"]
+    },
+    "en": {
+      "categoryText": "10cm Fullrange Limited Unit",
+      "priceText": "¥19,000(not tax included)/1pc",
+      "releaseText": "Released in December 2015",
+      "recommendedEnclosureList": ["BK108-Sol", "Standard Box for FE108-Sol"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 6.6,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.035,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 76.3,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.9,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 1.5,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 4.95,
+        "unit": "Tesla/m"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 3.28
+      },
+      "Qes": {
+        "value": 0.38
+      },
+      "Qts": {
+        "value": 0.34
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 90,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 5.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 128.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 35k Hz"
+      },
+      "Vas": {
+        "value": 5.36,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 103.0,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 451.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1260.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-fe108ss-hp",
+    "brand": "FOSTEX",
+    "name": "FE108SS-HP",
+    "model": "FE108SS-HP",
+    "limited": true,
+    "price": 27500,
+    "release": "2022-02",
+    "category": [
+      "fe",
+      "fe108",
+      "ss-hp",
+      "hp-diaphragm",
+      "udrt",
+      "8ohm",
+      "fullrange",
+      "10cm",
+      "8hole",
+      "aluminum-die-cast-frame",
+      "limited"
+    ],
+    "ja": {
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "¥27,500（税込）／1台",
+      "releaseText": "2022年2月発売",
+      "recommendedEnclosureList": ["FE108SS-HP標準箱"]
+    },
+    "en": {
+      "categoryText": "10cm Fullrange Limited Unit",
+      "priceText": "¥27,500(tax included)/1pc",
+      "releaseText": "Released in February 2022",
+      "recommendedEnclosureList": ["Standard Box for FE108SS-HP"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.3,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.07,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 81.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 3.2,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 1.21,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.27,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.13
+      },
+      "Qes": {
+        "value": 0.43
+      },
+      "Qts": {
+        "value": 0.39
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 128.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 28k Hz"
+      },
+      "Vas": {
+        "value": 4.31,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 102.0,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1830.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-fe83nv2",
+    "brand": "FOSTEX",
+    "name": "FE83NV2",
+    "model": "FE83NV2",
+    "limited": false,
+    "price": 5500,
+    "release": "2022-07",
+    "category": [
+      "fe",
+      "fe83",
+      "nv",
+      "nv2",
+      "8ohm",
+      "fullrange",
+      "8cm",
+      "steel-frame"
+    ],
+    "ja": {
+      "categoryText": "8cmフルレンジユニット",
+      "priceText": "¥6,160（税込）／1台",
+      "releaseText": "2022年7月発売",
+      "recommendedEnclosureList": ["FE83NV2標準箱"]
+    },
+    "en": {
+      "categoryText": "8cm Fullrange Unit",
+      "priceText": "¥6,160(tax included)/1pc",
+      "releaseText": "Released in July 2022",
+      "recommendedEnclosureList": ["Standard Box for FE83NV2"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.1,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.1,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 149.7,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 1.4,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.8,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 3.2,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.21
+      },
+      "Qes": {
+        "value": 0.96
+      },
+      "Qts": {
+        "value": 0.78
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 87.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 30.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 5.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 83,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 16,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 22k Hz"
+      },
+      "Vas": {
+        "value": 0.9,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 73,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 371,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  }
+]

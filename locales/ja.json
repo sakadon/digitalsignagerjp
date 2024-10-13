@@ -1,0 +1,17 @@
+{
+  "title": "DigitalSignager.JP",
+  "description": "さかどんの自作スピーカーや電子工作、デジタルサイネージに関する部品や商品をまとめたサイトです",
+
+  "menu": {
+    "home": "ホーム",
+    "bh_speaker_units_db": "BH向けスピーカーユニットたち",
+    "speaker_components_list": "BH向けスピーカーユニット データベース",
+    "grouped_by_baffle_hole_diameter": "バッフル径別にグループ化"
+  },
+
+  "backloadedhorn_speakers": {
+    "title": "BH向けスピーカーユニット データベース",
+    "baffle_hole_diameter": "バッフル穴径",
+    "grouped_by_baffle_hole_diameter": "バッフル径別にグループ化した一覧"
+  }
+}

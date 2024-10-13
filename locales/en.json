@@ -1,0 +1,17 @@
+{
+  "title": "DigitalSignager.JP",
+  "description": "This is a components list site for homemade(craft) speakers, electronics, and digital signage, etc. for fans.",
+
+  "menu": {
+    "home": "Home",
+    "bh_speaker_units_db": "Speaker Units for BH",
+    "speaker_components_list": "Speaker Units(Components) DB for BH",
+    "grouped_by_baffle_hole_diameter": "Grouped by Baffle Hole Diameter"
+  },
+
+  "backloadedhorn_speakers": {
+    "title": "Speaker Units(Components) Database for Back-loaded Horn.",
+    "baffle_hole_diameter": "Baffle Hole Diameter",
+    "grouped_by_baffle_hole_diameter": "Grouped by Baffle Hole Diameter"
+  }
+}
