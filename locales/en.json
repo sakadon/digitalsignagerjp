@@ -13,5 +13,10 @@
     "title": "Speaker Units(Components) Database for Back-loaded Horn.",
     "baffle_hole_diameter": "Baffle Hole Diameter",
     "grouped_by_baffle_hole_diameter": "Grouped by Baffle Hole Diameter"
+  },
+
+  "categories": {
+    "title": "Grouped by Category",
+    "description": "Grouped by Category"
   }
 }

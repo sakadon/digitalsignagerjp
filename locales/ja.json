@@ -13,5 +13,10 @@
     "title": "BH向けスピーカーユニット データベース",
     "baffle_hole_diameter": "バッフル穴径",
     "grouped_by_baffle_hole_diameter": "バッフル径別にグループ化した一覧"
+  },
+
+  "categories": {
+    "title": "カテゴリー毎の一覧",
+    "description": "カテゴリー毎の一覧です"
   }
 }

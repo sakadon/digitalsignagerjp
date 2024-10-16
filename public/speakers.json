@@ -1,5 +1,5292 @@
 [
   {
+    "id": "fostex-mg100hr-s",
+    "brand": "FOSTEX",
+    "name": "MG100HR-S",
+    "model": "MG100HR-S",
+    "limited": true,
+    "price": 29925,
+    "release": "2009-04",
+    "category": [
+      "MG",
+      "MG100",
+      "8Ω",
+      "10cm",
+      "HR",
+      "Limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-mg100hr-s/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-mg100hr-s/3.png",
+      "outline": "/images/speakers/fostex-mg100hr-s/4.png"
+    },
+    "ja": {
+      "frameText": "マグネシウムフレーム",
+      "categoryText": "10cm純マグネシウムフルレンジ限定ユニット",
+      "priceText": "税込￥29,925／1台",
+      "releaseText": "平成21年4月発売",
+      "recommendedEnclosureList": ["MG100HR-S推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Magnesium frame",
+      "categoryText": "10cm Pure Magnesium Fullrange Limited Unit",
+      "priceText": "¥29,925 (tax included)/1pc",
+      "releaseText": "Released in April 2009",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for MG100HR-S"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 6.9,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 55,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.03,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 4.8,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 13.5,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 1.0,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 3.5
+      },
+      "Qes": {
+        "value": 0.41
+      },
+      "Qts": {
+        "value": 0.36
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 90,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 93,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 100,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 78.5,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 1200,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 30k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "MG100HR-S標準箱",
+      "炭山アキラ設計「サニーサイド」"
+    ]
+  },
+  {
+    "id": "fostex-ff225k",
+    "brand": "FOSTEX",
+    "name": "FF225K",
+    "model": "FF225K",
+    "limited": false,
+    "price": null,
+    "release": "2000-XX",
+    "category": [
+      "FF",
+      "FF225",
+      "8Ω",
+      "22cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff225k/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff225k/3.png",
+      "outline": "/images/speakers/fostex-ff225k/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "22cmフルレンジユニット",
+      "priceText": "価格は要確認",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FF225K推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "22cm Fullrange Unit",
+      "priceText": "Price to be confirmed",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF225K"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.1,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 42,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.08,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 22.4,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 161.22,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 1.0,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.10
+      },
+      "Qes": {
+        "value": 0.32
+      },
+      "Qts": {
+        "value": 0.29
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 95,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 215,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 225,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 96.2,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 2100,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 14k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FF225K標準箱"
+    ]
+  },
+  {
+    "id": "fostex-ff165k",
+    "brand": "FOSTEX",
+    "name": "FF165K",
+    "model": "FF165K",
+    "limited": false,
+    "price": null,
+    "release": "2000-XX",
+    "category": [
+      "FF",
+      "FF165",
+      "8Ω",
+      "16cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff165k/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff165k/3.png",
+      "outline": "/images/speakers/fostex-ff165k/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "16cmフルレンジユニット",
+      "priceText": "価格は要確認",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FF165K推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "16cm Fullrange Unit",
+      "priceText": "Price to be confirmed",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF165K"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 55,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.05,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 9.4,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 45.07,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 0.6,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.68
+      },
+      "Qes": {
+        "value": 0.42
+      },
+      "Qts": {
+        "value": 0.38
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 91,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 145,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 165,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 80.8,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 1450,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FF165K標準箱"
+    ]
+  },
+  {
+    "id": "fostex-ff125k",
+    "brand": "FOSTEX",
+    "name": "FF125K",
+    "model": "FF125K",
+    "limited": false,
+    "price": null,
+    "release": "2000-XX",
+    "category": [
+      "FF",
+      "FF125",
+      "8Ω",
+      "12cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff125k/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff125k/3.png",
+      "outline": "/images/speakers/fostex-ff125k/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "12cmフルレンジユニット",
+      "priceText": "価格は要確認",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FF125K推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "12cm Fullrange Unit",
+      "priceText": "Price to be confirmed",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF125K"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 65,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.06,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 5.8,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 17.98,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 0.4,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 3.82
+      },
+      "Qes": {
+        "value": 0.42
+      },
+      "Qts": {
+        "value": 0.38
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 90,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 113,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 125,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 61.2,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 890,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 22k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FF125K標準箱"
+    ]
+  },
+  {
+    "id": "fostex-ff85k",
+    "brand": "FOSTEX",
+    "name": "FF85K",
+    "model": "FF85K",
+    "limited": false,
+    "price": null,
+    "release": "2000-XX",
+    "category": [
+      "FF",
+      "FF85",
+      "8Ω",
+      "8cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff85k/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff85k/3.png",
+      "outline": "/images/speakers/fostex-ff85k/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "8cmフルレンジユニット",
+      "priceText": "価格は要確認",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FF85K推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "8cm Fullrange Unit",
+      "priceText": "Price to be confirmed",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF85K"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.1,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 115,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.03,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.3,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 1.96,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 0.4,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 2.58
+      },
+      "Qes": {
+        "value": 0.57
+      },
+      "Qts": {
+        "value": 0.47
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 70,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 85,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 43.6,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 450,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 23k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FF85K標準箱"
+    ]
+  },
+  {
+    "id": "fostex-fe206e",
+    "brand": "FOSTEX",
+    "name": "FE206E",
+    "model": "FE206E",
+    "limited": false,
+    "price": null,
+    "release": "2000-XX",
+    "category": [
+      "FE",
+      "FE206",
+      "8Ω",
+      "20cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe206e/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe206e/3.png",
+      "outline": "/images/speakers/fostex-fe206e/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "20cmフルレンジユニット",
+      "priceText": "価格は要確認",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FE206E推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "20cm Fullrange Unit",
+      "priceText": "Price to be confirmed",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE206E"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.0,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 39.5,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.06,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 16.2,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 150.82,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 1.5,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 9.39
+      },
+      "Qes": {
+        "value": 0.18
+      },
+      "Qts": {
+        "value": 0.17
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 184,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 206,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 94,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 2200,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FE206E標準箱"
+    ]
+  },
+  {
+    "id": "fostex-fe166e",
+    "brand": "FOSTEX",
+    "name": "FE166E",
+    "model": "FE166E",
+    "limited": false,
+    "price": null,
+    "release": "2000-XX",
+    "category": [
+      "FE",
+      "FE166",
+      "8Ω",
+      "16cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe166e/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe166e/3.png",
+      "outline": "/images/speakers/fostex-fe166e/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "16cmフルレンジユニット",
+      "priceText": "価格は要確認",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FE166E推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "16cm Fullrange Unit",
+      "priceText": "Price to be confirmed",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE166E"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.1,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 51.5,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.08,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 10.7,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 61.29,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 0.6,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 6.07
+      },
+      "Qes": {
+        "value": 0.24
+      },
+      "Qts": {
+        "value": 0.23
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 94,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 145,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 166,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 77,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 1600,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FE166E標準箱"
+    ]
+  },
+  {
+    "id": "fostex-fe126e",
+    "brand": "FOSTEX",
+    "name": "FE126E",
+    "model": "FE126E",
+    "limited": false,
+    "price": null,
+    "release": "2000-XX",
+    "category": [
+      "FE",
+      "FE126",
+      "8Ω",
+      "12cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe126e/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe126e/3.png",
+      "outline": "/images/speakers/fostex-fe126e/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "12cmフルレンジユニット",
+      "priceText": "価格は要確認",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FE126E推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "12cm Fullrange Unit",
+      "priceText": "Price to be confirmed",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE126E"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 70,
+        "unit": "Hz"
+      },
+      "Le": {
+        "value": 0.05,
+        "unit": "mH"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 3.0,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 10.36,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 0.35,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 3.33
+      },
+      "Qes": {
+        "value": 0.45
+      },
+      "Qts": {
+        "value": 0.39
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 110,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 126,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 60,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 930,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FE126E標準箱"
+    ]
+  },
+  {
+    "id": "fostex-fe103e",
+    "brand": "FOSTEX",
+    "name": "FE103E",
+    "model": "FE103E",
+    "limited": false,
+    "price": 31.50,
+    "release": "2000-XX",
+    "category": [
+      "FE",
+      "FE103",
+      "8Ω",
+      "10cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe103e/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe103e/3.png",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "$31.50（税込）／1台",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FE103E推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "$31.50 (tax included)/1pc",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE103E"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.5,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 80,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.6,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 6.90,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 0.4,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 2.87
+      },
+      "Qes": {
+        "value": 0.41
+      },
+      "Qts": {
+        "value": 0.35
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 89,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 92,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 107,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 45.6,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 630,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 22k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FE103E標準箱"
+    ]
+  },
+  {
+    "id": "fostex-fe83e",
+    "brand": "FOSTEX",
+    "name": "FE83E",
+    "model": "FE83E",
+    "limited": false,
+    "price": 24.75,
+    "release": "2000-XX",
+    "category": [
+      "FE",
+      "FE83",
+      "8Ω",
+      "8cm",
+      "FullRange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe83e/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe83e/3.png",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "8cmフルレンジユニット",
+      "priceText": "$24.75（税込）／1台",
+      "releaseText": "2000年XX月発売",
+      "recommendedEnclosureList": ["FE83E推奨バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "8cm Fullrange Unit",
+      "priceText": "$24.75 (tax included)/1pc",
+      "releaseText": "Released in 2000",
+      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE83E"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.8,
+        "unit": "ohm"
+      },
+      "fs": {
+        "value": 140,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 1.38,
+        "unit": "g"
+      },
+      "Vas": {
+        "value": 1.29,
+        "unit": "L"
+      },
+      "Xmax": {
+        "value": 0.4,
+        "unit": "mm"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 3.99
+      },
+      "Qes": {
+        "value": 0.98
+      },
+      "Qts": {
+        "value": 0.78
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88,
+        "unit": "dB/W (1m)"
+      },
+      "baffleHoleDiameter": {
+        "value": 71,
+        "unit": "mm"
+      },
+      "overallDiameter": {
+        "value": 83,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 44,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 360,
+        "unit": "g"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "FE83E標準箱"
+    ]
+  },
+  {
+    "id": "fostex-ff225n",
+    "brand": "FOSTEX",
+    "name": "FF225N",
+    "model": "FF225N",
+    "limited": false,
+    "price": 9300,
+    "release": "",
+    "category": [
+      "FF",
+      "FF225",
+      "8Ω",
+      "20cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff225n/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff225n/3.png",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "20cmコーン形フルレンジユニット",
+      "priceText": "¥9,300（税込）／1台",
+      "releaseText": "発売時期不明",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Steel Frame",
+      "categoryText": "20cm Cone-type Fullrange Unit",
+      "priceText": "¥9,300(tax included)/1pc",
+      "releaseText": "Release date unknown",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 40,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 16.1,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.26
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 84.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 100.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 225.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 14k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 185.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 1067.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 3.7,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": ""
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-ff165n",
+    "brand": "FOSTEX",
+    "name": "FF165N",
+    "model": "FF165N",
+    "limited": false,
+    "price": 6000,
+    "release": "",
+    "category": [
+      "FF",
+      "FF165",
+      "N",
+      "8Ω",
+      "16cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff165n/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff165n/3.png",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "16cmコーン形フルレンジユニット",
+      "priceText": "¥6,000（税込）／1台",
+      "releaseText": "発売時期不明",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Steel Frame",
+      "categoryText": "16cm Cone-type Fullrange Unit",
+      "priceText": "¥6,000(tax included)/1pc",
+      "releaseText": "Release date unknown",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 45,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 7.5,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.25
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 94.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 65.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 70.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 165.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 14k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 146.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 600.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1.6,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": ""
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-fp203",
+    "brand": "FOSTEX",
+    "name": "FP203",
+    "model": "FP203",
+    "limited": false,
+    "price": 0,
+    "release": "",
+    "category": [
+      "FP",
+      "FP203",
+      "8Ω",
+      "20cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fp203/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fp203/3.png",
+      "outline": "/images/speakers/fostex-fp203/4.png"
+    },
+    "ja": {
+      "frameText": "角形ダイキャストフレーム",
+      "categoryText": "20cmダブルコーン型フルレンジユニット",
+      "priceText": "価格不明",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Square Die-cast Frame",
+      "categoryText": "20cm Double-cone Fullrange Unit",
+      "priceText": "Price not available",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 40,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 12.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.33
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 95.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 81.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 100.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 210.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 180.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 1090.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 3750,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-fp163",
+    "brand": "FOSTEX",
+    "name": "FP163",
+    "model": "FP163",
+    "limited": false,
+    "price": 0,
+    "release": "",
+    "category": [
+      "FP",
+      "FP163",
+      "8Ω",
+      "16cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fp163/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fp163/3.png",
+      "outline": "/images/speakers/fostex-fp163/4.png"
+    },
+    "ja": {
+      "frameText": "角形ダイキャストフレーム",
+      "categoryText": "16cmダブルコーン型フルレンジユニット",
+      "priceText": "価格不明",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Square Die-cast Frame",
+      "categoryText": "16cm Double-cone Fullrange Unit",
+      "priceText": "Price not available",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 55,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 7.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.33
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 65.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 80.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 168.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 146.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 720.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 2250,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-ff225",
+    "brand": "FOSTEX",
+    "name": "FF225",
+    "model": "FF225",
+    "limited": false,
+    "price": 0,
+    "release": "",
+    "category": [
+      "FF",
+      "FF225",
+      "8Ω",
+      "20cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff225/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff225/3.png",
+      "outline": "/images/speakers/fostex-ff225/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "20cmフルレンジユニット",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "20cm Fullrange Unit",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 40,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 18.2,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.23
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 84.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 100.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 208.4,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 143.2,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 14k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 200.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 1067.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 3700,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-ff125n",
+    "brand": "FOSTEX",
+    "name": "FF125N",
+    "model": "FF125N",
+    "limited": false,
+    "price": 3800,
+    "release": "",
+    "category": [
+      "FF",
+      "FF125",
+      "N",
+      "8Ω",
+      "12cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff125n/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff125n/3.png",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "12cmフルレンジユニット",
+      "priceText": "¥3,800（税込）／1台",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "12cm Fullrange Unit",
+      "priceText": "¥3,800(tax included)/1pc",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 75,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 3.2,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.25
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 92.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 46.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 50.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 156.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 100.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 18k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 113.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 420.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 930,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-ff165",
+    "brand": "FOSTEX",
+    "name": "FF165",
+    "model": "FF165",
+    "limited": false,
+    "price": 0,
+    "release": "",
+    "category": [
+      "FF",
+      "FF165",
+      "8Ω",
+      "16cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff165/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff165/3.png",
+      "outline": "/images/speakers/fostex-ff165/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "16cmフルレンジユニット",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "16cm Fullrange Unit",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 45,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 7.2,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.26
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 94.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 65.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 70.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 167,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 110,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 14k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 143.4,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 600.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1685,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-ff125",
+    "brand": "FOSTEX",
+    "name": "FF125",
+    "model": "FF125",
+    "limited": false,
+    "price": "",
+    "release": "",
+    "category": [
+      "FF",
+      "FF125",
+      "8Ω",
+      "12cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-ff125/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-ff125/3.png",
+      "outline": "/images/speakers/fostex-ff125/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "12cmフルレンジユニット",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "12cm Fullrange Unit",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 60,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.6,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.24
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 92.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 46.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 50.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 111.2,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 18,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 18k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 112,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 330.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 865,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-fe206-sigma",
+    "brand": "FOSTEX",
+    "name": "FE206Σ",
+    "model": "FE206Σ",
+    "price": "",
+    "release": "",
+    "category": [
+      "FE",
+      "Σ",
+      "20cm",
+      "8Ω",
+      "Fullrange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe206-sigma/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe206-sigma/3.png",
+      "outline": "/images/speakers/fostex-fe206-sigma/4.png"
+    },
+    "ja": {
+      "frameText": "角形ダイキャストフレーム",
+      "categoryText": "20cmフルレンジユニット",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Die-cast Iron Frame",
+      "categoryText": "20cm Fullrange Unit",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 45.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 12.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.26
+      },
+      "Qts": {
+        "value": 0.26
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 8.1,
+        "unit": "cm"
+      },
+      "ratedInput": {
+        "value": 80,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": "",
+        "unit": ""
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
+      "reproductionFrequencyResponse": {
+        "value": "45Hz to 20kHz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 180,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 1.7,
+        "unit": "kg (double)"
+      },
+      "netWeight": {
+        "value": 3.7,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": ""
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": []
+  },
+  {
+    "id": "fostex-fe106-sigma",
+    "brand": "FOSTEX",
+    "name": "FE106Σ",
+    "model": "FE106Σ",
+    "price": "",
+    "release": "",
+    "category": [
+      "FE",
+      "Σ",
+      "10cm",
+      "8Ω",
+      "Fullrange"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe106-sigma/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe106-sigma/3.png",
+      "outline": "/images/speakers/fostex-fe106-sigma/4.png"
+    },
+    "ja": {
+      "frameText": "角形ダイキャストフレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Die-cast Iron Frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 80.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.7,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.28
+      },
+      "Qts": {
+        "value": 0.28
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 92.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 4.0,
+        "unit": "cm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": "",
+        "unit": ""
+      },
+      "overallDiameter": {
+        "value": 128.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
+      "reproductionFrequencyResponse": {
+        "value": "80Hz to 18kHz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 98,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 386.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 0.95,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": ""
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": []
+  },
+  {
+    "id": "fostex-fe103-sigma",
+    "brand": "FOSTEX",
+    "name": "FE103Σ",
+    "model": "FE103Σ",
+    "price": 3300,
+    "release": "",
+    "category": [
+      "FE",
+      "Σ",
+      "10cm",
+      "8Ω",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe103-sigma/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe103-sigma/3.png",
+      "outline": "/images/speakers/fostex-fe103-sigma/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "¥3,300（税込）／1台",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "¥3,300(tax included)/1pc",
+      "releaseText": "",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 70.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.9,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": 0.32
+      },
+      "Qts": {
+        "value": 0.32
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 90.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 4.2,
+        "unit": "cm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": "",
+        "unit": ""
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
+      "reproductionFrequencyResponse": {
+        "value": "70Hz to 18kHz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": ""
+      },
+      "baffleHoleDiameter": {
+        "value": 92,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 386.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 0.96,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": ""
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": []
+  },
+  {
+    "id": "fostex-fe204",
+    "brand": "FOSTEX",
+    "name": "FE204",
+    "model": "FE204",
+    "limited": false,
+    "price": 6600,
+    "release": "",
+    "category": [
+      "FE",
+      "FE204",
+      "20cm",
+      "8Ω",
+      "フルレンジ"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe204/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe204/3.png",
+      "outline": "/images/speakers/fostex-fe204/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "20cmフルレンジユニット",
+      "priceText": "¥6,600（税込）／1台",
+      "releaseText": "発売日不明",
+      "recommendedEnclosureList": ["標準エンクロージャー"]
+    },
+    "en": {
+      "frameText": "Double Cone Full-range Unit",
+      "categoryText": "20cm Double Cone Full-range Unit",
+      "priceText": "¥6,600(tax included)/1pc",
+      "releaseText": "Release date unknown",
+      "recommendedEnclosureList": ["Standard Enclosure"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.5,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.5,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 45.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 14.6,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.23,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 7.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 5.0
+      },
+      "Qes": {
+        "value": 0.7
+      },
+      "Qts": {
+        "value": 0.23
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 95.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 81.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 80,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 206.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 20kHz"
+      },
+      "Vas": {
+        "value": 60.0,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 188.5,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 848,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 2.4,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": "Standard Enclosure"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Standard Enclosure"
+    ]
+  },
+  {
+    "id": "fostex-fe164",
+    "brand": "FOSTEX",
+    "name": "FE164",
+    "model": "FE164",
+    "limited": false,
+    "price": 4800,
+    "release": "",
+    "category": [
+      "FE",
+      "FE164",
+      "16cm",
+      "8Ω",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe164/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe164/3.png",
+      "outline": "/images/speakers/fostex-fe164/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "16cmフルレンジユニット",
+      "priceText": "¥4,800（税込）／1台",
+      "releaseText": "発売日不明",
+      "recommendedEnclosureList": ["標準エンクロージャー"]
+    },
+    "en": {
+      "frameText": "Alluminum Die-cast Frame",
+      "categoryText": "16cm Full Range Unit",
+      "priceText": "¥4,800(tax included)/1pc",
+      "releaseText": "Release date unknown",
+      "recommendedEnclosureList": ["Standard Enclosure"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.5,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.5,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 50.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 6.9,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.34,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 7.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.5
+      },
+      "Qes": {
+        "value": 0.6
+      },
+      "Qts": {
+        "value": 0.34
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 92.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 65.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 60,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 166.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 20kHz"
+      },
+      "Vas": {
+        "value": 35.0,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 137.6,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 330,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1.1,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": "Standard Enclosure"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Standard Enclosure"
+    ]
+  },
+  {
+    "id": "fostex-fe83",
+    "brand": "FOSTEX",
+    "name": "FE83",
+    "model": "FE83",
+    "limited": false,
+    "price": 2600,
+    "release": "",
+    "category": [
+      "FE",
+      "FE83",
+      "8Ω",
+      "8cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe83/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe83/3.png",
+      "outline": "/images/speakers/fostex-fe83/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "8cmフルレンジユニット",
+      "priceText": "¥2,600（税込）／1台",
+      "releaseText": "発売日不明"
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "8cm Full Range Unit",
+      "priceText": "¥2,600(tax included)/1pc",
+      "releaseText": "Release date unknown"
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.5,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.25,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 140.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 1.5,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.8,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 3.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.0
+      },
+      "Qes": {
+        "value": 0.8
+      },
+      "Qts": {
+        "value": 0.8
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 30.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 7,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 83.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 20kHz"
+      },
+      "Vas": {
+        "value": 4.0,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 71.0,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 140,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 360,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Standard Enclosure"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Standard Enclosure"
+    ]
+  },
+  {
+    "id": "fostex-fe103",
+    "brand": "FOSTEX",
+    "name": "FE103",
+    "model": "FE103",
+    "limited": false,
+    "price": 3300,
+    "release": "",
+    "category": [
+      "FE",
+      "FE103",
+      "8Ω",
+      "10cm",
+      "フルレンジ"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe103/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe103/3.png",
+      "outline": "/images/speakers/fostex-fe103/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "¥3,300（税込）／1台",
+      "releaseText": "発売日不明",
+      "recommendedEnclosureList": ["標準エンクロージャー", "バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "10cm Cone Fullrange Unit",
+      "priceText": "¥3,300(tax included)/1pc",
+      "releaseText": "Release date unknown",
+      "recommendedEnclosureList": ["Standard Enclosure", "Back-loaded Horn"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.5,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.25,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 80.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.7,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 1.0,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.0
+      },
+      "Qes": {
+        "value": 0.35
+      },
+      "Qts": {
+        "value": 0.35
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 89.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 103.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 18kHz"
+      },
+      "Vas": {
+        "value": 5.0,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 93.0,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 193,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 630,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Standard Enclosure",
+      "Back-loaded Horn"
+    ]
+  },
+  {
+    "id": "fostex-fe168-sigma",
+    "brand": "FOSTEX",
+    "name": "FE168Σ",
+    "model": "FE168Σ",
+    "limited": false,
+    "price": 11800,
+    "release": "1992",
+    "category": [
+      "FE",
+      "FE168",
+      "Σ",
+      "8Ω",
+      "16cm",
+      "8H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe168-sigma/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe168-sigma/3.png",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "ラウンドフレーム",
+      "categoryText": "16cmフルレンジユニット",
+      "priceText": "¥11,800（税込）／1台",
+      "releaseText": "1992年発売",
+      "recommendedEnclosureList": ["標準エンクロージャーBK16", "バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Round Frame",
+      "categoryText": "16cm Full Range Unit",
+      "priceText": "¥11,800(tax included)/1pc",
+      "releaseText": "Released in 1992",
+      "recommendedEnclosureList": ["Standard Enclosure BK16", "Back-loaded Horn"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.5,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.25,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 60.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 6.5,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.4,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 5.0
+      },
+      "Qes": {
+        "value": 0.33
+      },
+      "Qts": {
+        "value": 0.33
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 94.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 65.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 80,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 168.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 30.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 20kHz"
+      },
+      "Vas": {
+        "value": 12.0,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 150.0,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 840,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 2100,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Back-loaded Horn Enclosure",
+      "BK16 Enclosure"
+    ]
+  },
+  {
+    "id": "fostex-fe108-sigma",
+    "brand": "FOSTEX",
+    "name": "FE108Σ",
+    "model": "FE108Σ",
+    "limited": false,
+    "price": 7200,
+    "release": "1992",
+    "category": [
+      "FE",
+      "FE108",
+      "Σ",
+      "8Ω",
+      "10cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe108-sigma/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe108-sigma/3.png",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "ラウンドフレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "¥7,200（税込）／1台",
+      "releaseText": "1992年発売",
+      "recommendedEnclosureList": ["標準エンクロージャーBK10", "バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Round Frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "¥7,200(tax included)/1pc",
+      "releaseText": "Released in 1992",
+      "recommendedEnclosureList": ["Standard Enclosure BK10", "Back-loaded Horn"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.0,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.2,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 80.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.7,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.6,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 7.0
+      },
+      "Qes": {
+        "value": 0.28
+      },
+      "Qts": {
+        "value": 0.28
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 92.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 108.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "80Hz to 18kHz"
+      },
+      "Vas": {
+        "value": 5.5,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 102.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 980,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Back-loaded Horn Enclosure",
+      "BK10 Enclosure"
+    ]
+  },
+  {
+    "id": "fostex-fe108e-sigma",
+    "brand": "FOSTEX",
+    "name": "FE108EΣ",
+    "model": "FE108EΣ",
+    "limited": false,
+    "price": 22000,
+    "release": "2007-08",
+    "category": [
+      "FE",
+      "FE108",
+      "EΣ",
+      "8Ω",
+      "10cm",
+      "8H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe108e-sigma/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe108e-sigma/3.webp",
+      "outline": "/images/speakers/fostex-fe108e-sigma/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "¥22,000（税込）／1台",
+      "releaseText": "2007年8月発売",
+      "recommendedEnclosureList": ["推奨エンクロージャー1", "推奨エンクロージャー2"]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "¥22,000(tax included)/1pc",
+      "releaseText": "Released in August 2007",
+      "recommendedEnclosureList": ["Recommended Enclosure 1", "Recommended Enclosure 2"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.0,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.2,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 55.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 3.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.6,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.5,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 7.0
+      },
+      "Qes": {
+        "value": 0.4
+      },
+      "Qts": {
+        "value": 0.35
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 90.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 45.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 110.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "55Hz to 20kHz"
+      },
+      "Vas": {
+        "value": 7.5,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 95.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 800,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Back-loaded Horn Enclosure",
+      "Standard Enclosure"
+    ]
+  },
+  {
+    "id": "fostex-fe163en-s",
+    "brand": "FOSTEX",
+    "name": "FE163En-S",
+    "model": "FE163En-S",
+    "limited": true,
+    "price": 20475,
+    "release": "2011-11",
+    "category": [
+      "FE",
+      "FE163",
+      "En",
+      "8Ω",
+      "16cm",
+      "8H",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe163en-s/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe163en-s/3.jpg",
+      "outline": "/images/speakers/fostex-fe163en-s/4.jpg"
+    },
+    "ja": {
+      "frameText": "鋳鉄フレーム",
+      "categoryText": "16cmフルレンジ限定ユニット",
+      "priceText": "¥20,475（税込）／1台",
+      "releaseText": "2011年11月発売",
+      "recommendedEnclosureList": ["標準エンクロージャー1", "標準エンクロージャー2"]
+    },
+    "en": {
+      "frameText": "Cast Iron Frame",
+      "categoryText": "16cm Full Range Limited Unit",
+      "priceText": "¥20,475(tax included)/1pc",
+      "releaseText": "Released in November 2011",
+      "recommendedEnclosureList": ["Standard Enclosure 1", "Standard Enclosure 2"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.0,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.35,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 50,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 15.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 1.5,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 7.5,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 5.0
+      },
+      "Qes": {
+        "value": 0.4
+      },
+      "Qts": {
+        "value": 0.35
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 80.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 20,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 160.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 35.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "50Hz to 20kHz"
+      },
+      "Vas": {
+        "value": 35,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 150,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 3500,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "Back-loaded Horn Enclosure",
+      "Standard Enclosure"
+    ]
+  },
+  {
+    "id": "fostex-fe203en-s",
+    "brand": "FOSTEX",
+    "name": "FE203En-S",
+    "model": "FE203En-S",
+    "limited": true,
+    "price": 25200,
+    "release": "2011-03",
+    "category": [
+      "FE",
+      "FE203",
+      "En",
+      "8Ω",
+      "20cm",
+      "8H",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe203en-s/1.jpg",
+      "sub": "/images/speakers/fostex-fe203en-s/2.jpg",
+      "frequency": "/images/speakers/fostex-fe203en-s/3.jpg",
+      "outline": "/images/speakers/fostex-fe203en-s/4.jpg"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "20cmフルレンジ限定ユニット",
+      "priceText": "¥25,200（税込）／1台",
+      "releaseText": "2011年3月発売",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "20cm Full Range Limited Unit",
+      "priceText": "¥25,200(tax included)/1pc",
+      "releaseText": "Released in March 2011",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.0,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.35,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 50,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 15.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 1.5,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 7.5,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 5.0
+      },
+      "Qes": {
+        "value": 0.4
+      },
+      "Qts": {
+        "value": 0.35
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 85.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 20,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 208.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 35.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "50Hz to 20kHz"
+      },
+      "Vas": {
+        "value": 50,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 190,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 4000,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "炭山アキラ設計「シギダチョウ」"
+    ]
+  },
+  {
+    "id": "fostex-fe103en-s",
+    "brand": "FOSTEX",
+    "name": "FE103En-S",
+    "model": "FE103En-S",
+    "limited": true,
+    "price": 14490,
+    "release": "2010-03",
+    "category": [
+      "FE",
+      "FE103",
+      "En",
+      "8Ω",
+      "10cm",
+      "8H",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe103en-s/1.jpg",
+      "sub": "",
+      "frequency": "",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鋳鉄フレーム",
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "¥14,490（税込）／1台",
+      "releaseText": "2010年3月発売",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Cast Iron Frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "¥14,490(tax included)/1pc",
+      "releaseText": "Released in March 2010",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": "",
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": "",
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": "",
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": ""
+      },
+      "Qts": {
+        "value": ""
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": "",
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": "",
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": "",
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": ""
+      },
+      "Vas": {
+        "value": "",
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 102,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": ""
+      },
+      "netWeight": {
+        "value": "",
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": ""
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "炭山アキラ「オシドリ」"
+    ]
+  },
+  {
+    "id": "fostex-fe108super",
+    "brand": "FOSTEX",
+    "name": "FE108Super",
+    "model": "FE108Super",
+    "limited": true,
+    "price": "",
+    "release": "",
+    "category": [
+      "FE",
+      "FE108",
+      "Super",
+      "8Ω",
+      "4H",
+      "10cm",
+      "limited"
+    ],
+    "ja": {
+      "frameText": "鋳鉄フレーム",
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "",
+      "releaseText": "発売日不明",
+      "recommendedEnclosureList": ["スーパースワン", "リアカノンⅡ"]
+    },
+    "en": {
+      "frameText": "Cast Iron Frame",
+      "categoryText": "10cm Full Range Limited Unit",
+      "priceText": "",
+      "releaseText": "Release date unknown",
+      "recommendedEnclosureList": ["Super Swan", "Rear Canon II"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 80,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.7,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.25,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": "",
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.0
+      },
+      "Qes": {
+        "value": 0.25
+      },
+      "Qts": {
+        "value": 0.25
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 44.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 128.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "f0 to 18k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 102.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": ""
+      },
+      "netWeight": {
+        "value": 1.08,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "スーパースワン",
+      "リアカノンⅡ"
+    ]
+  },
+  {
+    "id": "fostex-fe108esii",
+    "brand": "FOSTEX",
+    "name": "FE108ESⅡ",
+    "model": "FE108ESⅡ",
+    "limited": true,
+    "price": "",
+    "release": "2007",
+    "category": [
+      "FE",
+      "FE108",
+      "ES",
+      "8Ω",
+      "8H",
+      "10cm",
+      "limited"
+    ],
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "",
+      "releaseText": "2007年発売",
+      "recommendedEnclosureList": ["D101", "D101S", "D108"]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Fullrange Limited Unit",
+      "priceText": "",
+      "releaseText": "Released in 2007",
+      "recommendedEnclosureList": ["D101", "D101S", "D108"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 75,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.78,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.23,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": "",
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.0
+      },
+      "Qes": {
+        "value": 0.23
+      },
+      "Qts": {
+        "value": 0.23
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 91.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": "",
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 128.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 102.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": ""
+      },
+      "netWeight": {
+        "value": 1.45,
+        "unit": "kg"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "D101",
+      "D101S",
+      "D108"
+    ]
+  },
+  {
+    "id": "fostex-fe88es-r",
+    "brand": "FOSTEX",
+    "name": "FE88ES-R",
+    "model": "FE88ES-R",
+    "limited": true,
+    "price": "",
+    "release": "2004-03",
+    "category": [
+      "FE",
+      "FE88",
+      "ES-R",
+      "8.5cm",
+      "8Ω",
+      "4H",
+      "limited"
+    ],
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "8.5cmフルレンジ限定ユニット",
+      "priceText": "",
+      "releaseText": "2004年3月発売",
+      "recommendedEnclosureList": ["D-101S「スーパースワン」"]
+    },
+    "en": {
+      "frameText": "Aluminum die-cast frame",
+      "categoryText": "8.5cm Full Range Limited Unit",
+      "priceText": "",
+      "releaseText": "Released in March 2004",
+      "recommendedEnclosureList": ["D-101S 'Super Swan'"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.0,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.08,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 88.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 1.8,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.8,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 4.4,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.5
+      },
+      "Qes": {
+        "value": 0.65
+      },
+      "Qts": {
+        "value": 0.55
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 44.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 18,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 36,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 88.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 40k Hz"
+      },
+      "Vas": {
+        "value": 2.5,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 80.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 755.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "D-101S『スーパースワン』"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "D-101S『スーパースワン』"
+    ]
+  },
+  {
+    "id": "fostex-fe138es-r",
+    "brand": "FOSTEX",
+    "name": "FE138ES-R",
+    "model": "FE138ES-R",
+    "limited": true,
+    "price": "",
+    "release": "2008-01",
+    "category": [
+      "FE",
+      "FE208",
+      "ES-R",
+      "Alnico",
+      "13cm",
+      "8Ω",
+      "6H",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe138es-r/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe138es-r/3.png",
+      "outline": "/images/speakers/fostex-fe138es-r/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "13cmフルレンジ限定ユニット",
+      "priceText": "",
+      "releaseText": "2008年1月発売",
+      "recommendedEnclosureList": ["炭山アキラ設計「ターキー」"]
+    },
+    "en": {
+      "frameText": "Aluminum die-cast frame",
+      "categoryText": "13cm Full Range Limited Unit",
+      "priceText": "",
+      "releaseText": "Released in January 2008",
+      "recommendedEnclosureList": ["Turkey by Sumiyama Akira"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.17,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 68.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 7.6,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.58,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 9.1,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.8
+      },
+      "Qes": {
+        "value": 0.41
+      },
+      "Qts": {
+        "value": 0.37
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 65.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30.0,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 60.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 138.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 38.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      },
+      "Vas": {
+        "value": 11.6,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 121.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 2000.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Turkey by Sumiyama Akira"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "炭山アキラ設計「ターキー」"
+    ]
+  },
+  {
+    "id": "fostex-fe206es-r",
+    "brand": "FOSTEX",
+    "name": "FE206ES-R",
+    "model": "FE206ES-R",
+    "limited": true,
+    "price": 23100,
+    "release": "2005-12",
+    "category": [
+      "FE",
+      "FE206",
+      "ES-R",
+      "8H",
+      "20cm",
+      "8Ω",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe206es-r/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe206es-r/3.png]",
+      "outline": "/images/speakers/fostex-fe206es-r/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "20cmフルレンジユニット",
+      "priceText": "￥23,100（税込）／1本",
+      "releaseText": "",
+      "recommendedEnclosureList": ["バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "20cm Full Range Unit",
+      "priceText": "¥23,100 (tax included) / 1pc",
+      "releaseText": "",
+      "recommendedEnclosureList": ["Back-loaded horn"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.19,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 45.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 15.5,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.56,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 10.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 7.11
+      },
+      "Qes": {
+        "value": 0.29
+      },
+      "Qts": {
+        "value": 0.27
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 85.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 90.0,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 150.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 206.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      },
+      "Vas": {
+        "value": 68.0,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 184.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 4200.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "バックロードホーン"
+    ]
+  },
+  {
+    "id": "fostex-fe166es-r",
+    "brand": "FOSTEX",
+    "name": "FE166ES-R",
+    "model": "FE166ES-R",
+    "limited": true,
+    "price": 12600,
+    "release": "2004-12",
+    "category": [
+      "FE",
+      "FE166",
+      "ES-R",
+      "4H",
+      "16cm",
+      "8Ω",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe166es-r/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe166es-r/3.png",
+      "outline": "/images/speakers/fostex-fe166es-r/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "16cmフルレンジ限定ユニット",
+      "priceText": "￥12,600／1本",
+      "releaseText": "2004年12月発売",
+      "recommendedEnclosureList": ["バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "16cm Full Range Limited Unit",
+      "priceText": "¥12,600 / 1pc",
+      "releaseText": "Released in December 2004",
+      "recommendedEnclosureList": ["Back-loaded horn"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.22,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 55.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 10.5,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.52,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 10.3,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 7.52
+      },
+      "Qes": {
+        "value": 0.31
+      },
+      "Qts": {
+        "value": 0.29
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 75.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 90.0,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 150.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 166.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 38.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      },
+      "Vas": {
+        "value": 31.5,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 146.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 2650.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "バックロードホーン"
+    ]
+  },
+  {
+    "id": "fostex-fe208es-r",
+    "brand": "FOSTEX",
+    "name": "FE208ES-R",
+    "model": "FE208ES-R",
+    "limited": true,
+    "price": 78750,
+    "release": "2007-03",
+    "category": [
+      "FE",
+      "FE208",
+      "ES-R",
+      "8H",
+      "20cm",
+      "Alnico",
+      "8Ω"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe208es-r/1.webp",
+      "sub": "",
+      "frequency": "",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "20cmフルレンジ限定ユニット",
+      "priceText": "￥78,750／1本",
+      "releaseText": "2007年3月発売",
+      "recommendedEnclosureList": ["バックロードホーン"]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "20cm Full Range Limited Unit",
+      "priceText": "¥78,750 / 1pc",
+      "releaseText": "Released in March 2007",
+      "recommendedEnclosureList": ["Back-loaded horn"]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.18,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 38.2,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 31.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.46,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 10.3,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 10.52
+      },
+      "Qes": {
+        "value": 0.36
+      },
+      "Qts": {
+        "value": 0.34
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 96.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 85.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 120.0,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 200.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 228.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 44.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20k Hz"
+      },
+      "Vas": {
+        "value": 78.1,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 185.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 3100.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "バックロードホーン"
+    ]
+  },
+  {
+    "id": "fostex-fe168es",
+    "brand": "FOSTEX",
+    "name": "FE168ES",
+    "model": "FE168ES",
+    "limited": true,
+    "price": 32000,
+    "release": "2001-08",
+    "category": [
+      "FE",
+      "FE168",
+      "ES",
+      "8Ω",
+      "16cm",
+      "8H",
+      "Limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe168es/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe168es/3.png",
+      "outline": "/images/speakers/fostex-fe168es/4.png"
+    },
+    "ja": {
+      "frameText": "鋳造アルミフレーム",
+      "categoryText": "16cmフルレンジ限定ユニット",
+      "priceText": "¥32,000（税込）／1台",
+      "releaseText": "2001年8月発売",
+      "recommendedEnclosureList": [
+        "バックロードホーン"
+      ]
+    },
+    "en": {
+      "frameText": "Cast Aluminum Frame",
+      "categoryText": "16cm Fullrange Unit",
+      "priceText": "¥32,000 (tax included)/1pc",
+      "releaseText": "Released in August 2001",
+      "recommendedEnclosureList": [
+        "Backloaded Horn"
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 6.9,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.21,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 54.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 10.8,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.55,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 7.2,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 2.9
+      },
+      "Qes": {
+        "value": 0.21
+      },
+      "Qts": {
+        "value": 0.18
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 94.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 71.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 166.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "54Hz to 22kHz"
+      },
+      "Vas": {
+        "value": 18.0,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 151.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 1799.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "D-37"
+    ]
+  },
+  {
+    "id": "fostex-6n-fe88es",
+    "brand": "FOSTEX",
+    "name": "6N-FE88ES",
+    "model": "6N-FE88ES",
+    "limited": true,
+    "price": "",
+    "release": "1999-03",
+    "category": [
+      "6N",
+      "FE",
+      "FE88",
+      "ES",
+      "8Ω",
+      "8cm",
+      "4H",
+      "Limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-6n-fe88es/1.png",
+      "sub": "",
+      "frequency": "",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鋳造アルミフレーム",
+      "categoryText": "8cmフルレンジ限定ユニット",
+      "priceText": "価格情報なし",
+      "releaseText": "1999年3月発売",
+      "recommendedEnclosureList": [
+        "BH8",
+        "BH88",
+        "スーパーフラミンゴ"
+      ]
+    },
+    "en": {
+      "frameText": "Cast Aluminum Frame",
+      "categoryText": "8cm Fullrange Unit",
+      "priceText": "Price not available",
+      "releaseText": "Released in March 1999",
+      "recommendedEnclosureList": [
+        "BH8",
+        "BH88",
+        "Super Flamingo"
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.5,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.14,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 102.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.0,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.64,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 4.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 2.5
+      },
+      "Qes": {
+        "value": 0.4
+      },
+      "Qts": {
+        "value": 0.35
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 94.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 32.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 88.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "102Hz to 22kHz"
+      },
+      "Vas": {
+        "value": 3.4,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 76.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 755.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "BH8",
+      "BH88",
+      "D-88「スーパーフラミンゴ」"
+    ]
+  },
+  {
+    "id": "fostex-6n-fe108es",
+    "brand": "FOSTEX",
+    "name": "6N-FE108ES",
+    "model": "6N-FE108ES",
+    "limited": true,
+    "price": "",
+    "release": "",
+    "category": [
+      "6N",
+      "FE",
+      "FE108",
+      "ES",
+      "8Ω",
+      "10cm",
+      "4H",
+      "Limited"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-6n-fe108es/1.png",
+      "sub": "",
+      "frequency": "",
+      "outline": ""
+    },
+    "ja": {
+      "frameText": "鋳造アルミフレーム",
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "価格情報なし",
+      "releaseText": "発売日情報なし",
+      "recommendedEnclosureList": [
+        "Fostex推奨エンクロージャ"
+      ]
+    },
+    "en": {
+      "frameText": "Cast Aluminum Frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "Price not available",
+      "releaseText": "Release date not available",
+      "recommendedEnclosureList": [
+        "Recommended Enclosure by Fostex"
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.3,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.2,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 80.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 3.6,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 1.1,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 4.0,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 2.3
+      },
+      "Qes": {
+        "value": 0.23
+      },
+      "Qts": {
+        "value": 0.23
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 108.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "80Hz to 22kHz"
+      },
+      "Vas": {
+        "value": 6.3,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 100.0,
+        "unit": "mm"
+      },
+      "netWeight": {
+        "value": 1080.0,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "BH"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      ""
+    ]
+  },
+  {
     "id": "fostex-6n-fe168ss",
     "brand": "FOSTEX",
     "name": "6N-FE168SS",
@@ -572,9 +5859,9 @@
       "フルレンジ"
     ],
     "image": {
-      "main": "/images/speakers/fostex-fe208-sigma/1.jpg",
+      "main": "/images/speakers/fostex-fe208-sigma/1.png",
       "sub": "",
-      "frequency": "/images/speakers/fostex-fe208-sigma/3.jpg",
+      "frequency": "/images/speakers/fostex-fe208-sigma/3.png",
       "outline": ""
     },
     "ja": {
@@ -1129,7 +6416,7 @@
     "model": "FE208EΣ",
     "limited": false,
     "price": 40700,
-    "release": "",
+    "release": "2007",
     "category": [
       "FE",
       "FE208",
