@@ -20,22 +20,35 @@ export default function SpeakerModal({ speaker, onClose }) {
       className="modal-overlay fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center"
       onClick={handleClickOutside}
     >
-      <div ref={modalRef} className="modal bg-white rounded-lg p-6 max-w-3xl w-full mx-4">
-        <p className="mb-1 font-bold text-center">{languageData.categoryText}</p>
-        <h2 className="text-2xl font-bold mb-4 text-center">
+      <div ref={modalRef} className="modal bg-white rounded-lg p-6 max-w-4xl w-full mx-4">
+      <h2 className="text-2xl font-bold mb-2 text-center flex flex-col items-center">
+        <div className="text-center mt-2 mb-2">
           <span className="text-orange-600">{speaker.brand}</span>&nbsp;
           <span title={speaker.model}>{speaker.name}</span>
-        </h2>
-        <p className="mb-1"><time title={speaker.release}>{languageData.releaseText}</time></p>
-        <p className="mb-1">{languageData.priceText}</p>
+        </div>
+        {/* 1番目と2番目の画像を横並びで表示 */}
+        <div className="flex flex-wrap gap-2 justify-center">
+          {speaker.image && Object.values(speaker.image).slice(0, 2).map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`${speaker.brand} ${speaker.name}`}
+              className="w-56 h-56 object-contain rounded"
+              onError={(e) => e.target.src = '/images/no-image.jpg'} // 画像がない場合に代替画像を表示
+            />
+          ))}
+        </div>
+      </h2>
 
-        <p className="mb-4">
-          Nominal Impedance: {speaker.electricalParameters.nominalImpedance.value}{' '}
-          {speaker.electricalParameters.nominalImpedance.unit}
+        <p className="mb-4 text-center">
+          <span className="mr-5 font-bold">{languageData.categoryText}</span>
+          <time className="mr-5 text-red-800" title={speaker.release}>{languageData.releaseText}</time>
+          {languageData.priceText}
         </p>
+
         <div className="mb-4 flex flex-wrap gap-2">
           {speaker.category && speaker.category.map((cat, index) => (
-            <span key={index} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm">
+            <span key={index} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">
               {cat}
             </span>
           ))}
@@ -51,20 +64,40 @@ export default function SpeakerModal({ speaker, onClose }) {
           </thead>
           <tbody>
             <tr>
-              <td className="border px-4 py-2">
-                <p>Qms: {speaker.lossFactors.Qms.value}</p>
-                <p>Qes: {speaker.lossFactors.Qes.value}</p>
-                <p>Qts: {speaker.lossFactors.Qts.value}</p>
+              <td className="border px-4 py-2 align-top">
+                {speaker.lossFactors?.Qts?.value && (
+                  <p className="text-red-800">Qts (Q0): {speaker.lossFactors.Qts.value}</p>
+                )}
+                {speaker.lossFactors?.Qms?.value && (
+                  <p>Qms: {speaker.lossFactors.Qms.value}</p>
+                )}
+                {speaker.lossFactors?.Qes?.value && (
+                  <p>Qes: {speaker.lossFactors.Qes.value}</p>
+                )}
               </td>
-              <td className="border px-4 py-2">
-                <p>Re: {speaker.electricalParameters.Re.value} {speaker.electricalParameters.Re.unit}</p>
-                <p>Le: {speaker.electricalParameters.Le.value} {speaker.electricalParameters.Le.unit}</p>
-                <p>fs: {speaker.electricalParameters.fs.value} {speaker.electricalParameters.fs.unit}</p>
+
+              <td className="border px-4 py-2 align-top">
+                {speaker.electricalParameters?.Re?.value && speaker.electricalParameters?.Re?.unit && (
+                  <p>Re: {speaker.electricalParameters.Re.value} {speaker.electricalParameters.Re.unit}</p>
+                )}
+                {speaker.electricalParameters?.Le?.value && speaker.electricalParameters?.Le?.unit && (
+                  <p>Le: {speaker.electricalParameters.Le.value} {speaker.electricalParameters.Le.unit}</p>
+                )}
+                {speaker.electricalParameters?.fs?.value && speaker.electricalParameters?.fs?.unit && (
+                  <p>fs: {speaker.electricalParameters.fs.value} {speaker.electricalParameters.fs.unit}</p>
+                )}
               </td>
-              <td className="border px-4 py-2">
-                <p>Mms: {speaker.mechanicalParameters.Mms.value} {speaker.mechanicalParameters.Mms.unit}</p>
-                <p>Cms: {speaker.mechanicalParameters.Cms.value} {speaker.mechanicalParameters.Cms.unit}</p>
-                <p>Bl: {speaker.mechanicalParameters.Bl.value} {speaker.mechanicalParameters.Bl.unit}</p>
+
+              <td className="border px-4 py-2 align-top">
+                {speaker.mechanicalParameters?.Mms?.value && speaker.mechanicalParameters?.Mms?.unit && (
+                  <p>Mms: {speaker.mechanicalParameters.Mms.value} {speaker.mechanicalParameters.Mms.unit}</p>
+                )}
+                {speaker.mechanicalParameters?.Cms?.value && speaker.mechanicalParameters?.Cms?.unit && (
+                  <p>Cms: {speaker.mechanicalParameters.Cms.value} {speaker.mechanicalParameters.Cms.unit}</p>
+                )}
+                {speaker.mechanicalParameters?.Bl?.value && speaker.mechanicalParameters?.Bl?.unit && (
+                  <p>Bl: {speaker.mechanicalParameters.Bl.value} {speaker.mechanicalParameters.Bl.unit}</p>
+                )}
               </td>
             </tr>
           </tbody>
@@ -79,35 +112,112 @@ export default function SpeakerModal({ speaker, onClose }) {
           </thead>
           <tbody>
             <tr>
-              <td className="border px-4 py-2">
-                <p>Baffle Hole Diameter: Φ{speaker.otherParameters.baffleHoleDiameter.value}{' '}
-                {speaker.otherParameters.baffleHoleDiameter.unit}</p>
-                <p>Overall Diameter: {speaker.otherParameters.overallDiameter.value}{' '}
-                {speaker.otherParameters.overallDiameter.unit}</p>
-                <p>Vas: {speaker.otherParameters.Vas.value} {speaker.otherParameters.Vas.unit}</p>
-                <p>Reproduction Frequency Response: {speaker.otherParameters.reproductionFrequencyResponse.value}</p>
-                <p>Recommended Enclosure: {speaker.otherParameters.recommendedEnclosure.value}</p>
+              <td className="border px-4 py-2 align-top">
+                {languageData.frameText && (
+                  <p>{languageData.frameText}</p>
+                )}
+                {speaker.otherParameters.baffleHoleDiameter && (
+                  <p>Baffle Hole Diameter: Φ{speaker.otherParameters.baffleHoleDiameter.value}{' '}
+                    {speaker.otherParameters.baffleHoleDiameter.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.baffleHole && (
+                  <p>Baffle Hole: {speaker.otherParameters.baffleHole.value}</p>
+                )}
+                {speaker.otherParameters.overallDiameter && (
+                  <p>Overall Diameter: {speaker.otherParameters.overallDiameter.value}{' '}
+                    {speaker.otherParameters.overallDiameter.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.Vas && (
+                  <p>Vas: {speaker.otherParameters.Vas.value} {speaker.otherParameters.Vas.unit}</p>
+                )}
+                {speaker.otherParameters.reproductionFrequencyResponse && (
+                  <p>Reproduction Frequency Response: {speaker.otherParameters.reproductionFrequencyResponse.value}</p>
+                )}
+                {speaker.otherParameters.recommendedEnclosure && (
+                  <p>Recommended Enclosure: {speaker.otherParameters.recommendedEnclosure.value}</p>
+                )}
               </td>
 
-              <td className="border px-4 py-2">
-                <p>Rated Input: {speaker.otherParameters.ratedInput.value} {speaker.otherParameters.ratedInput.unit}</p>
-                <p>SPL: {speaker.otherParameters.SPL.value} {speaker.otherParameters.SPL.unit}</p>
-                <p>Equivalent Diaphragm Radius: {speaker.otherParameters.equivalentDiaphragmRadius.value}{' '}{speaker.otherParameters.equivalentDiaphragmRadius.unit}</p>
-                <p>Voice Coil Diameter: {speaker.otherParameters.voiceCoilDiameter.value}{' '}{speaker.otherParameters.voiceCoilDiameter.unit}</p>
-                <p>Magnet Weight: {speaker.otherParameters.magnetWeight.value} {speaker.otherParameters.magnetWeight.unit}</p>
-                <p>Net Weight: {speaker.otherParameters.netWeight.value} {speaker.otherParameters.netWeight.unit}</p>
-                <p>Limited Edition: {speaker.limited ? 'Yes' : 'No'}</p>
+              <td className="border px-4 py-2 align-top">
+                {speaker.electricalParameters.nominalImpedance && (
+                  <p className="text-red-800">
+                    Nominal Impedance: {speaker.electricalParameters.nominalImpedance.value}{' '}
+                    {speaker.electricalParameters.nominalImpedance.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.ratedInput && (
+                  <p>
+                    Rated Input: {speaker.otherParameters.ratedInput.value}{' '}
+                    {speaker.otherParameters.ratedInput.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.SPL && (
+                  <p>
+                    SPL: {speaker.otherParameters.SPL.value}{' '}
+                    {speaker.otherParameters.SPL.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.equivalentDiaphragmRadius && (
+                  <p>
+                    Equivalent Diaphragm Radius: {speaker.otherParameters.equivalentDiaphragmRadius.value}{' '}
+                    {speaker.otherParameters.equivalentDiaphragmRadius.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.voiceCoilDiameter && (
+                  <p>
+                    Voice Coil Diameter: {speaker.otherParameters.voiceCoilDiameter.value}{' '}
+                    {speaker.otherParameters.voiceCoilDiameter.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.magnetWeight && (
+                  <p>
+                    Magnet Weight: {speaker.otherParameters.magnetWeight.value}{' '}
+                    {speaker.otherParameters.magnetWeight.unit}
+                  </p>
+                )}
+                {speaker.otherParameters.netWeight && (
+                  <p>
+                    Net Weight: {speaker.otherParameters.netWeight.value}{' '}
+                    {speaker.otherParameters.netWeight.unit}
+                  </p>
+                )}
+                {speaker.limited !== undefined && (
+                  <p>Limited Edition: {speaker.limited ? 'Yes' : 'No'}</p>
+                )}
               </td>
             </tr>
           </tbody>
         </table>
 
-        <h3 className="text-xl font-semibold mb-2">Recommended Enclosure List</h3>
-        <ul className="list-disc list-inside">
-          {speaker.recommendedEnclosureList && speaker.recommendedEnclosureList.map((enclosure, index) => (
-            <li key={index}>{enclosure}</li>
-          ))}
-        </ul>
+        {speaker.recommendedEnclosureList && speaker.recommendedEnclosureList.length > 0 && (
+          <div>
+            <h3 className="text-xl font-semibold mb-2">Recommended Enclosure List</h3>
+            <ul className="list-disc list-inside">
+              {speaker.recommendedEnclosureList.map((enclosure, index) => (
+                <li key={index}>{enclosure}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {speaker.image && (
+          <div>
+            <h3 className="text-xl font-semibold mb-2">Images</h3>
+            <div className="flex flex-wrap gap-2 text-center flex-col items-center">
+              {speaker.image && Object.values(speaker.image).slice(2).map((img, index) => (
+                <img
+                  key={index}
+                  src={img}
+                  alt={`${speaker.brand} ${speaker.name}`}
+                  className="w-4/5 h-auto object-contain rounded"
+                  onError={(e) => e.target.src = '/images/no-image.jpg'} // 画像がない場合に代替画像を表示
+                />
+              ))}
+            </div>
+          </div>
+        )}
 
         <button
           onClick={onClose}
@@ -128,6 +238,11 @@ export default function SpeakerModal({ speaker, onClose }) {
           display: flex;
           justify-content: center;
           align-items: center;
+        }
+
+        .modal {
+          max-height: 90vh; /* モーダル全体の高さを90%に制限 */
+          overflow-y: auto; /* 縦スクロールを有効にする */
         }
       `}</style>
     </div>

@@ -9,18 +9,6 @@ import ja from '../../locales/ja.json';
 import SpeakerList from '../../components/SpeakerList';
 import SpeakerModal from '../../components/SpeakerModal';
 
-// JSONデータをbrandでグループ化する関数
-const groupByBrand = (speakers) => {
-  return speakers.reduce((brands, speaker) => {
-    const brand = speaker.brand;
-    if (!brands[brand]) {
-      brands[brand] = [];
-    }
-    brands[brand].push(speaker);
-    return brands;
-  }, {});
-};
-
 export async function getStaticProps() {
   // JSONファイルのパスを取得
   const filePath = path.join(process.cwd(), 'public', 'speakers.json');
@@ -35,6 +23,19 @@ export async function getStaticProps() {
     }
   };
 }
+
+// JSONデータをbrandでグループ化する関数
+const groupByBrand = (speakers) => {
+  return speakers.reduce((brands, speaker) => {
+    const brand = speaker.brand;
+    if (!brands[brand]) {
+      brands[brand] = [];
+    }
+    brands[brand].push(speaker);
+    return brands;
+  }, {});
+};
+
 
 export default function BackloadedHornSpeakers({ speakers }) {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);

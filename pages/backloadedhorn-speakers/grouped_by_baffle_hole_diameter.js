@@ -29,8 +29,9 @@ export async function getStaticProps() {
 }
 
 // ±3mm以内の値を持つスピーカーをグループ化
+// スピーカーをバッフル経が小さい順にグループ化して並べ替える
 const groupSpeakersByBaffleHoleDiameter = (speakers) => {
-  return speakers.reduce((groups, speaker) => {
+  const groupedSpeakers = speakers.reduce((groups, speaker) => {
     const diameter = speaker.otherParameters.baffleHoleDiameter.value;
     let foundGroup = false;
 
@@ -49,7 +50,11 @@ const groupSpeakersByBaffleHoleDiameter = (speakers) => {
 
     return groups;
   }, []);
+
+  // グループ全体をバッフル経が小さい順に並べ替え
+  return groupedSpeakers.sort((a, b) => a[0].otherParameters.baffleHoleDiameter.value - b[0].otherParameters.baffleHoleDiameter.value);
 };
+
 
 
 export default function BackloadedHornSpeakers({ data, speakers }) {
