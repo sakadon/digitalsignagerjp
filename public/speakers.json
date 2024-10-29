@@ -1,5 +1,1109 @@
 [
   {
+    "id": "pioneer-dvc-1000",
+    "brand": "PIONEER BonnesNotes",
+    "name": "DVC-1000",
+    "model": "DVC-1000",
+    "limited": false,
+    "price": 2750,
+    "release": "2018-07",
+    "category": [
+      "DVC",
+      "6Ω",
+      "W VoiceCoil",
+      "10cm",
+      "4H"
+    ],
+    "image": {
+      "main": "/images/speakers/pioneer-dvc-1000/1.jpg",
+      "sub": "/images/speakers/pioneer-dvc-1000/2.jpg",
+      "frequency": "/images/speakers/pioneer-dvc-1000/3.png",
+      "outline": "/images/speakers/pioneer-dvc-1000/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "10cmダブルボイスコイルユニット",
+      "priceText": "¥2,750（税込）／1台",
+      "releaseText": "2018年7月発売",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "en": {
+      "frameText": "Steel Frame",
+      "categoryText": "10cm Double Voice Coil Unit",
+      "priceText": "¥2,750 (tax included)/1pc",
+      "releaseText": "Released in July 2018",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": "6+6",
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 155,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 4.351,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": "",
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": ""
+      },
+      "Qts": {
+        "value": 0.499
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 89.5,
+        "unit": "dB/4V (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": "",
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 10,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 20,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 15k Hz"
+      },
+      "Vas": {
+        "value": 4,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 93.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 826,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "parcaudio-dcu-f123w",
+    "brand": "PARC Audio",
+    "name": "DCU-F123W",
+    "model": "DCU-F123W",
+    "limited": true,
+    "price": 25000,
+    "release": "2013-01",
+    "category": [
+      "DCU",
+      "F123W",
+      "6Ω",
+      "10cm",
+      "4H",
+      "WoodCorn",
+      "Alnico",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/parcaudio-dcu-f123w/1.jpg",
+      "sub": "",
+      "frequency": "/images/speakers/parcaudio-dcu-f123w/3.png",
+      "outline": "/images/speakers/parcaudio-dcu-f123w/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジ限定アルニコユニット",
+      "priceText": "¥25,000（税込）／1台",
+      "releaseText": "2013年1月発売",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "12cm Fullrange Limite Alnico Unit",
+      "priceText": "¥25,000 (tax included)/1pc",
+      "releaseText": "Released in January 2013",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 6.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 5.5,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 86.1,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 4.63,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.44,
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 6.24
+      },
+      "Qes": {
+        "value": 0.461
+      },
+      "Qts": {
+        "value": 0.429
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 42,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 16k Hz"
+      },
+      "Vas": {
+        "value": 3.34,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 100.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 2170,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Bass-reflex"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "parcaudio-dcu-f121a",
+    "brand": "PARC Audio",
+    "name": "DCU-F121A",
+    "model": "DCU-F121A",
+    "limited": false,
+    "price": 10080,
+    "release": "2013-07",
+    "category": [
+      "DCU",
+      "F121A",
+      "6Ω",
+      "10cm",
+      "4H",
+      "Alminum"
+    ],
+    "image": {
+      "main": "/images/speakers/parcaudio-dcu-f121a/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/parcaudio-dcu-f121a/3.png",
+      "outline": "/images/speakers/parcaudio-dcu-f121a/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "¥10,080（税込）／1台",
+      "releaseText": "2013年7月発売",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "¥10,080 (tax included)/1pc",
+      "releaseText": "Released in July 2013",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 6.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 5.4,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 75.4,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 5.84,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 6.25,
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.002
+      },
+      "Qes": {
+        "value": 0.371
+      },
+      "Qts": {
+        "value": 0.34
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 89,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 42,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 30k Hz"
+      },
+      "Vas": {
+        "value": 3.29,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 100.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 1372,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Bass-reflex"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "parcaudio-dcu-f121k",
+    "brand": "PARC Audio",
+    "name": "DCU-F121K",
+    "model": "DCU-F121K",
+    "limited": false,
+    "price": 10286,
+    "release": "2013-07",
+    "category": [
+      "DCU",
+      "F121K",
+      "6Ω",
+      "10cm",
+      "4H",
+      "Kevlar"
+    ],
+    "image": {
+      "main": "/images/speakers/parcaudio-dcu-f121k/1.jpg",
+      "sub": "",
+      "frequency": "/images/speakers/parcaudio-dcu-f121k/3.png",
+      "outline": "/images/speakers/parcaudio-dcu-f121k/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジユニット",
+      "priceText": "¥10,286（税込）／1台",
+      "releaseText": "2013年7月発売",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "en": {
+      "frameText": "Alluminum Die-cast Frame",
+      "categoryText": "10cm Fullrange Unit",
+      "priceText": "¥10,286 (tax included)/1pc",
+      "releaseText": "Released in July 2013",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 6.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 5.3,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 69.6,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 5.01,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.7,
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 6.357
+      },
+      "Qes": {
+        "value": 0.369
+      },
+      "Qts": {
+        "value": 0.349
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 42,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 16k Hz"
+      },
+      "Vas": {
+        "value": 4.05,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 100.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 982,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Bass-reflex"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "parcaudio-dcu-f125w",
+    "brand": "PARC Audio",
+    "name": "DCU-F125W",
+    "model": "DCU-F125W",
+    "limited": true,
+    "price": 9900,
+    "release": "2017-11",
+    "category": [
+      "DCU",
+      "F125W",
+      "8Ω",
+      "10cm",
+      "4H",
+      "WoodCorn",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/parcaudio-dcu-f125w/1.jpg",
+      "sub": "",
+      "frequency": "/images/speakers/parcaudio-dcu-f125w/3.png",
+      "outline": "/images/speakers/parcaudio-dcu-f125w/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "¥9,900（税込）／1台",
+      "releaseText": "2017年11月発売",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Fullrange Limited Unit",
+      "priceText": "¥9,900 (tax included)/1pc",
+      "releaseText": "Released in November 2017",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.0,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 109.6,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 4.989,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.894,
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 11.727
+      },
+      "Qes": {
+        "value": 0.692
+      },
+      "Qts": {
+        "value": 0.654
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 42,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 20k Hz"
+      },
+      "Vas": {
+        "value": 1.933,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 100,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 1220,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "parcaudio-dcu-f081pp",
+    "brand": "PARC Audio",
+    "name": "DCU-F081PP",
+    "model": "DCU-F081PP",
+    "limited": false,
+    "price": 4700,
+    "release": "2010-10",
+    "category": [
+      "DCU",
+      "F081PP",
+      "6Ω",
+      "8cm",
+      "4H",
+      "PP"
+    ],
+    "image": {
+      "main": "/images/speakers/parcaudio-dcu-f081pp/1.webp",
+      "sub": "",
+      "frequency": "/images/speakers/parcaudio-dcu-f081pp/3.png",
+      "outline": "/images/speakers/parcaudio-dcu-f081pp/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "8cmフルレンジユニット",
+      "priceText": "¥4,700（税込）／1台",
+      "releaseText": "2010年10月発売",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "en": {
+      "frameText": "Steel Frame",
+      "categoryText": "8cm Fullrange Unit",
+      "priceText": "¥4,700 (tax included)/1pc",
+      "releaseText": "Released in October 2010",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 6.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 5.6,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 103.0,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.036,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 3.852,
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 5.866
+      },
+      "Qes": {
+        "value": 0.499
+      },
+      "Qts": {
+        "value": 0.46
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 83.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 35,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 30k Hz"
+      },
+      "Vas": {
+        "value": 1.693,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 72.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 500,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Bass-reflex"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "parcaudio-dcu-f122w",
+    "brand": "PARC Audio",
+    "name": "DCU-F122W",
+    "model": "DCU-F122W",
+    "limited": true,
+    "price": 8000,
+    "release": "2010-05",
+    "category": [
+      "DCU",
+      "F122W",
+      "8Ω",
+      "10cm",
+      "4H",
+      "WoodCorn",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/parcaudio-dcu-f122w/1.webp",
+      "sub": "",
+      "frequency": "/images/speakers/parcaudio-dcu-f122w/3.png",
+      "outline": "/images/speakers/parcaudio-dcu-f122w/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "¥8,000（税込）／1台",
+      "releaseText": "2010年5月発売",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Fullrange Limited Unit",
+      "priceText": "¥8,000 (tax included)/1pc",
+      "releaseText": "Released in May 2010",
+      "recommendedEnclosureList": [
+        ""
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.2,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 110.9,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 4.822,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 5.355,
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 3.923
+      },
+      "Qes": {
+        "value": 0.844
+      },
+      "Qts": {
+        "value": 0.694
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 88.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 42,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 20k Hz"
+      },
+      "Vas": {
+        "value": 2.804,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 100.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 1220,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "parcaudio-dcu-f102w",
+    "brand": "PARC Audio",
+    "name": "DCU-F102W",
+    "model": "DCU-F102W",
+    "limited": true,
+    "price": 8160,
+    "release": "2011-12",
+    "category": [
+      "DCU",
+      "F102W",
+      "6Ω",
+      "8cm",
+      "4H",
+      "WoodCorn",
+      "limited"
+    ],
+    "image": {
+      "main": "/images/speakers/parcaudio-dcu-f102w/1.jpg",
+      "sub": "",
+      "frequency": "/images/speakers/parcaudio-dcu-f102w/3.png",
+      "outline": "/images/speakers/parcaudio-dcu-f102w/4.png"
+    },
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "8cmフルレンジ限定ユニット",
+      "priceText": "¥8,160（税込）／1台",
+      "releaseText": "2011年12月発売",
+      "recommendedEnclosureList": []
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "8cm Fullrange Limited Unit",
+      "priceText": "¥8,160 (tax included)/1pc",
+      "releaseText": "Released in December 2011",
+      "recommendedEnclosureList": []
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 6.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 4.8,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": "",
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 138.797,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.604,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 4.44,
+        "unit": "TM"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 9.875
+      },
+      "Qes": {
+        "value": 0.553
+      },
+      "Qts": {
+        "value": 0.524
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 87.376,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 30,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 20,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 20,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fo to 18k Hz"
+      },
+      "Vas": {
+        "value": 0.734,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 80.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "netWeight": {
+        "value": 750,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
     "id": "fostex-mg100hr-s",
     "brand": "FOSTEX",
     "name": "MG100HR-S",
@@ -26,14 +1130,18 @@
       "categoryText": "10cm純マグネシウムフルレンジ限定ユニット",
       "priceText": "税込￥29,925／1台",
       "releaseText": "平成21年4月発売",
-      "recommendedEnclosureList": ["MG100HR-S推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "MG100HR-S推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Magnesium frame",
       "categoryText": "10cm Pure Magnesium Fullrange Limited Unit",
       "priceText": "¥29,925 (tax included)/1pc",
       "releaseText": "Released in April 2009",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for MG100HR-S"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for MG100HR-S"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -141,14 +1249,18 @@
       "categoryText": "22cmフルレンジユニット",
       "priceText": "価格は要確認",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FF225K推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FF225K推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "22cm Fullrange Unit",
       "priceText": "Price to be confirmed",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF225K"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FF225K"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -255,14 +1367,18 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "価格は要確認",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FF165K推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FF165K推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "16cm Fullrange Unit",
       "priceText": "Price to be confirmed",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF165K"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FF165K"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -369,14 +1485,18 @@
       "categoryText": "12cmフルレンジユニット",
       "priceText": "価格は要確認",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FF125K推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FF125K推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "12cm Fullrange Unit",
       "priceText": "Price to be confirmed",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF125K"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FF125K"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -483,14 +1603,18 @@
       "categoryText": "8cmフルレンジユニット",
       "priceText": "価格は要確認",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FF85K推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FF85K推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "8cm Fullrange Unit",
       "priceText": "Price to be confirmed",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FF85K"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FF85K"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -597,14 +1721,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "価格は要確認",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FE206E推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FE206E推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "Price to be confirmed",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE206E"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FE206E"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -711,14 +1839,18 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "価格は要確認",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FE166E推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FE166E推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "16cm Fullrange Unit",
       "priceText": "Price to be confirmed",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE166E"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FE166E"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -825,14 +1957,18 @@
       "categoryText": "12cmフルレンジユニット",
       "priceText": "価格は要確認",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FE126E推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FE126E推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "12cm Fullrange Unit",
       "priceText": "Price to be confirmed",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE126E"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FE126E"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -939,14 +2075,18 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "$31.50（税込）／1台",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FE103E推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FE103E推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "$31.50 (tax included)/1pc",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE103E"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FE103E"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -1049,14 +2189,18 @@
       "categoryText": "8cmフルレンジユニット",
       "priceText": "$24.75（税込）／1台",
       "releaseText": "2000年XX月発売",
-      "recommendedEnclosureList": ["FE83E推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "FE83E推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "8cm Fullrange Unit",
       "priceText": "$24.75 (tax included)/1pc",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn for FE83E"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn for FE83E"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -2636,14 +3780,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "¥6,600（税込）／1台",
       "releaseText": "発売日不明",
-      "recommendedEnclosureList": ["標準エンクロージャー"]
+      "recommendedEnclosureList": [
+        "標準エンクロージャー"
+      ]
     },
     "en": {
       "frameText": "Double Cone Full-range Unit",
       "categoryText": "20cm Double Cone Full-range Unit",
       "priceText": "¥6,600(tax included)/1pc",
       "releaseText": "Release date unknown",
-      "recommendedEnclosureList": ["Standard Enclosure"]
+      "recommendedEnclosureList": [
+        "Standard Enclosure"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -2769,14 +3917,18 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "¥4,800（税込）／1台",
       "releaseText": "発売日不明",
-      "recommendedEnclosureList": ["標準エンクロージャー"]
+      "recommendedEnclosureList": [
+        "標準エンクロージャー"
+      ]
     },
     "en": {
       "frameText": "Alluminum Die-cast Frame",
       "categoryText": "16cm Full Range Unit",
       "priceText": "¥4,800(tax included)/1pc",
       "releaseText": "Release date unknown",
-      "recommendedEnclosureList": ["Standard Enclosure"]
+      "recommendedEnclosureList": [
+        "Standard Enclosure"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -3033,14 +4185,20 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥3,300（税込）／1台",
       "releaseText": "発売日不明",
-      "recommendedEnclosureList": ["標準エンクロージャー", "バックロードホーン"]
+      "recommendedEnclosureList": [
+        "標準エンクロージャー",
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "10cm Cone Fullrange Unit",
       "priceText": "¥3,300(tax included)/1pc",
       "releaseText": "Release date unknown",
-      "recommendedEnclosureList": ["Standard Enclosure", "Back-loaded Horn"]
+      "recommendedEnclosureList": [
+        "Standard Enclosure",
+        "Back-loaded Horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -3168,14 +4326,20 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "¥11,800（税込）／1台",
       "releaseText": "1992年発売",
-      "recommendedEnclosureList": ["標準エンクロージャーBK16", "バックロードホーン"]
+      "recommendedEnclosureList": [
+        "標準エンクロージャーBK16",
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Round Frame",
       "categoryText": "16cm Full Range Unit",
       "priceText": "¥11,800(tax included)/1pc",
       "releaseText": "Released in 1992",
-      "recommendedEnclosureList": ["Standard Enclosure BK16", "Back-loaded Horn"]
+      "recommendedEnclosureList": [
+        "Standard Enclosure BK16",
+        "Back-loaded Horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -3303,14 +4467,20 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥7,200（税込）／1台",
       "releaseText": "1992年発売",
-      "recommendedEnclosureList": ["標準エンクロージャーBK10", "バックロードホーン"]
+      "recommendedEnclosureList": [
+        "標準エンクロージャーBK10",
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Round Frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥7,200(tax included)/1pc",
       "releaseText": "Released in 1992",
-      "recommendedEnclosureList": ["Standard Enclosure BK10", "Back-loaded Horn"]
+      "recommendedEnclosureList": [
+        "Standard Enclosure BK10",
+        "Back-loaded Horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -3434,14 +4604,20 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥22,000（税込）／1台",
       "releaseText": "2007年8月発売",
-      "recommendedEnclosureList": ["推奨エンクロージャー1", "推奨エンクロージャー2"]
+      "recommendedEnclosureList": [
+        "推奨エンクロージャー1",
+        "推奨エンクロージャー2"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥22,000(tax included)/1pc",
       "releaseText": "Released in August 2007",
-      "recommendedEnclosureList": ["Recommended Enclosure 1", "Recommended Enclosure 2"]
+      "recommendedEnclosureList": [
+        "Recommended Enclosure 1",
+        "Recommended Enclosure 2"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -3569,14 +4745,20 @@
       "categoryText": "16cmフルレンジ限定ユニット",
       "priceText": "¥20,475（税込）／1台",
       "releaseText": "2011年11月発売",
-      "recommendedEnclosureList": ["標準エンクロージャー1", "標準エンクロージャー2"]
+      "recommendedEnclosureList": [
+        "標準エンクロージャー1",
+        "標準エンクロージャー2"
+      ]
     },
     "en": {
       "frameText": "Cast Iron Frame",
       "categoryText": "16cm Full Range Limited Unit",
       "priceText": "¥20,475(tax included)/1pc",
       "releaseText": "Released in November 2011",
-      "recommendedEnclosureList": ["Standard Enclosure 1", "Standard Enclosure 2"]
+      "recommendedEnclosureList": [
+        "Standard Enclosure 1",
+        "Standard Enclosure 2"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -3966,14 +5148,20 @@
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "発売日不明",
-      "recommendedEnclosureList": ["スーパースワン", "リアカノンⅡ"]
+      "recommendedEnclosureList": [
+        "スーパースワン",
+        "リアカノンⅡ"
+      ]
     },
     "en": {
       "frameText": "Cast Iron Frame",
       "categoryText": "10cm Full Range Limited Unit",
       "priceText": "",
       "releaseText": "Release date unknown",
-      "recommendedEnclosureList": ["Super Swan", "Rear Canon II"]
+      "recommendedEnclosureList": [
+        "Super Swan",
+        "Rear Canon II"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -4095,14 +5283,22 @@
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "2007年発売",
-      "recommendedEnclosureList": ["D101", "D101S", "D108"]
+      "recommendedEnclosureList": [
+        "D101",
+        "D101S",
+        "D108"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "",
       "releaseText": "Released in 2007",
-      "recommendedEnclosureList": ["D101", "D101S", "D108"]
+      "recommendedEnclosureList": [
+        "D101",
+        "D101S",
+        "D108"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -4225,14 +5421,18 @@
       "categoryText": "8.5cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "2004年3月発売",
-      "recommendedEnclosureList": ["D-101S「スーパースワン」"]
+      "recommendedEnclosureList": [
+        "D-101S「スーパースワン」"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "8.5cm Full Range Limited Unit",
       "priceText": "",
       "releaseText": "Released in March 2004",
-      "recommendedEnclosureList": ["D-101S 'Super Swan'"]
+      "recommendedEnclosureList": [
+        "D-101S 'Super Swan'"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -4361,14 +5561,18 @@
       "categoryText": "13cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "2008年1月発売",
-      "recommendedEnclosureList": ["炭山アキラ設計「ターキー」"]
+      "recommendedEnclosureList": [
+        "炭山アキラ設計「ターキー」"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "13cm Full Range Limited Unit",
       "priceText": "",
       "releaseText": "Released in January 2008",
-      "recommendedEnclosureList": ["Turkey by Sumiyama Akira"]
+      "recommendedEnclosureList": [
+        "Turkey by Sumiyama Akira"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -4496,14 +5700,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "￥23,100（税込）／1本",
       "releaseText": "",
-      "recommendedEnclosureList": ["バックロードホーン"]
+      "recommendedEnclosureList": [
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Full Range Unit",
       "priceText": "¥23,100 (tax included) / 1pc",
       "releaseText": "",
-      "recommendedEnclosureList": ["Back-loaded horn"]
+      "recommendedEnclosureList": [
+        "Back-loaded horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -4631,14 +5839,18 @@
       "categoryText": "16cmフルレンジ限定ユニット",
       "priceText": "￥12,600／1本",
       "releaseText": "2004年12月発売",
-      "recommendedEnclosureList": ["バックロードホーン"]
+      "recommendedEnclosureList": [
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "16cm Full Range Limited Unit",
       "priceText": "¥12,600 / 1pc",
       "releaseText": "Released in December 2004",
-      "recommendedEnclosureList": ["Back-loaded horn"]
+      "recommendedEnclosureList": [
+        "Back-loaded horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -4766,14 +5978,18 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "￥78,750／1本",
       "releaseText": "2007年3月発売",
-      "recommendedEnclosureList": ["バックロードホーン"]
+      "recommendedEnclosureList": [
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Full Range Limited Unit",
       "priceText": "¥78,750 / 1pc",
       "releaseText": "Released in March 2007",
-      "recommendedEnclosureList": ["Back-loaded horn"]
+      "recommendedEnclosureList": [
+        "Back-loaded horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -5459,14 +6675,20 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "1996年11月発売",
-      "recommendedEnclosureList": ["D-55", "D-150 モデル"]
+      "recommendedEnclosureList": [
+        "D-55",
+        "D-150 モデル"
+      ]
     },
     "en": {
       "frameText": "Cast iron frame",
       "categoryText": "20cm Full-range Limited Unit",
       "priceText": "",
       "releaseText": "Released in November 1996",
-      "recommendedEnclosureList": ["D-55", "D-150 Model"]
+      "recommendedEnclosureList": [
+        "D-55",
+        "D-150 Model"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -5563,7 +6785,8 @@
       "eleshop": ""
     },
     "recommendedEnclosureList": [
-      "D-58", "D-150「モア」"
+      "D-58",
+      "D-150「モア」"
     ]
   },
   {
@@ -5593,14 +6816,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "価格不明",
       "releaseText": "2000年発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Cast iron frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "Price unknown",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -5731,14 +6958,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "価格不明",
       "releaseText": "2000年発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Cast iron frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "Price unknown",
       "releaseText": "Released in 2000",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -5869,14 +7100,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "￥14,800（税込）／1台",
       "releaseText": "1992年発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Cast iron frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥14,800 (tax included)/1pc",
       "releaseText": "Released in 1992",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6011,14 +7246,18 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "特記なし",
       "releaseText": "1995年7月発売",
-      "recommendedEnclosureList": ["大型バックロードホーン推奨"]
+      "recommendedEnclosureList": [
+        "大型バックロードホーン推奨"
+      ]
     },
     "en": {
       "frameText": "Cast iron frame",
       "categoryText": "20cm Fullrange Limited Unit",
       "priceText": "No price specified",
       "releaseText": "Released in July 1995",
-      "recommendedEnclosureList": ["Recommended large back-loaded horn"]
+      "recommendedEnclosureList": [
+        "Recommended large back-loaded horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6122,7 +7361,9 @@
       "eleshop": ""
     },
     "recommendedEnclosureList": [
-      "D-57", "D-55", "ネッシーII"
+      "D-57",
+      "D-55",
+      "ネッシーII"
     ]
   },
   {
@@ -6153,14 +7394,18 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "1988年6月発売",
-      "recommendedEnclosureList": ["バックロードホーン"]
+      "recommendedEnclosureList": [
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Round Frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "",
       "releaseText": "Released in June 1988",
-      "recommendedEnclosureList": ["Back-loaded Horn"]
+      "recommendedEnclosureList": [
+        "Back-loaded Horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6295,14 +7540,18 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "1990年10月発売",
-      "recommendedEnclosureList": ["バックロードホーン"]
+      "recommendedEnclosureList": [
+        "バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "",
       "releaseText": "Released in October 1990",
-      "recommendedEnclosureList": ["Back-loaded Horn"]
+      "recommendedEnclosureList": [
+        "Back-loaded Horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6436,14 +7685,20 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "¥40,700（税込）／1台",
       "releaseText": "",
-      "recommendedEnclosureList": ["バックロードホーン", "フロントロードホーン"]
+      "recommendedEnclosureList": [
+        "バックロードホーン",
+        "フロントロードホーン"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥40,700(tax included)/1pc",
       "releaseText": "",
-      "recommendedEnclosureList": ["Back-loaded Horn", "Front-loaded Horn"]
+      "recommendedEnclosureList": [
+        "Back-loaded Horn",
+        "Front-loaded Horn"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6573,14 +7828,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "¥13,600（税別）／1台",
       "releaseText": "2009年発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥13,600+tax／1pc",
       "releaseText": "Released in 2009",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6709,14 +7968,18 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "¥9,900（税別）／1台",
       "releaseText": "2009年発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "16cm Fullrange Unit",
       "priceText": "¥9,900+tax／1pc",
       "releaseText": "Released in 2009",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6845,14 +8108,18 @@
       "categoryText": "12cmフルレンジユニット",
       "priceText": "¥6,800（税別）／1台",
       "releaseText": "2009年発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "12cm Fullrange Unit",
       "priceText": "¥6,800+tax／1pc",
       "releaseText": "Released in 2009",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -6981,14 +8248,18 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥6,000+消費税／1台",
       "releaseText": "2009年発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥6,000+tax／1pc",
       "releaseText": "Released in 2009",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -7117,14 +8388,18 @@
       "categoryText": "8cmフルレンジユニット",
       "priceText": "¥5,170（税込）／1台",
       "releaseText": "2009年発売",
-      "recommendedEnclosureList": ["FE83En推奨バスレフ型エンクロージャー"]
+      "recommendedEnclosureList": [
+        "FE83En推奨バスレフ型エンクロージャー"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "8cm Fullrange Unit",
       "priceText": "¥5,170(tax included)/1pc",
       "releaseText": "Released in 2009",
-      "recommendedEnclosureList": ["Recommended bass-reflex enclosure for FE83En"]
+      "recommendedEnclosureList": [
+        "Recommended bass-reflex enclosure for FE83En"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -7250,14 +8525,18 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥2,640（税込）／1台",
       "releaseText": "2012年10月発売",
-      "recommendedEnclosureList": ["P1000K推奨バスレフ型エンクロージャー"]
+      "recommendedEnclosureList": [
+        "P1000K推奨バスレフ型エンクロージャー"
+      ]
     },
     "en": {
       "frameText": "Resin frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥2,640(tax included)/1pc",
       "releaseText": "Released in October 2012",
-      "recommendedEnclosureList": ["Recommended bass-reflex enclosure for P1000K"]
+      "recommendedEnclosureList": [
+        "Recommended bass-reflex enclosure for P1000K"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -7790,14 +9069,18 @@
       "categoryText": "8.5cmフルレンジ限定ユニット",
       "priceText": "¥12,000+消費税（1台）",
       "releaseText": "2017年2月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "8.5cm Fullrange Limited Unit",
       "priceText": "¥12,000 + tax (per unit)",
       "releaseText": "Released in February 2017",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -7928,14 +9211,18 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "¥35,000+消費税／1台",
       "releaseText": "2017年9月下旬発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥35,000 + tax/1pc",
       "releaseText": "Released in September 2017",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8065,14 +9352,18 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥7,480（税込）／1台",
       "releaseText": "2019年7月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥7,480(tax included)/1pc",
       "releaseText": "Released in July 2019",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8202,14 +9493,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "¥40,700（税込）／1台",
       "releaseText": "2020年8月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥40,700(tax included)/1pc",
       "releaseText": "Released in August 2020",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8339,14 +9634,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "¥17,380（税込）／1台",
       "releaseText": "2019年11月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥17,380(tax included)/1pc",
       "releaseText": "Released in November 2019",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8476,14 +9775,18 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "¥12,650（税込）／1台",
       "releaseText": "2019年11月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "16cm Fullrange Unit",
       "priceText": "¥12,650(tax included)/1pc",
       "releaseText": "Released in November 2019",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8613,14 +9916,18 @@
       "categoryText": "12cmフルレンジユニット",
       "priceText": "¥8,690（税込）／1台",
       "releaseText": "2019年11月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "12cm Fullrange Unit",
       "priceText": "¥8,690(tax included)/1pc",
       "releaseText": "Released in November 2019",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8748,14 +10055,18 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "￥9,500/1台",
       "releaseText": "1992年発売",
-      "recommendedEnclosureList": [""]
+      "recommendedEnclosureList": [
+        ""
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "9,500JPY/1pc",
       "releaseText": "Released in 1992",
-      "recommendedEnclosureList": [""]
+      "recommendedEnclosureList": [
+        ""
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8857,14 +10168,18 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "¥55,000（税込）／1台",
       "releaseText": "2018年11月発売",
-      "recommendedEnclosureList": ["FE208SS-HP専用バックロードホーンエンクロージャー"]
+      "recommendedEnclosureList": [
+        "FE208SS-HP専用バックロードホーンエンクロージャー"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "20cm Fullrange Limited Unit",
       "priceText": "¥55,000(tax included)/1pc",
       "releaseText": "Released in November 2018",
-      "recommendedEnclosureList": ["Dedicated back-loaded horn enclosure for FE208SS-HP"]
+      "recommendedEnclosureList": [
+        "Dedicated back-loaded horn enclosure for FE208SS-HP"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -8999,14 +10314,18 @@
       "categoryText": "16cmフルレンジ限定ユニット",
       "priceText": "¥38,500（税込）／1台",
       "releaseText": "2018年11月発売",
-      "recommendedEnclosureList": ["FE168SS-HP専用バックロードホーンエンクロージャー"]
+      "recommendedEnclosureList": [
+        "FE168SS-HP専用バックロードホーンエンクロージャー"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "16cm Fullrange Limited Unit",
       "priceText": "¥38,500(tax included)/1pc",
       "releaseText": "Released in November 2018",
-      "recommendedEnclosureList": ["Dedicated back-loaded horn enclosure for FE168SS-HP"]
+      "recommendedEnclosureList": [
+        "Dedicated back-loaded horn enclosure for FE168SS-HP"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -9140,14 +10459,20 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "¥35,200（税込）／1台",
       "releaseText": "2001年6月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン", "FE168EΣ専用エンクロージャー"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン",
+        "FE168EΣ専用エンクロージャー"
+      ]
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "16cm Fullrange Unit",
       "priceText": "¥35,200(tax included)/1pc",
       "releaseText": "Released in June 2001",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex", "Dedicated Enclosure for FE168EΣ"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex",
+        "Dedicated Enclosure for FE168EΣ"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -9282,14 +10607,18 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥16,500（税込）／1台",
       "releaseText": "2023年10月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥16,500(tax included)/1pc",
       "releaseText": "Released in October 2023",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -9419,14 +10748,18 @@
       "categoryText": "20cmフルレンジユニット",
       "priceText": "¥15,400（税込）／1台",
       "releaseText": "2023年4月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥15,400(tax included)/1pc",
       "releaseText": "Released in April 2023",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -9556,14 +10889,18 @@
       "categoryText": "16cmフルレンジユニット",
       "priceText": "¥9,900（税込）／1台",
       "releaseText": "2023年4月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "16cm Fullrange Unit",
       "priceText": "¥9,900(tax included)/1pc",
       "releaseText": "Released in April 2023",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -9693,14 +11030,18 @@
       "categoryText": "12cmフルレンジユニット",
       "priceText": "¥8,800（税込）／1台",
       "releaseText": "2023年4月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "12cm Fullrange Unit",
       "priceText": "¥8,800(tax included)/1pc",
       "releaseText": "Released in April 2023",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -9830,14 +11171,18 @@
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥5,500（税込）／1台",
       "releaseText": "2022年7月発売",
-      "recommendedEnclosureList": ["Fostex推奨バックロードホーン"]
+      "recommendedEnclosureList": [
+        "Fostex推奨バックロードホーン"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥5,500(tax included)/1pc",
       "releaseText": "Released in July 2022",
-      "recommendedEnclosureList": ["Recommended Back-loaded Horn by Fostex"]
+      "recommendedEnclosureList": [
+        "Recommended Back-loaded Horn by Fostex"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -9969,14 +11314,20 @@
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "¥25,300（税込）／1台",
       "releaseText": "2021年11月発売",
-      "recommendedEnclosureList": ["炭山アキラ設計「オウサマペンギン」", "FE203Σ-RE標準箱"]
+      "recommendedEnclosureList": [
+        "炭山アキラ設計「オウサマペンギン」",
+        "FE203Σ-RE標準箱"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "20cm Fullrange Limited Unit",
       "priceText": "¥25,300(tax included)/1pc",
       "releaseText": "Released in November 2021",
-      "recommendedEnclosureList": ["Ousama-Penguin by Sumiyama Akira", "Standard Box for FE203Σ-RE"]
+      "recommendedEnclosureList": [
+        "Ousama-Penguin by Sumiyama Akira",
+        "Standard Box for FE203Σ-RE"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -10109,14 +11460,20 @@
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "¥27,500（税込）／1台",
       "releaseText": "2021年11月発売",
-      "recommendedEnclosureList": ["BK108-Sol", "FE108-Sol標準箱"]
+      "recommendedEnclosureList": [
+        "BK108-Sol",
+        "FE108-Sol標準箱"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "¥27,500(tax included)/1pc",
       "releaseText": "Released in November 2021",
-      "recommendedEnclosureList": ["BK108-Sol", "Standard Box for FE108-Sol"]
+      "recommendedEnclosureList": [
+        "BK108-Sol",
+        "Standard Box for FE108-Sol"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -10244,14 +11601,20 @@
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "¥19,000（税別）／1台",
       "releaseText": "2015年12月発売",
-      "recommendedEnclosureList": ["BK108-Sol", "FE108-Sol標準箱"]
+      "recommendedEnclosureList": [
+        "BK108-Sol",
+        "FE108-Sol標準箱"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "¥19,000(not tax included)/1pc",
       "releaseText": "Released in December 2015",
-      "recommendedEnclosureList": ["BK108-Sol", "Standard Box for FE108-Sol"]
+      "recommendedEnclosureList": [
+        "BK108-Sol",
+        "Standard Box for FE108-Sol"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -10381,14 +11744,18 @@
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "¥27,500（税込）／1台",
       "releaseText": "2022年2月発売",
-      "recommendedEnclosureList": ["FE108SS-HP標準箱"]
+      "recommendedEnclosureList": [
+        "FE108SS-HP標準箱"
+      ]
     },
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "¥27,500(tax included)/1pc",
       "releaseText": "Released in February 2022",
-      "recommendedEnclosureList": ["Standard Box for FE108SS-HP"]
+      "recommendedEnclosureList": [
+        "Standard Box for FE108SS-HP"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -10515,14 +11882,18 @@
       "categoryText": "8cmフルレンジユニット",
       "priceText": "¥6,160（税込）／1台",
       "releaseText": "2022年7月発売",
-      "recommendedEnclosureList": ["FE83NV2標準箱"]
+      "recommendedEnclosureList": [
+        "FE83NV2標準箱"
+      ]
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "8cm Fullrange Unit",
       "priceText": "¥6,160(tax included)/1pc",
       "releaseText": "Released in July 2022",
-      "recommendedEnclosureList": ["Standard Box for FE83NV2"]
+      "recommendedEnclosureList": [
+        "Standard Box for FE83NV2"
+      ]
     },
     "electricalParameters": {
       "nominalImpedance": {

@@ -5,6 +5,7 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import en from '../../locales/en.json';
 import ja from '../../locales/ja.json';
+import Breadcrumb from '../../components/Breadcrumb'; // パンくずリストのインポート
 
 import SpeakerList from '../../components/SpeakerList';
 import SpeakerModal from '../../components/SpeakerModal';
@@ -52,8 +53,10 @@ export default function BackloadedHornSpeakers({ speakers }) {
   return (
     <section>
       <Head>
-        <title>{t.backloadedhorn_speakers.title} - Digital Signager</title>
+        <title>{t.backloadedhorn_speakers.title} - {t.title}</title>
       </Head>
+      <Breadcrumb />
+
       <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">{t.backloadedhorn_speakers.title}</h2>
 
       {/* ブランドごとにスピーカーリストを表示 */}

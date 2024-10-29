@@ -11,7 +11,7 @@ export default function SpeakerList({ speakers }) {
           key={speaker.id}
           className="bg-white shadow-md rounded-lg pt-4 pr-4 pl-4 pb-2 hover:bg-gray-100 flex"
         >
-          <Link href={`/speakers/${speaker.id}`}>
+          <Link href={`/backloadedhorn-speakers/${speaker.id}`}>
             <div className="flex w-full cursor-pointer">
               <div className="w-20 h-20 mr-4 flex-shrink-0">
                 {speaker.image ? (
