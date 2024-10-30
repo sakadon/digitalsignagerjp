@@ -6104,7 +6104,7 @@
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 102,
+        "value": 90,
         "unit": "mm"
       },
       "magnetWeight": {
@@ -10268,7 +10268,7 @@
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 90.0,
+        "value": 102.0,
         "unit": "mm"
       },
       "baffleHole": {
