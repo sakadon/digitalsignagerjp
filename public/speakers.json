@@ -107,7 +107,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 15k Hz"
+        "value": "f0 to 15k Hz"
       },
       "Vas": {
         "value": 4,
@@ -247,7 +247,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 16k Hz"
+        "value": "f0 to 16k Hz"
       },
       "Vas": {
         "value": 3.34,
@@ -309,7 +309,7 @@
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥10,080 (tax included)/1pc",
       "releaseText": "Released in July 2013",
       "recommendedEnclosureList": [
@@ -385,7 +385,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 30k Hz"
+        "value": "f0 to 30k Hz"
       },
       "Vas": {
         "value": 3.29,
@@ -447,7 +447,7 @@
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥10,286 (tax included)/1pc",
       "releaseText": "Released in July 2013",
       "recommendedEnclosureList": [
@@ -523,7 +523,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 16k Hz"
+        "value": "f0 to 16k Hz"
       },
       "Vas": {
         "value": 4.05,
@@ -662,7 +662,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 20k Hz"
+        "value": "f0 to 20k Hz"
       },
       "Vas": {
         "value": 1.933,
@@ -724,7 +724,7 @@
     },
     "en": {
       "frameText": "Steel Frame",
-      "categoryText": "8cm Fullrange Unit",
+      "categoryText": "8cm Full Range Unit",
       "priceText": "¥4,700 (tax included)/1pc",
       "releaseText": "Released in October 2010",
       "recommendedEnclosureList": [
@@ -800,7 +800,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 30k Hz"
+        "value": "f0 to 30k Hz"
       },
       "Vas": {
         "value": 1.693,
@@ -939,7 +939,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 20k Hz"
+        "value": "f0 to 20k Hz"
       },
       "Vas": {
         "value": 2.804,
@@ -1074,7 +1074,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 18k Hz"
+        "value": "f0 to 18k Hz"
       },
       "Vas": {
         "value": 0.734,
@@ -1114,9 +1114,11 @@
     "category": [
       "MG",
       "MG100",
+      "HR",
+      "UDRT",
       "8Ω",
       "10cm",
-      "HR",
+      "4H",
       "limited"
     ],
     "image": {
@@ -1149,66 +1151,92 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.9,
-        "unit": "ohm"
+        "value": "",
+        "unit": ""
       },
       "fs": {
         "value": 55,
         "unit": "Hz"
       },
       "Le": {
-        "value": 0.03,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 4.8,
+        "value": 5.4,
         "unit": "g"
       },
-      "Vas": {
-        "value": 13.5,
-        "unit": "L"
+      "Cms": {
+        "value": "",
+        "unit": ""
       },
-      "Xmax": {
-        "value": 1.0,
-        "unit": "mm"
+      "Bl": {
+        "value": 1.23,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.5
+        "value": ""
       },
       "Qes": {
-        "value": 0.41
+        "value": ""
       },
       "Qts": {
-        "value": 0.36
+        "value": 0.27
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 90,
+        "value": 86.5,
         "unit": "dB/W (1m)"
       },
       "baffleHoleDiameter": {
-        "value": 93,
+        "value": 102,
         "unit": "mm"
       },
       "overallDiameter": {
-        "value": 100,
+        "value": 128,
         "unit": "mm"
       },
       "depth": {
-        "value": 78.5,
+        "value": 63.3,
         "unit": "mm"
       },
+      "magnetWeight": {
+        "value": 443,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 1200,
+        "value": 1490,
         "unit": "g"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 30k Hz"
+        "value": "f0 to 55k Hz"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 42,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 20,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 60,
+        "unit": "W"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -1511,13 +1539,14 @@
     "model": "FF125K",
     "limited": false,
     "price": null,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FF",
       "FF125",
+      "K",
       "8Ω",
       "12cm",
-      "FullRange"
+      "4H"
     ],
     "image": {
       "main": "/images/speakers/fostex-ff125k/1.png",
@@ -1528,7 +1557,7 @@
     "ja": {
       "frameText": "鉄板フレーム",
       "categoryText": "12cmフルレンジユニット",
-      "priceText": "価格は要確認",
+      "priceText": "",
       "releaseText": "2000年発売",
       "recommendedEnclosureList": [
         "FF125K推奨バックロードホーン"
@@ -1553,62 +1582,85 @@
         "unit": "ohm"
       },
       "fs": {
-        "value": 65,
+        "value": 72,
         "unit": "Hz"
       },
       "Le": {
-        "value": 0.06,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 5.8,
+        "value": 4.0,
         "unit": "g"
       },
       "Vas": {
-        "value": 17.98,
+        "value": 9.12,
         "unit": "L"
       },
       "Xmax": {
-        "value": 0.4,
+        "value": 0.15,
         "unit": "mm"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.82
+        "value": 9.04
       },
       "Qes": {
-        "value": 0.42
+        "value": 0.27
       },
       "Qts": {
-        "value": 0.38
+        "value": 0.26
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 90,
+        "value": 92.0,
         "unit": "dB/W (1m)"
       },
       "baffleHoleDiameter": {
-        "value": 113,
+        "value": 104,
         "unit": "mm"
       },
       "overallDiameter": {
-        "value": 125,
+        "value": 112.2,
         "unit": "mm"
       },
       "depth": {
-        "value": 61.2,
+        "value": 60.1,
         "unit": "mm"
       },
-      "netWeight": {
-        "value": 890,
+      "magnetWeight": {
+        "value": 420,
         "unit": "g"
       },
+      "netWeight": {
+        "value": 930,
+        "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 46,
+        "unit": "mm"
+      },
+      "maxInput": {
+        "value": 50,
+        "unit": "W"
+      },
+      "ratedInput": {
+        "value": 16,
+        "unit": "W"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": ""
+      },
       "reproductionFrequencyResponse": {
-        "value": "fs to 22k Hz"
+        "value": "f0 to 18k Hz"
       }
     },
     "affiriateLinks": {
@@ -1646,7 +1698,7 @@
     "ja": {
       "frameText": "鉄板フレーム",
       "categoryText": "8cmフルレンジユニット",
-      "priceText": "価格は要確認",
+      "priceText": "",
       "releaseText": "2000年発売",
       "recommendedEnclosureList": [
         "FF85K推奨バックロードホーン"
@@ -1654,7 +1706,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "8cm Fullrange Unit",
+      "categoryText": "8cm Full Range Unit",
       "priceText": "",
       "releaseText": "Released in 2000",
       "recommendedEnclosureList": [
@@ -2205,7 +2257,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "$31.50 (tax included)/1pc",
       "releaseText": "Released in 2000",
       "recommendedEnclosureList": [
@@ -2300,6 +2352,10 @@
       "voiceCoilDiameter": {
         "value": 20,
         "unit": "mm"
+      },
+      "Vas": {
+        "value": 6.90,
+        "unit": "L"
       }
     },
     "affiriateLinks": {
@@ -2345,7 +2401,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "8cm Fullrange Unit",
+      "categoryText": "8cm Full Range Unit",
       "priceText": "$24.75 (tax included)/1pc",
       "releaseText": "Released in 2000",
       "recommendedEnclosureList": [
@@ -2371,13 +2427,13 @@
         "value": 1.39,
         "unit": "g"
       },
-      "Vas": {
-        "value": 1.29,
-        "unit": "L"
+      "Cms": {
+        "value": 0.00115,
+        "unit": "mm/N"
       },
-      "Xmax": {
-        "value": 0.4,
-        "unit": "mm"
+      "Bl": {
+        "value": 2.98,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
@@ -2397,7 +2453,7 @@
         "unit": "dB/W (1m)"
       },
       "baffleHoleDiameter": {
-        "value": 70,
+        "value": 73,
         "unit": "mm"
       },
       "overallDiameter": {
@@ -2433,6 +2489,14 @@
       "voiceCoilDiameter": {
         "value": 16,
         "unit": "mm"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 30,
+        "unit": "mm"
+      },
+      "Vas": {
+        "value": 1.29,
+        "unit": "L"
       }
     },
     "affiriateLinks": {
@@ -2478,7 +2542,7 @@
       "frameText": "Steel Frame",
       "categoryText": "20cm Cone-type Fullrange Unit",
       "priceText": "¥9,300(tax included)/1pc",
-      "releaseText": "Release date unknown",
+      "releaseText": "",
       "recommendedEnclosureList": []
     },
     "electricalParameters": {
@@ -2611,7 +2675,7 @@
       "frameText": "Steel Frame",
       "categoryText": "16cm Cone-type Fullrange Unit",
       "priceText": "¥6,000(tax included)/1pc",
-      "releaseText": "Release date unknown",
+      "releaseText": "",
       "recommendedEnclosureList": []
     },
     "electricalParameters": {
@@ -3204,10 +3268,10 @@
         "value": ""
       },
       "Qes": {
-        "value": 0.25
+        "value": ""
       },
       "Qts": {
-        "value": ""
+        "value": 0.25
       }
     },
     "otherParameters": {
@@ -3219,27 +3283,31 @@
         "value": 46.0,
         "unit": "mm"
       },
+      "maxInput": {
+        "value": 50,
+        "unit": "W"
+      },
       "ratedInput": {
-        "value": 50.0,
+        "value": 16.0,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 156.0,
+        "value": 112.2,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 100.0,
-        "unit": "mm"
+        "value": "",
+        "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 18k Hz"
+        "value": "f0 to 18k Hz"
       },
       "Vas": {
         "value": "",
         "unit": ""
       },
       "baffleHoleDiameter": {
-        "value": 113.0,
+        "value": 104,
         "unit": "mm"
       },
       "baffleHole": {
@@ -3252,6 +3320,10 @@
       "netWeight": {
         "value": 930,
         "unit": "g"
+      },
+      "depth": {
+        "value": 60.1,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
@@ -3470,10 +3542,10 @@
         "value": ""
       },
       "Qes": {
-        "value": 0.24
+        "value": ""
       },
       "Qts": {
-        "value": ""
+        "value": 0.24
       }
     },
     "otherParameters": {
@@ -3485,8 +3557,12 @@
         "value": 46.0,
         "unit": "mm"
       },
+      "maxInput": {
+        "value": 50,
+        "unit": "W"
+      },
       "ratedInput": {
-        "value": 50.0,
+        "value": 16,
         "unit": "W"
       },
       "overallDiameter": {
@@ -3680,13 +3756,15 @@
     "name": "FE106Σ",
     "model": "FE106Σ",
     "price": "",
-    "release": "",
+    "release": "1985",
     "category": [
       "FE",
+      "FE106",
       "Σ",
       "10cm",
       "8Ω",
-      "Fullrange"
+      "16Ω",
+      "4H"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe106-sigma/1.png",
@@ -3698,14 +3776,14 @@
       "frameText": "角形ダイキャストフレーム",
       "categoryText": "10cmフルレンジユニット",
       "priceText": "",
-      "releaseText": "",
+      "releaseText": "1985年発売",
       "recommendedEnclosureList": []
     },
     "en": {
-      "frameText": "Die-cast Iron Frame",
-      "categoryText": "10cm Fullrange Unit",
+      "frameText": "Square Die-cast Frame",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "",
-      "releaseText": "",
+      "releaseText": "Release in 1985",
       "recommendedEnclosureList": []
     },
     "electricalParameters": {
@@ -3761,12 +3839,12 @@
         "unit": "cm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 5,
         "unit": "W"
       },
       "maxInput": {
-        "value": "",
-        "unit": ""
+        "value": 15,
+        "unit": "W"
       },
       "overallDiameter": {
         "value": 128.0,
@@ -3791,12 +3869,16 @@
         "value": 4
       },
       "magnetWeight": {
-        "value": 386.0,
+        "value": 386,
         "unit": "g"
       },
       "netWeight": {
-        "value": 0.95,
-        "unit": "kg"
+        "value": 950,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 63.5,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": ""
@@ -3817,7 +3899,7 @@
     "name": "FE103Σ",
     "model": "FE103Σ",
     "price": 3300,
-    "release": "",
+    "release": "1965",
     "category": [
       "FE",
       "Σ",
@@ -3841,7 +3923,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥3,300(tax included)/1pc",
       "releaseText": "",
       "recommendedEnclosureList": []
@@ -3899,7 +3981,7 @@
         "unit": "cm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 5,
         "unit": "W"
       },
       "maxInput": {
@@ -3935,6 +4017,10 @@
       "netWeight": {
         "value": 0.96,
         "unit": "kg"
+      },
+      "depth": {
+        "value": "",
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": ""
@@ -4057,7 +4143,7 @@
         "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 20kHz"
+        "value": "f0 to 20kHz"
       },
       "Vas": {
         "value": 51.4,
@@ -4122,7 +4208,7 @@
       "frameText": "鉄板フレーム",
       "categoryText": "16cmフルレンジユニット",
       "priceText": "¥4,800（税込）／1台",
-      "releaseText": "発売日不明",
+      "releaseText": "",
       "recommendedEnclosureList": [
         "標準エンクロージャー"
       ]
@@ -4131,7 +4217,7 @@
       "frameText": "Steel Frame",
       "categoryText": "16cm Full Range Unit",
       "priceText": "¥4,800(tax included)/1pc",
-      "releaseText": "Release date unknown",
+      "releaseText": "",
       "recommendedEnclosureList": [
         "Standard Enclosure"
       ]
@@ -4270,13 +4356,13 @@
       "frameText": "鉄板フレーム",
       "categoryText": "8cmフルレンジユニット",
       "priceText": "¥2,600（税込）／1台",
-      "releaseText": "発売日不明"
+      "releaseText": ""
     },
     "en": {
       "frameText": "Steel frame",
       "categoryText": "8cm Full Range Unit",
       "priceText": "¥2,600(tax included)/1pc",
-      "releaseText": "Release date unknown"
+      "releaseText": ""
     },
     "electricalParameters": {
       "nominalImpedance": {
@@ -4284,11 +4370,11 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.5,
+        "value": 6.9,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.25,
+        "value": "",
         "unit": "mH"
       },
       "fs": {
@@ -4298,27 +4384,27 @@
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 1.5,
+        "value": 1.15,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.8,
-        "unit": "mm/N"
+        "value": 0.4,
+        "unit": "mm"
       },
       "Bl": {
-        "value": 3.0,
+        "value": "",
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.0
+        "value": 3.5
       },
       "Qes": {
-        "value": 0.8
+        "value": 0.9
       },
       "Qts": {
-        "value": 0.8
+        "value": 0.72
       }
     },
     "otherParameters": {
@@ -4331,6 +4417,10 @@
         "unit": "mm"
       },
       "ratedInput": {
+        "value": 2,
+        "unit": "W"
+      },
+      "maxInput": {
         "value": 7,
         "unit": "W"
       },
@@ -4339,18 +4429,18 @@
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 25.0,
+        "value": "",
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 20kHz"
+        "value": "f0 to 20kHz"
       },
       "Vas": {
-        "value": 4.0,
+        "value": 1.11,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 71.0,
+        "value": 73.0,
         "unit": "mm"
       },
       "magnetWeight": {
@@ -4360,6 +4450,13 @@
       "netWeight": {
         "value": 360,
         "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "depth": {
+        "value": 40.0,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "Standard Enclosure"
@@ -4389,7 +4486,7 @@
       "FE103",
       "8Ω",
       "10cm",
-      "フルレンジ"
+      "4H"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103/1.png",
@@ -4401,7 +4498,7 @@
       "frameText": "鉄板フレーム",
       "categoryText": "10cmフルレンジユニット",
       "priceText": "¥3,300（税込）／1台",
-      "releaseText": "発売日不明",
+      "releaseText": "",
       "recommendedEnclosureList": [
         "標準エンクロージャー",
         "バックロードホーン"
@@ -4411,7 +4508,7 @@
       "frameText": "Steel frame",
       "categoryText": "10cm Cone Fullrange Unit",
       "priceText": "¥3,300(tax included)/1pc",
-      "releaseText": "Release date unknown",
+      "releaseText": "",
       "recommendedEnclosureList": [
         "Standard Enclosure",
         "Back-loaded Horn"
@@ -4423,11 +4520,11 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.5,
+        "value": 7.1,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.25,
+        "value": "",
         "unit": "mH"
       },
       "fs": {
@@ -4441,23 +4538,23 @@
         "unit": "g"
       },
       "Cms": {
-        "value": 1.0,
-        "unit": "mm/N"
+        "value": 0.35,
+        "unit": "mm"
       },
       "Bl": {
-        "value": 5.0,
-        "unit": "N/A"
+        "value": "",
+        "unit": ""
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.0
+        "value": 2.17
       },
       "Qes": {
-        "value": 0.35
+        "value": 0.38
       },
       "Qts": {
-        "value": 0.35
+        "value": 0.33
       }
     },
     "otherParameters": {
@@ -4470,22 +4567,26 @@
         "unit": "mm"
       },
       "ratedInput": {
+        "value": 5,
+        "unit": "W"
+      },
+      "maxInput": {
         "value": 15,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 103.0,
+        "value": 107.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 25.0,
-        "unit": "mm"
+        "value": "",
+        "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 18kHz"
+        "value": "f0 to 18kHz"
       },
       "Vas": {
-        "value": 5.0,
+        "value": 6.89,
         "unit": "L"
       },
       "baffleHoleDiameter": {
@@ -4499,6 +4600,13 @@
       "netWeight": {
         "value": 630,
         "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "depth": {
+        "value": 45.6,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
@@ -4627,7 +4735,7 @@
         "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 20kHz"
+        "value": "f0 to 20kHz"
       },
       "Vas": {
         "value": 15.27,
@@ -4702,7 +4810,7 @@
     },
     "en": {
       "frameText": "Round Frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥7,200(tax included)/1pc",
       "releaseText": "Released in 1992",
       "recommendedEnclosureList": [
@@ -4855,7 +4963,7 @@
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥22,000(tax included)/1pc",
       "releaseText": "Released in August 2007",
       "recommendedEnclosureList": [
@@ -5278,7 +5386,7 @@
     "category": [
       "FE",
       "FE103",
-      "En",
+      "En-S",
       "8Ω",
       "10cm",
       "8H",
@@ -5291,15 +5399,15 @@
       "outline": ""
     },
     "ja": {
-      "frameText": "鋳鉄フレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "¥14,490（税込）／1台",
       "releaseText": "2010年3月発売",
       "recommendedEnclosureList": []
     },
     "en": {
-      "frameText": "Cast Iron Frame",
-      "categoryText": "10cm Fullrange Unit",
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Full Range Limited Unit",
       "priceText": "¥14,490(tax included)/1pc",
       "releaseText": "Released in March 2010",
       "recommendedEnclosureList": []
@@ -5318,13 +5426,13 @@
         "unit": "mH"
       },
       "fs": {
-        "value": "",
+        "value": 72.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": "",
+        "value": 2.5,
         "unit": "g"
       },
       "Cms": {
@@ -5344,24 +5452,28 @@
         "value": ""
       },
       "Qts": {
-        "value": ""
+        "value": 0.2
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": "",
+        "value": 91.5,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": "",
+        "value": 40.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": "",
+        "value": 5,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 15,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": "",
+        "value": 128,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -5369,7 +5481,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": ""
+        "value": "f0 to 30kHz"
       },
       "Vas": {
         "value": "",
@@ -5380,11 +5492,19 @@
         "unit": "mm"
       },
       "baffleHole": {
-        "value": ""
+        "value": 8
+      },
+      "magnetWeight": {
+        "value": 443,
+        "unit": "g"
       },
       "netWeight": {
-        "value": "",
+        "value": 1170,
         "unit": "g"
+      },
+      "depth": {
+        "value": 55,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": ""
@@ -5408,7 +5528,7 @@
     "model": "FE108Super",
     "limited": true,
     "price": "",
-    "release": "",
+    "release": "1992",
     "category": [
       "FE",
       "FE108",
@@ -5419,20 +5539,20 @@
       "limited"
     ],
     "ja": {
-      "frameText": "鋳鉄フレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "",
-      "releaseText": "発売日不明",
+      "releaseText": "1992年発売",
       "recommendedEnclosureList": [
         "スーパースワン",
         "リアカノンⅡ"
       ]
     },
     "en": {
-      "frameText": "Cast Iron Frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Full Range Limited Unit",
       "priceText": "",
-      "releaseText": "Release date unknown",
+      "releaseText": "Released in 1992",
       "recommendedEnclosureList": [
         "Super Swan",
         "Rear Canon II"
@@ -5445,11 +5565,11 @@
       },
       "Re": {
         "value": "",
-        "unit": "ohm"
+        "unit": ""
       },
       "Le": {
         "value": "",
-        "unit": "mH"
+        "unit": ""
       },
       "fs": {
         "value": 80,
@@ -5462,20 +5582,20 @@
         "unit": "g"
       },
       "Cms": {
-        "value": 0.25,
-        "unit": "mm/N"
+        "value": "",
+        "unit": ""
       },
       "Bl": {
         "value": "",
-        "unit": "N/A"
+        "unit": ""
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.0
+        "value": ""
       },
       "Qes": {
-        "value": 0.25
+        "value": ""
       },
       "Qts": {
         "value": 0.25
@@ -5487,10 +5607,14 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 44.0,
+        "value": 40.0,
         "unit": "mm"
       },
       "ratedInput": {
+        "value": 5,
+        "unit": "W"
+      },
+      "maxInput": {
         "value": 15,
         "unit": "W"
       },
@@ -5514,11 +5638,167 @@
         "unit": "mm"
       },
       "baffleHole": {
-        "value": ""
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 442,
+        "unit": "g"
       },
       "netWeight": {
-        "value": 1.08,
-        "unit": "kg"
+        "value": 1080,
+        "unit": "g"
+      },
+      "depth" : {
+        "value": 46,
+        "unit": "mm"
+      },
+      "recommendedEnclosure": {
+        "value": "バックロードホーン"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "スーパースワン",
+      "リアカノンⅡ"
+    ]
+  },
+  {
+    "id": "fostex-6n-fe108super",
+    "brand": "FOSTEX",
+    "name": "6N-FE108Super",
+    "model": "6N-FE108Super",
+    "limited": true,
+    "price": "",
+    "release": "1992",
+    "category": [
+      "FE",
+      "FE108",
+      "6N",
+      "Super",
+      "8Ω",
+      "4H",
+      "10cm",
+      "limited"
+    ],
+    "ja": {
+      "frameText": "アルミダイキャストフレーム",
+      "categoryText": "10cmフルレンジ限定ユニット",
+      "priceText": "",
+      "releaseText": "1992年発売",
+      "recommendedEnclosureList": [
+        "スーパースワン",
+        "リアカノンⅡ"
+      ]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Full Range Limited Unit",
+      "priceText": "",
+      "releaseText": "Released in 1992",
+      "recommendedEnclosureList": [
+        "Super Swan",
+        "Rear Canon II"
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": "",
+        "unit": ""
+      },
+      "Le": {
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 80,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 2.7,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": "",
+        "unit": ""
+      },
+      "Bl": {
+        "value": "",
+        "unit": ""
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": ""
+      },
+      "Qes": {
+        "value": ""
+      },
+      "Qts": {
+        "value": 0.25
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 93.0,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 5,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 128.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": "",
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "f0 to 18k Hz"
+      },
+      "Vas": {
+        "value": "",
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 102.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 442,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1080,
+        "unit": "g"
+      },
+      "depth" : {
+        "value": 46,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "バックロードホーン"
@@ -5548,6 +5828,8 @@
       "FE",
       "FE108",
       "ES",
+      "UDRT",
+      "HP",
       "8Ω",
       "8H",
       "10cm",
@@ -5595,24 +5877,24 @@
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.78,
+        "value": 2.7,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.23,
-        "unit": "mm/N"
+        "value": "",
+        "unit": ""
       },
       "Bl": {
         "value": "",
-        "unit": "N/A"
+        "unit": ""
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.0
+        "value": ""
       },
       "Qes": {
-        "value": 0.23
+        "value": ""
       },
       "Qts": {
         "value": 0.23
@@ -5624,11 +5906,15 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": "",
+        "value": 40.0,
         "unit": "mm"
       },
-      "ratedInput": {
+      "maxInput": {
         "value": 15,
+        "unit": "W"
+      },
+      "ratedInput": {
+        "value": 5,
         "unit": "W"
       },
       "overallDiameter": {
@@ -5640,7 +5926,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "f0 to 20k Hz"
       },
       "Vas": {
         "value": "",
@@ -5651,11 +5937,19 @@
         "unit": "mm"
       },
       "baffleHole": {
-        "value": ""
+        "value": 8
+      },
+      "magnetWeight": {
+        "value": 585,
+        "unit": "g"
       },
       "netWeight": {
-        "value": 1.45,
-        "unit": "kg"
+        "value": 1450,
+        "unit": "g"
+      },
+      "depth" : {
+        "value": 70.2,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "バックロードホーン"
@@ -5686,6 +5980,7 @@
       "FE",
       "FE88",
       "ES-R",
+      "UDRT",
       "8.5cm",
       "8Ω",
       "4H",
@@ -5701,7 +5996,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "8.5cm Full Range Limited Unit",
       "priceText": "",
       "releaseText": "Released in March 2004",
@@ -5715,41 +6010,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.0,
+        "value": "",
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.08,
+        "value": "",
         "unit": "mH"
       },
       "fs": {
-        "value": 88.0,
+        "value": 106.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 1.8,
+        "value": 1.9,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.8,
+        "value": "",
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 4.4,
+        "value": "",
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.5
+        "value": ""
       },
       "Qes": {
-        "value": 0.65
+        "value": ""
       },
       "Qts": {
-        "value": 0.55
+        "value": 0.46
       }
     },
     "otherParameters": {
@@ -5758,39 +6053,50 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 44.0,
+        "value": 34.25,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 18,
+        "value": 6,
         "unit": "W"
       },
       "maxInput": {
-        "value": 36,
+        "value": 18,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 88.0,
+        "value": 112,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 20.0,
+        "value": "",
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 40k Hz"
+        "value": "f0 to 40k Hz"
       },
       "Vas": {
-        "value": 2.5,
+        "value": "",
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 80.0,
+        "value": 102,
         "unit": "mm"
       },
-      "netWeight": {
-        "value": 755.0,
+      "magnetWeight": {
+        "value": 584,
         "unit": "g"
+      },
+      "netWeight": {
+        "value": 1130,
+        "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "depth" : {
+        "value": 57,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "D-101S『スーパースワン』"
@@ -5819,6 +6125,8 @@
       "FE",
       "FE208",
       "ES-R",
+      "UDRT",
+      "HP",
       "Alnico",
       "13cm",
       "8Ω",
@@ -5841,7 +6149,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "13cm Full Range Limited Unit",
       "priceText": "",
       "releaseText": "Released in January 2008",
@@ -5855,46 +6163,46 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.2,
+        "value": 6.8,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.17,
+        "value": 0.0455,
         "unit": "mH"
       },
       "fs": {
-        "value": 68.0,
+        "value": 60.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 7.6,
+        "value": 5.0,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.58,
+        "value": 0.75,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 9.1,
-        "unit": "N/A"
+        "value": 6.5,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.8
+        "value": 5.422
       },
       "Qes": {
-        "value": 0.41
+        "value": 0.28
       },
       "Qts": {
-        "value": 0.37
+        "value": 0.27
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 93.0,
+        "value": 91.5,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -5902,35 +6210,43 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 30.0,
+        "value": 25.0,
         "unit": "W"
       },
       "maxInput": {
-        "value": 60.0,
+        "value": 75.0,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 138.0,
+        "value": 154.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 38.0,
+        "value": 25.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 30k Hz"
       },
       "Vas": {
-        "value": 11.6,
+        "value": 14.0,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 121.0,
+        "value": 123.0,
         "unit": "mm"
       },
-      "netWeight": {
-        "value": 2000.0,
+      "magnetWeight": {
+        "value": 1490,
         "unit": "g"
+      },
+      "netWeight": {
+        "value": 2860.0,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 105.2,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "Turkey by Sumiyama Akira"
@@ -6850,6 +7166,7 @@
       "FE",
       "FE88",
       "ES",
+      "UDRT",
       "8Ω",
       "8cm",
       "4H",
@@ -6862,22 +7179,24 @@
       "outline": ""
     },
     "ja": {
-      "frameText": "鋳造アルミフレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "8cmフルレンジ限定ユニット",
-      "priceText": "価格情報なし",
+      "priceText": "",
       "releaseText": "1999年3月発売",
       "recommendedEnclosureList": [
+        "D-105",
         "BH8",
         "BH88",
         "スーパーフラミンゴ"
       ]
     },
     "en": {
-      "frameText": "Cast Aluminum Frame",
-      "categoryText": "8cm Fullrange Unit",
-      "priceText": "Price not available",
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "8cm Full Range Limited Unit",
+      "priceText": "",
       "releaseText": "Released in March 1999",
       "recommendedEnclosureList": [
+        "D-105",
         "BH8",
         "BH88",
         "Super Flamingo"
@@ -6893,74 +7212,89 @@
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.14,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       },
       "fs": {
-        "value": 102.0,
+        "value": 110.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.0,
+        "value": 1.3,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.64,
-        "unit": "mm/N"
+        "value": "",
+        "unit": ""
       },
       "Bl": {
-        "value": 4.0,
-        "unit": "N/A"
+        "value": "",
+        "unit": ""
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 2.5
+        "value": ""
       },
       "Qes": {
-        "value": 0.4
+        "value": ""
       },
       "Qts": {
-        "value": 0.35
+        "value": 0.31
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 94.5,
+        "value": 90.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 32.0,
+        "value": 30.0,
         "unit": "mm"
       },
       "ratedInput": {
+        "value": 5.0,
+        "unit": "W"
+      },
+      "maxInput": {
         "value": 15.0,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 88.0,
+        "value": 104.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 20.0,
+        "value": "",
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "102Hz to 22kHz"
+        "value": "f0 to 22kHz"
       },
       "Vas": {
-        "value": 3.4,
+        "value": "",
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 76.0,
+        "value": 82,
         "unit": "mm"
       },
-      "netWeight": {
-        "value": 755.0,
+      "magnetWeight": {
+        "value": 334,
         "unit": "g"
+      },
+      "netWeight": {
+        "value": 785,
+        "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "depth": {
+        "value": 51.4,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
@@ -6986,7 +7320,7 @@
     "model": "6N-FE108ES",
     "limited": true,
     "price": "",
-    "release": "",
+    "release": "1988",
     "category": [
       "6N",
       "FE",
@@ -7004,19 +7338,19 @@
       "outline": ""
     },
     "ja": {
-      "frameText": "鋳造アルミフレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
-      "priceText": "価格情報なし",
-      "releaseText": "発売日情報なし",
+      "priceText": "",
+      "releaseText": "1988年発売",
       "recommendedEnclosureList": [
         "Fostex推奨エンクロージャ"
       ]
     },
     "en": {
       "frameText": "Cast Aluminum Frame",
-      "categoryText": "10cm Fullrange Unit",
-      "priceText": "Price not available",
-      "releaseText": "Release date not available",
+      "categoryText": "10cm Full Range Unit",
+      "priceText": "",
+      "releaseText": "Released in 1988",
       "recommendedEnclosureList": [
         "Recommended Enclosure by Fostex"
       ]
@@ -7027,12 +7361,12 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.3,
-        "unit": "ohm"
+        "value": "",
+        "unit": ""
       },
       "Le": {
-        "value": 0.2,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       },
       "fs": {
         "value": 80.0,
@@ -7041,24 +7375,24 @@
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.6,
+        "value": 2.2,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.1,
-        "unit": "mm/N"
+        "value": "",
+        "unit": ""
       },
       "Bl": {
-        "value": 4.0,
-        "unit": "N/A"
+        "value": "",
+        "unit": ""
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 2.3
+        "value": ""
       },
       "Qes": {
-        "value": 0.23
+        "value": ""
       },
       "Qts": {
         "value": 0.23
@@ -7074,31 +7408,46 @@
         "unit": "mm"
       },
       "ratedInput": {
+        "value": 5.0,
+        "unit": "W"
+      },
+      "maxInput": {
         "value": 15.0,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 108.0,
+        "value": 128.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 20.0,
-        "unit": "mm"
+        "value": "",
+        "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "80Hz to 22kHz"
+        "value": "f0 to 22kHz"
       },
       "Vas": {
-        "value": 6.3,
-        "unit": "L"
+        "value": "",
+        "unit": ""
       },
       "baffleHoleDiameter": {
-        "value": 100.0,
+        "value": 102.0,
         "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 442.0,
+        "unit": "g"
       },
       "netWeight": {
         "value": 1080.0,
         "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "depth": {
+        "value": 51.0,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
@@ -7534,7 +7883,7 @@
         "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 13kHz"
+        "value": "f0 to 13kHz"
       },
       "Vas": {
         "value": "",
@@ -7686,7 +8035,7 @@
         "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 13kHz"
+        "value": "f0 to 13kHz"
       },
       "Vas": {
         "value": "",
@@ -7835,7 +8184,7 @@
         "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 20kHz"
+        "value": "f0 to 20kHz"
       },
       "Vas": {
         "value": 36.9,
@@ -7988,7 +8337,7 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fo to 20kHz"
+        "value": "f0 to 20kHz"
       },
       "Vas": {
         "value": 121,
@@ -8784,6 +9133,7 @@
     "category": [
       "FE",
       "FE126",
+      "En",
       "8Ω",
       "12cm",
       "4H"
@@ -8953,7 +9303,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥6,000+tax／1pc",
       "releaseText": "Released in 2009",
       "recommendedEnclosureList": [
@@ -9102,7 +9452,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "8cm Fullrange Unit",
+      "categoryText": "8cm Full Range Unit",
       "priceText": "¥5,170(tax included)/1pc",
       "releaseText": "Released in 2009",
       "recommendedEnclosureList": [
@@ -9201,6 +9551,10 @@
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
+      },
+      "depth": {
+        "value": 40,
+        "unit": "mm"
       }
     },
     "affiriateLinks": {
@@ -9243,7 +9597,7 @@
     },
     "en": {
       "frameText": "Resin frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥2,640(tax included)/1pc",
       "releaseText": "Released in October 2012",
       "recommendedEnclosureList": [
@@ -9664,7 +10018,7 @@
       "recommendedEnclosureList": []
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "8cm Fullrange Limited Unit",
       "priceText": "¥5,600+tax/1pc",
       "releaseText": "Released in September 2016",
@@ -10098,7 +10452,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥7,480(tax included)/1pc",
       "releaseText": "Released in July 2019",
       "recommendedEnclosureList": [
@@ -10238,7 +10592,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Fullrange Unit",
       "priceText": "¥40,700(tax included)/1pc",
       "releaseText": "Released in August 2020",
@@ -10804,8 +11158,8 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
-      "categoryText": "10cm Fullrange Unit",
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "9,500JPY/1pc",
       "releaseText": "Released in 1992",
       "recommendedEnclosureList": [
@@ -10843,11 +11197,11 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 10,
+        "value": 5,
         "unit": "W"
       },
       "maxInput": {
-        "value": 60,
+        "value": 15,
         "unit": "W"
       },
       "reproductionFrequencyResponse": {
@@ -10919,7 +11273,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Fullrange Limited Unit",
       "priceText": "¥55,000(tax included)/1pc",
       "releaseText": "Released in November 2018",
@@ -11067,7 +11421,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "16cm Fullrange Limited Unit",
       "priceText": "¥38,500(tax included)/1pc",
       "releaseText": "Released in November 2018",
@@ -11371,7 +11725,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥16,500(tax included)/1pc",
       "releaseText": "Released in October 2023",
       "recommendedEnclosureList": [
@@ -11935,7 +12289,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "10cm Fullrange Unit",
+      "categoryText": "10cm Full Range Unit",
       "priceText": "¥5,500(tax included)/1pc",
       "releaseText": "Released in July 2022",
       "recommendedEnclosureList": [
@@ -12224,7 +12578,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "¥27,500(tax included)/1pc",
       "releaseText": "Released in November 2021",
@@ -12365,7 +12719,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "¥19,000(not tax included)/1pc",
       "releaseText": "Released in December 2015",
@@ -12511,7 +12865,7 @@
       ]
     },
     "en": {
-      "frameText": "Aluminum die-cast frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "¥27,500(tax included)/1pc",
       "releaseText": "Released in February 2022",
@@ -12650,7 +13004,7 @@
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "8cm Fullrange Unit",
+      "categoryText": "8cm Full Range Unit",
       "priceText": "¥6,160(tax included)/1pc",
       "releaseText": "Released in July 2022",
       "recommendedEnclosureList": [
@@ -12749,6 +13103,10 @@
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
+      },
+      "depth": {
+        "value": 40,
+        "unit": "mm"
       }
     },
     "affiriateLinks": {
