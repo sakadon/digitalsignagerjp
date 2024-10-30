@@ -5538,6 +5538,12 @@
       "10cm",
       "limited"
     ],
+    "image": {
+      "main": "/images/speakers/fostex-fe108super/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe108super/3.png",
+      "outline": "/images/speakers/fostex-fe108super/4.png"
+    },
     "ja": {
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
@@ -5686,6 +5692,12 @@
       "10cm",
       "limited"
     ],
+    "image": {
+      "main": "/images/speakers/fostex-6n-fe108super/1.png",
+      "sub": "",
+      "frequency": "",
+      "outline": ""
+    },
     "ja": {
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
@@ -5835,6 +5847,12 @@
       "10cm",
       "limited"
     ],
+    "image": {
+      "main": "/images/speakers/fostex-fe108esii/1.png",
+      "sub": "",
+      "frequency": "/images/speakers/fostex-fe108esii/3.png",
+      "outline": ""
+    },
     "ja": {
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
@@ -5986,6 +6004,12 @@
       "4H",
       "limited"
     ],
+    "image": {
+      "main": "/images/speakers/fostex-fe88es-r/1.png",
+      "sub": "",
+      "frequency": "images/speakers/fostex-fe88es-r/3.png",
+      "outline": "images/speakers/fostex-fe88es-r/4.png"
+    },
     "ja": {
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "8.5cmフルレンジ限定ユニット",
