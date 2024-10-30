@@ -446,7 +446,7 @@
       ]
     },
     "en": {
-      "frameText": "Alluminum Die-cast Frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Fullrange Unit",
       "priceText": "¥10,286 (tax included)/1pc",
       "releaseText": "Released in July 2013",
@@ -1117,7 +1117,7 @@
       "8Ω",
       "10cm",
       "HR",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-mg100hr-s/1.png",
@@ -1230,13 +1230,12 @@
     "model": "FF225K",
     "limited": false,
     "price": null,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FF",
       "FF225",
       "8Ω",
-      "22cm",
-      "FullRange"
+      "20cm"
     ],
     "image": {
       "main": "/images/speakers/fostex-ff225k/1.png",
@@ -1246,17 +1245,17 @@
     },
     "ja": {
       "frameText": "鉄板フレーム",
-      "categoryText": "22cmフルレンジユニット",
-      "priceText": "価格は要確認",
-      "releaseText": "2000年XX月発売",
+      "categoryText": "20cmフルレンジユニット",
+      "priceText": "",
+      "releaseText": "2000年発売",
       "recommendedEnclosureList": [
         "FF225K推奨バックロードホーン"
       ]
     },
     "en": {
       "frameText": "Steel frame",
-      "categoryText": "22cm Fullrange Unit",
-      "priceText": "Price to be confirmed",
+      "categoryText": "20cm Fullrange Unit",
+      "priceText": "",
       "releaseText": "Released in 2000",
       "recommendedEnclosureList": [
         "Recommended Back-loaded Horn for FF225K"
@@ -1268,63 +1267,86 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.1,
+        "value": 6.3,
         "unit": "ohm"
       },
       "fs": {
-        "value": 42,
+        "value": 38,
         "unit": "Hz"
       },
       "Le": {
-        "value": 0.08,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 22.4,
-        "unit": "g"
+        "value": "",
+        "unit": ""
       },
       "Vas": {
-        "value": 161.22,
+        "value": 79.41,
         "unit": "L"
       },
       "Xmax": {
-        "value": 1.0,
+        "value": 0.3,
         "unit": "mm"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.10
+        "value": 3.06
       },
       "Qes": {
-        "value": 0.32
+        "value": 0.17
       },
       "Qts": {
-        "value": 0.29
+        "value": 0.16
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 95,
+        "value": 96,
         "unit": "dB/W (1m)"
       },
       "baffleHoleDiameter": {
-        "value": 215,
+        "value": 185,
         "unit": "mm"
       },
       "overallDiameter": {
-        "value": 225,
+        "value": 200,
         "unit": "mm"
       },
       "depth": {
-        "value": 96.2,
+        "value": 93,
         "unit": "mm"
       },
-      "netWeight": {
-        "value": 2100,
+      "magnetWeight": {
+        "value": 1067,
         "unit": "g"
+      },
+      "netWeight": {
+        "value": 3720,
+        "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 84,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 31,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 100,
+        "unit": "W"
+      },
+      "voiceCoilDiameter": {
+        "value": 50,
+        "unit": "mm"
       },
       "reproductionFrequencyResponse": {
         "value": "fs to 14k Hz"
@@ -2493,7 +2515,7 @@
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 225.0,
+        "value": 208.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -3030,7 +3052,7 @@
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 143.2,
+        "value": 50,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
@@ -3041,7 +3063,7 @@
         "unit": ""
       },
       "baffleHoleDiameter": {
-        "value": 200.0,
+        "value": 185.0,
         "unit": "mm"
       },
       "baffleHole": {
@@ -3892,7 +3914,7 @@
       "FE204",
       "20cm",
       "8Ω",
-      "フルレンジ"
+      "4H"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe204/1.png",
@@ -3901,19 +3923,19 @@
       "outline": "/images/speakers/fostex-fe204/4.png"
     },
     "ja": {
-      "frameText": "アルミダイキャストフレーム",
+      "frameText": "鉄板フレーム",
       "categoryText": "20cmフルレンジユニット",
       "priceText": "¥6,600（税込）／1台",
-      "releaseText": "発売日不明",
+      "releaseText": "",
       "recommendedEnclosureList": [
         "標準エンクロージャー"
       ]
     },
     "en": {
-      "frameText": "Double Cone Full-range Unit",
-      "categoryText": "20cm Double Cone Full-range Unit",
+      "frameText": "Steel Frame",
+      "categoryText": "20cm Full-range Unit",
       "priceText": "¥6,600(tax included)/1pc",
-      "releaseText": "Release date unknown",
+      "releaseText": "",
       "recommendedEnclosureList": [
         "Standard Enclosure"
       ]
@@ -3924,12 +3946,12 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.5,
+        "value": 6.81,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.5,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       },
       "fs": {
         "value": 45.0,
@@ -3942,23 +3964,23 @@
         "unit": "g"
       },
       "Cms": {
-        "value": 0.23,
-        "unit": "mm/N"
+        "value": 1.5,
+        "unit": "mm"
       },
       "Bl": {
-        "value": 7.0,
-        "unit": "N/A"
+        "value": "",
+        "unit": ""
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 5.0
+        "value": 2.84
       },
       "Qes": {
-        "value": 0.7
+        "value": 0.21
       },
       "Qts": {
-        "value": 0.23
+        "value": 0.2
       }
     },
     "otherParameters": {
@@ -3971,26 +3993,30 @@
         "unit": "mm"
       },
       "ratedInput": {
+        "value": 25,
+        "unit": "W"
+      },
+      "maxInput": {
         "value": 80,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 206.0,
+        "value": 208.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 40.0,
-        "unit": "mm"
+        "value": "",
+        "unit": ""
       },
       "reproductionFrequencyResponse": {
         "value": "fo to 20kHz"
       },
       "Vas": {
-        "value": 60.0,
+        "value": 51.4,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 188.5,
+        "value": 185,
         "unit": "mm"
       },
       "magnetWeight": {
@@ -3998,11 +4024,18 @@
         "unit": "g"
       },
       "netWeight": {
-        "value": 2.4,
-        "unit": "kg"
+        "value": 2400,
+        "unit": "g"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "depth": {
+        "value": 88.5,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
-        "value": "Standard Enclosure"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -4047,7 +4080,7 @@
       ]
     },
     "en": {
-      "frameText": "Alluminum Die-cast Frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "16cm Full Range Unit",
       "priceText": "¥4,800(tax included)/1pc",
       "releaseText": "Release date unknown",
@@ -5038,81 +5071,93 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.0,
-        "unit": "ohm"
+        "value": "",
+        "unit": ""
       },
       "Le": {
-        "value": 0.35,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       },
       "fs": {
-        "value": 50,
+        "value": 43,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 15.0,
+        "value": 12.0,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.5,
-        "unit": "mm/N"
+        "value": "",
+        "unit": ""
       },
       "Bl": {
-        "value": 7.5,
-        "unit": "N/A"
+        "value": "",
+        "unit": ""
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 5.0
+        "value": ""
       },
       "Qes": {
-        "value": 0.4
+        "value": ""
       },
       "Qts": {
-        "value": 0.35
+        "value": 0.14
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 93.0,
+        "value": 99.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 85.0,
+        "value": 81.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 20,
+        "value": "",
+        "unit": ""
+      },
+      "maxInput": {
+        "value": 100,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 208.0,
-        "unit": "mm"
+        "value": "",
+        "unit": ""
       },
       "voiceCoilDiameter": {
-        "value": 35.0,
-        "unit": "mm"
+        "value": "",
+        "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "50Hz to 20kHz"
+        "value": "f0 to 20kHz"
       },
       "Vas": {
-        "value": 50,
-        "unit": "L"
+        "value": "",
+        "unit": ""
       },
       "baffleHoleDiameter": {
-        "value": 190,
+        "value": 185,
         "unit": "mm"
       },
       "baffleHole": {
-        "value": 4
+        "value": 8
+      },
+      "magnetWeight": {
+        "value": 1836,
+        "unit": "g"
       },
       "netWeight": {
-        "value": 4000,
+        "value": 5540,
         "unit": "g"
+      },
+      "depth": {
+        "value": 95.5,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
@@ -6241,7 +6286,7 @@
       "8Ω",
       "16cm",
       "8H",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe168es/1.png",
@@ -6523,7 +6568,7 @@
       "8Ω",
       "8cm",
       "4H",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe88es/1.png",
@@ -6665,7 +6710,7 @@
       "8Ω",
       "10cm",
       "4H",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe108es/1.png",
@@ -6800,7 +6845,7 @@
       "8Ω",
       "16cm",
       "8H",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe168ss/1.png",
@@ -6945,7 +6990,7 @@
       "SS",
       "20cm",
       "8H",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe208ss/1.png",
@@ -6954,7 +6999,7 @@
       "outline": ""
     },
     "ja": {
-      "frameText": "鋳鉄フレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "20cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "1996年11月発売",
@@ -6964,7 +7009,7 @@
       ]
     },
     "en": {
-      "frameText": "Cast iron frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "20cm Full-range Limited Unit",
       "priceText": "",
       "releaseText": "Released in November 1996",
@@ -6979,15 +7024,15 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.5,
-        "unit": "ohm"
+        "value": "",
+        "unit": ""
       },
       "Le": {
-        "value": 0.18,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       },
       "fs": {
-        "value": 40.0,
+        "value": 45.0,
         "unit": "Hz"
       }
     },
@@ -6997,28 +7042,28 @@
         "unit": "g"
       },
       "Cms": {
-        "value": 0.81,
-        "unit": "mm/N"
+        "value": "",
+        "unit": ""
       },
       "Bl": {
-        "value": 11.0,
-        "unit": "N/A"
+        "value": 1.84,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 5.1
+        "value": ""
       },
       "Qes": {
-        "value": 0.16
+        "value": ""
       },
       "Qts": {
-        "value": 0.14
+        "value": 0.15
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 100.0,
+        "value": 99.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -7026,35 +7071,46 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 100,
+        "value": 34,
         "unit": "W"
       },
       "maxInput": {
-        "value": 150,
+        "value": 100,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 210.0,
+        "value": 230.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 35.0,
+        "value": "",
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
         "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 50.0,
-        "unit": "L"
+        "value": "",
+        "unit": ""
       },
       "baffleHoleDiameter": {
-        "value": 190.0,
+        "value": 185.0,
         "unit": "mm"
       },
+      "magnetWeight": {
+        "value": 3642.0,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 6.8,
-        "unit": "kg"
+        "value": 7400,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 111.5,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 8
       },
       "recommendedEnclosure": {
         "value": "Back-loaded horn"
@@ -7664,7 +7720,7 @@
       "8Ω",
       "20cm",
       "4H",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206super/1.png",
@@ -7810,7 +7866,7 @@
       "8Ω",
       "20cm",
       "8H",
-      "Limited"
+      "limited"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208super/1.png",
