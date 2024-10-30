@@ -1702,13 +1702,13 @@
     "model": "FE206E",
     "limited": false,
     "price": null,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FE",
       "FE206",
       "8Ω",
       "20cm",
-      "FullRange"
+      "4H"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206e/1.png",
@@ -1719,7 +1719,7 @@
     "ja": {
       "frameText": "鉄板フレーム",
       "categoryText": "20cmフルレンジユニット",
-      "priceText": "価格は要確認",
+      "priceText": "",
       "releaseText": "2000年XX月発売",
       "recommendedEnclosureList": [
         "FE206E推奨バックロードホーン"
@@ -1728,7 +1728,7 @@
     "en": {
       "frameText": "Steel frame",
       "categoryText": "20cm Fullrange Unit",
-      "priceText": "Price to be confirmed",
+      "priceText": "",
       "releaseText": "Released in 2000",
       "recommendedEnclosureList": [
         "Recommended Back-loaded Horn for FE206E"
@@ -1740,66 +1740,96 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.0,
+        "value": 6.69,
         "unit": "ohm"
       },
-      "fs": {
-        "value": 39.5,
-        "unit": "Hz"
-      },
       "Le": {
-        "value": 0.06,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 39,
+        "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 16.2,
+        "value": 15.35,
         "unit": "g"
       },
-      "Vas": {
-        "value": 150.82,
-        "unit": "L"
+      "Cms": {
+        "value": 0.00091,
+        "unit": "mm/N"
       },
-      "Xmax": {
-        "value": 1.5,
-        "unit": "mm"
+      "Bl": {
+        "value": 11.82,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 9.39
+        "value": 3.73
       },
       "Qes": {
         "value": 0.18
       },
       "Qts": {
-        "value": 0.17
+        "value": 0.18
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 96,
+        "value": 96.0,
         "unit": "dB/W (1m)"
       },
-      "baffleHoleDiameter": {
-        "value": 184,
+      "equivalentDiaphragmRadius": {
+        "value": 81.0,
         "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 30,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 90,
+        "unit": "W"
       },
       "overallDiameter": {
-        "value": 206,
+        "value": 208.0,
         "unit": "mm"
       },
-      "depth": {
-        "value": 94,
+      "voiceCoilDiameter": {
+        "value": 35.0,
         "unit": "mm"
-      },
-      "netWeight": {
-        "value": 2200,
-        "unit": "g"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "f0 to 20k Hz"
+      },
+      "Vas": {
+        "value": 54.53,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 185.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "depth": {
+        "value": 87.5,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 1067.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 3350,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -1820,7 +1850,7 @@
     "model": "FE166E",
     "limited": false,
     "price": null,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FE",
       "FE166",
@@ -1837,7 +1867,7 @@
     "ja": {
       "frameText": "鉄板フレーム",
       "categoryText": "16cmフルレンジユニット",
-      "priceText": "価格は要確認",
+      "priceText": "",
       "releaseText": "2000年XX月発売",
       "recommendedEnclosureList": [
         "FE166E推奨バックロードホーン"
@@ -1846,7 +1876,7 @@
     "en": {
       "frameText": "Steel frame",
       "categoryText": "16cm Fullrange Unit",
-      "priceText": "Price to be confirmed",
+      "priceText": "",
       "releaseText": "Released in 2000",
       "recommendedEnclosureList": [
         "Recommended Back-loaded Horn for FE166E"
@@ -1861,63 +1891,93 @@
         "value": 7.1,
         "unit": "ohm"
       },
-      "fs": {
-        "value": 51.5,
-        "unit": "Hz"
-      },
       "Le": {
-        "value": 0.08,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
+      },
+      "fs": {
+        "value": 50,
+        "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 10.7,
+        "value": 6.85,
         "unit": "g"
       },
-      "Vas": {
-        "value": 61.29,
-        "unit": "L"
+      "Cms": {
+        "value": 0.00182,
+        "unit": "mm/N"
       },
-      "Xmax": {
-        "value": 0.6,
-        "unit": "mm"
+      "Bl": {
+        "value": 8.33,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.07
+        "value": 3.89
       },
       "Qes": {
-        "value": 0.24
+        "value": 0.22
       },
       "Qts": {
-        "value": 0.23
+        "value": 0.21
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 94,
+        "value": 94.0,
         "unit": "dB/W (1m)"
       },
-      "baffleHoleDiameter": {
-        "value": 145,
+      "equivalentDiaphragmRadius": {
+        "value": 65,
         "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 22,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 65,
+        "unit": "W"
       },
       "overallDiameter": {
-        "value": 166,
+        "value": 166.0,
         "unit": "mm"
       },
-      "depth": {
-        "value": 77,
+      "voiceCoilDiameter": {
+        "value": 25.0,
         "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 22k Hz"
+      },
+      "Vas": {
+        "value": 45.11,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 146.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 600.0,
+        "unit": "g"
       },
       "netWeight": {
         "value": 1600,
         "unit": "g"
       },
-      "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+      "depth": {
+        "value": 73.2,
+        "unit": "mm"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -1938,13 +1998,13 @@
     "model": "FE126E",
     "limited": false,
     "price": null,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FE",
       "FE126",
       "8Ω",
       "12cm",
-      "FullRange"
+      "4H"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe126e/1.png",
@@ -1955,8 +2015,8 @@
     "ja": {
       "frameText": "鉄板フレーム",
       "categoryText": "12cmフルレンジユニット",
-      "priceText": "価格は要確認",
-      "releaseText": "2000年XX月発売",
+      "priceText": "",
+      "releaseText": "2000年発売",
       "recommendedEnclosureList": [
         "FE126E推奨バックロードホーン"
       ]
@@ -1964,7 +2024,7 @@
     "en": {
       "frameText": "Steel frame",
       "categoryText": "12cm Fullrange Unit",
-      "priceText": "Price to be confirmed",
+      "priceText": "",
       "releaseText": "Released in 2000",
       "recommendedEnclosureList": [
         "Recommended Back-loaded Horn for FE126E"
@@ -1976,78 +2036,98 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.2,
+        "value": 6.9,
         "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.0034,
+        "unit": "mH"
       },
       "fs": {
         "value": 70,
         "unit": "Hz"
-      },
-      "Le": {
-        "value": 0.05,
-        "unit": "mH"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.0,
+        "value": 2.9,
         "unit": "g"
       },
-      "Vas": {
-        "value": 10.36,
-        "unit": "L"
+      "Cms": {
+        "value": 0.0017,
+        "unit": "mm/N"
       },
-      "Xmax": {
-        "value": 0.35,
-        "unit": "mm"
+      "Bl": {
+        "value": 5.92,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.33
+        "value": 2.96
       },
       "Qes": {
-        "value": 0.45
+        "value": 0.27
       },
       "Qts": {
-        "value": 0.39
+        "value": 0.25
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 93,
+        "value": 93.0,
         "unit": "dB/W (1m)"
       },
-      "baffleHoleDiameter": {
-        "value": 110,
+      "equivalentDiaphragmRadius": {
+        "value": 46.0,
         "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 45,
+        "unit": "W"
       },
       "overallDiameter": {
-        "value": 126,
+        "value": 142.0,
         "unit": "mm"
       },
-      "depth": {
-        "value": 60,
+      "voiceCoilDiameter": {
+        "value": 20.0,
         "unit": "mm"
-      },
-      "netWeight": {
-        "value": 930,
-        "unit": "g"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 25k Hz"
+      },
+      "Vas": {
+        "value": 9.95,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 104.0,
+        "unit": "mm"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 440.0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 1010,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 61,
+        "unit": "mm"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
       }
-    },
-    "affiriateLinks": {
-      "koizumi": "",
-      "amazon": "",
-      "rakuten": "",
-      "yodobashi": "",
-      "eleshop": ""
-    },
-    "recommendedEnclosureList": [
-      "FE126E標準箱"
-    ]
+    }
   },
   {
     "id": "fostex-fe103e",
@@ -2056,13 +2136,12 @@
     "model": "FE103E",
     "limited": false,
     "price": 31.50,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FE",
       "FE103",
       "8Ω",
-      "10cm",
-      "FullRange"
+      "10cm"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103e/1.png",
@@ -2074,7 +2153,7 @@
       "frameText": "鉄板フレーム",
       "categoryText": "10cmフルレンジユニット",
       "priceText": "$31.50（税込）／1台",
-      "releaseText": "2000年XX月発売",
+      "releaseText": "2000年発売",
       "recommendedEnclosureList": [
         "FE103E推奨バックロードホーン"
       ]
@@ -2094,17 +2173,17 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.5,
+        "value": 7.45,
         "unit": "ohm"
       },
       "fs": {
-        "value": 80,
+        "value": 79.5,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.6,
+        "value": 2.10,
         "unit": "g"
       },
       "Vas": {
@@ -2112,7 +2191,7 @@
         "unit": "L"
       },
       "Xmax": {
-        "value": 0.4,
+        "value": 0.35,
         "unit": "mm"
       }
     },
@@ -2121,10 +2200,10 @@
         "value": 2.87
       },
       "Qes": {
-        "value": 0.41
+        "value": 0.40
       },
       "Qts": {
-        "value": 0.35
+        "value": 0.36
       }
     },
     "otherParameters": {
@@ -2144,12 +2223,38 @@
         "value": 45.6,
         "unit": "mm"
       },
+      "magnetWeight": {
+        "value": 193,
+        "unit": "g"
+      },
       "netWeight": {
         "value": 630,
         "unit": "g"
       },
+      "baffleHole": {
+        "value": 4
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 40,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 5,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 15,
+        "unit": "W"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      },
       "reproductionFrequencyResponse": {
         "value": "fs to 22k Hz"
+      },
+      "voiceCoilDiameter": {
+        "value": 20,
+        "unit": "mm"
       }
     },
     "affiriateLinks": {
@@ -2170,13 +2275,13 @@
     "model": "FE83E",
     "limited": false,
     "price": 24.75,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FE",
       "FE83",
       "8Ω",
-      "8cm",
-      "FullRange"
+      "4H",
+      "8cm"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe83e/1.png",
@@ -2208,17 +2313,17 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.8,
+        "value": 7.87,
         "unit": "ohm"
       },
       "fs": {
-        "value": 140,
+        "value": 127,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 1.38,
+        "value": 1.39,
         "unit": "g"
       },
       "Vas": {
@@ -2232,13 +2337,13 @@
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.99
+        "value": 4.00
       },
       "Qes": {
         "value": 0.98
       },
       "Qts": {
-        "value": 0.78
+        "value": 0.79
       }
     },
     "otherParameters": {
@@ -2247,7 +2352,7 @@
         "unit": "dB/W (1m)"
       },
       "baffleHoleDiameter": {
-        "value": 71,
+        "value": 70,
         "unit": "mm"
       },
       "overallDiameter": {
@@ -2258,12 +2363,31 @@
         "value": 44,
         "unit": "mm"
       },
+      "magnetWeight": {
+        "value": 140,
+        "unit": "g"
+      },
       "netWeight": {
         "value": 360,
         "unit": "g"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 30k Hz"
+      },
+      "ratedInput": {
+        "value": 5,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 10,
+        "unit": "W"
+      },
+      "baffleHole": {
+        "value": 4
+      },
+      "voiceCoilDiameter": {
+        "value": 16,
+        "unit": "mm"
       }
     },
     "affiriateLinks": {
@@ -2666,7 +2790,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -2799,7 +2923,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -2932,7 +3056,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -3066,7 +3190,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -3199,7 +3323,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -3332,7 +3456,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -3629,6 +3753,7 @@
       "Σ",
       "10cm",
       "8Ω",
+      "16Ω",
       "4H"
     ],
     "image": {
@@ -3708,8 +3833,8 @@
         "unit": "W"
       },
       "maxInput": {
-        "value": "",
-        "unit": ""
+        "value": 15,
+        "unit": "W"
       },
       "overallDiameter": {
         "value": "",
@@ -4589,6 +4714,8 @@
       "FE",
       "FE108",
       "EΣ",
+      "HP",
+      "UDRT",
       "8Ω",
       "10cm",
       "8H"
@@ -4605,8 +4732,7 @@
       "priceText": "¥22,000（税込）／1台",
       "releaseText": "2007年8月発売",
       "recommendedEnclosureList": [
-        "推奨エンクロージャー1",
-        "推奨エンクロージャー2"
+        "バックロードホーン"
       ]
     },
     "en": {
@@ -4615,8 +4741,7 @@
       "priceText": "¥22,000(tax included)/1pc",
       "releaseText": "Released in August 2007",
       "recommendedEnclosureList": [
-        "Recommended Enclosure 1",
-        "Recommended Enclosure 2"
+        "Back-loaded Horn Enclosure"
       ]
     },
     "electricalParameters": {
@@ -4625,41 +4750,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.0,
+        "value": 6.8,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.2,
+        "value": 0.038,
         "unit": "mH"
       },
       "fs": {
-        "value": 55.0,
+        "value": 77,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.0,
+        "value": 2.7,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.6,
+        "value": 1.59,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 5.5,
-        "unit": "N/A"
+        "value": 5.2,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 7.0
+        "value": 7.79
       },
       "Qes": {
-        "value": 0.4
+        "value": 0.32
       },
       "Qts": {
-        "value": 0.35
+        "value": 0.3
       }
     },
     "otherParameters": {
@@ -4668,37 +4793,49 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 45.0,
+        "value": 39.5,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 8,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 24,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 110.0,
+        "value": 128.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 25.0,
+        "value": 20.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "55Hz to 20kHz"
+        "value": "fs to 23kHz"
       },
       "Vas": {
-        "value": 7.5,
+        "value": 5.7,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 95.0,
+        "value": 102,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 65,
         "unit": "mm"
       },
       "baffleHole": {
-        "value": 4
+        "value": 8
+      },
+      "magnetWeight": {
+        "value": 400,
+        "unit": "g"
       },
       "netWeight": {
-        "value": 800,
+        "value": 1200,
         "unit": "g"
       },
       "recommendedEnclosure": {
@@ -6210,7 +6347,153 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    },
+    "recommendedEnclosureList": [
+      "D-37"
+    ]
+  },
+  {
+    "id": "fostex-fe168ns",
+    "brand": "FOSTEX",
+    "name": "FE168NS",
+    "model": "FE168NS",
+    "limited": false,
+    "price": 35200,
+    "release": "2018-11",
+    "category": [
+      "FE",
+      "FE168",
+      "NS",
+      "8Ω",
+      "16cm",
+      "8H"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe168ns/1.png",
+      "sub": "/images/speakers/fostex-fe168ns/2.png",
+      "frequency": "/images/speakers/fostex-fe168ns/3.png",
+      "outline": "/images/speakers/fostex-fe168ns/4.png"
+    },
+    "ja": {
+      "frameText": "鋳造アルミフレーム",
+      "categoryText": "16cmフルレンジユニット",
+      "priceText": "¥35,200（税込）／1台",
+      "releaseText": "2018年11月発売",
+      "recommendedEnclosureList": [
+        "バックロードホーン"
+      ]
+    },
+    "en": {
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "16cm Fullrange Unit",
+      "priceText": "¥35,200 (tax included)/1pc",
+      "releaseText": "Released in November 2018",
+      "recommendedEnclosureList": [
+        "Backloaded Horn"
+      ]
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.1,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.18,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 60,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 8.5,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.83,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 7.4,
+        "unit": "Tesla/m"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 7.3
+      },
+      "Qes": {
+        "value": 0.4
+      },
+      "Qts": {
+        "value": 0.39
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 90.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 64.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 20,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 60,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 190.0,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 25.0,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 20kHz"
+      },
+      "Vas": {
+        "value": 19.5,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 151.0,
+        "unit": "mm"
+      },
+      "depth": {
+        "value": 72.4,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 720,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 2280,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -6350,7 +6633,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -6488,7 +6771,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -7498,7 +7781,7 @@
         "unit": "gauss"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -7644,7 +7927,7 @@
         "unit": "gauss"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -7670,6 +7953,8 @@
       "FE",
       "FE208",
       "EΣ",
+      "HP",
+      "UDRT",
       "8Ω",
       "20cm",
       "8H"
@@ -7706,62 +7991,62 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.9,
+        "value": 6.4,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.16,
+        "value": 0.0517,
         "unit": "mH"
       },
       "fs": {
-        "value": 40.0,
+        "value": 42.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 13.8,
+        "value": 13.3,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.46,
+        "value": 1.069,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 10.0,
-        "unit": "N/A"
+        "value": 10.8,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 8.7
+        "value": 6.191
       },
       "Qes": {
-        "value": 0.27
+        "value": 0.19
       },
       "Qts": {
-        "value": 0.26
+        "value": 0.18
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 96.5,
+        "value": 97,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 81.0,
+        "value": 80.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 30,
+        "value": 40,
         "unit": "W"
       },
       "maxInput": {
-        "value": 100,
+        "value": 120,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 208.0,
+        "value": 230.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -7769,22 +8054,30 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 14k Hz"
       },
       "Vas": {
-        "value": 55.0,
+        "value": 60.1,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 190.0,
+        "value": 185.0,
         "unit": "mm"
       },
       "baffleHole": {
-        "value": 4
+        "value": 8
+      },
+      "magnetWeight": {
+        "value": 1408.7,
+        "unit": "g"
       },
       "netWeight": {
-        "value": 4.1,
-        "unit": "kg"
+        "value": 4800,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 93.5,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
         "value": "BH / FH"
@@ -7835,7 +8128,7 @@
     "en": {
       "frameText": "Steel frame",
       "categoryText": "20cm Fullrange Unit",
-      "priceText": "¥13,600+tax／1pc",
+      "priceText": "¥13,600+tax/1pc",
       "releaseText": "Released in 2009",
       "recommendedEnclosureList": [
         "Recommended Back-loaded Horn by Fostex"
@@ -7847,41 +8140,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.2,
+        "value": 6.8,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.13,
+        "value": 0.0525,
         "unit": "mH"
       },
       "fs": {
-        "value": 39.5,
+        "value": 45,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 15.0,
+        "value": 12.2,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.57,
-        "unit": "mm/N"
+        "value": 1.172,
+        "unit": "m/N"
       },
       "Bl": {
-        "value": 10.75,
-        "unit": "N/A"
+        "value": 10.65,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 14.65
+        "value": 4.57
       },
       "Qes": {
-        "value": 0.22
+        "value": 0.194
       },
       "Qts": {
-        "value": 0.21
+        "value": 0.19
       }
     },
     "otherParameters": {
@@ -7890,7 +8183,7 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 81.5,
+        "value": 81.0,
         "unit": "mm"
       },
       "ratedInput": {
@@ -7902,33 +8195,41 @@
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 206.0,
+        "value": 208.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 30.0,
+        "value": 35.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
         "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 71.0,
+        "value": 70.99,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 190.0,
+        "value": 185.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
+      "depth": {
+        "value": 87.9,
+        "unit": "mm"
+      },
+      "magnetWeight": {
+        "value": 1067.0,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 3.78,
-        "unit": "kg"
+        "value": 3200,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -7987,41 +8288,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.5,
+        "value": 7.2,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.09,
+        "value": 0.052,
         "unit": "mH"
       },
       "fs": {
-        "value": 51.0,
+        "value": 53,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 8.3,
+        "value": 6.8,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.68,
+        "value": 1.474,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 9.92,
-        "unit": "N/A"
+        "value": 7.65,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 12.29
+        "value": 3.426
       },
       "Qes": {
-        "value": 0.32
+        "value": 0.266
       },
       "Qts": {
-        "value": 0.31
+        "value": 0.25
       }
     },
     "otherParameters": {
@@ -8030,15 +8331,15 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 66.5,
+        "value": 65,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 22,
         "unit": "W"
       },
       "maxInput": {
-        "value": 90,
+        "value": 65,
         "unit": "W"
       },
       "overallDiameter": {
@@ -8050,25 +8351,33 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 22k Hz"
       },
       "Vas": {
-        "value": 41.0,
+        "value": 37.02,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 150.0,
+        "value": 146.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
-      "netWeight": {
-        "value": 1080,
+      "magnetWeight": {
+        "value": 600.0,
         "unit": "g"
       },
+      "netWeight": {
+        "value": 1600,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 75.3,
+        "unit": "mm"
+      },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -8115,7 +8424,7 @@
     "en": {
       "frameText": "Steel frame",
       "categoryText": "12cm Fullrange Unit",
-      "priceText": "¥6,800+tax／1pc",
+      "priceText": "¥6,800+tax/1pc",
       "releaseText": "Released in 2009",
       "recommendedEnclosureList": [
         "Recommended Back-loaded Horn by Fostex"
@@ -8127,41 +8436,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.0,
+        "value": 7.2,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.07,
+        "value": 0.035,
         "unit": "mH"
       },
       "fs": {
-        "value": 70.5,
+        "value": 83,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.1,
+        "value": 2.8,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.95,
+        "value": 1.35,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 5.04,
-        "unit": "N/A"
+        "value": 5.63,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 5.14
+        "value": 4.8
       },
       "Qes": {
-        "value": 0.35
+        "value": 0.33
       },
       "Qts": {
-        "value": 0.33
+        "value": 0.3
       }
     },
     "otherParameters": {
@@ -8170,7 +8479,7 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 48.0,
+        "value": 46.0,
         "unit": "mm"
       },
       "ratedInput": {
@@ -8182,7 +8491,7 @@
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 125.0,
+        "value": 117.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -8190,25 +8499,33 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 25k Hz"
       },
       "Vas": {
-        "value": 7.2,
+        "value": 8.5,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 113.0,
+        "value": 104.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
-      "netWeight": {
-        "value": 670,
+      "magnetWeight": {
+        "value": 440.0,
         "unit": "g"
       },
+      "netWeight": {
+        "value": 990,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 61,
+        "unit": "mm"
+      },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -8267,46 +8584,46 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.4,
+        "value": 7.5,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.05,
+        "value": 0.0398,
         "unit": "mH"
       },
       "fs": {
-        "value": 83.4,
+        "value": 83,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.8,
+        "value": 2.55,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.17,
+        "value": 1.65,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 4.69,
-        "unit": "N/A"
+        "value": 4.99,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.03
+        "value": 2.747
       },
       "Qes": {
-        "value": 0.43
+        "value": 0.377
       },
       "Qts": {
-        "value": 0.40
+        "value": 0.33
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 90.0,
+        "value": 89,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -8314,15 +8631,15 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15.0,
+        "value": 5.0,
         "unit": "W"
       },
       "maxInput": {
-        "value": 30.0,
+        "value": 15.0,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 106.0,
+        "value": 107.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -8330,10 +8647,10 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20kHz"
+        "value": "fs to 22kHz"
       },
       "Vas": {
-        "value": 7.88,
+        "value": 5.95,
         "unit": "L"
       },
       "baffleHoleDiameter": {
@@ -8343,12 +8660,20 @@
       "baffleHole": {
         "value": 4
       },
-      "netWeight": {
-        "value": 567.0,
+      "magnetWeight": {
+        "value": 193.0,
         "unit": "g"
       },
+      "netWeight": {
+        "value": 580.0,
+        "unit": "g"
+      },
+      "depth": {
+        "value": 45.5,
+        "unit": "mm"
+      },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -8374,6 +8699,7 @@
       "FE",
       "FE83",
       "En",
+      "4H",
       "8Ω",
       "8cm"
     ],
@@ -8407,41 +8733,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.1,
+        "value": 7.5,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.05,
+        "value": 0.0267,
         "unit": "mH"
       },
       "fs": {
-        "value": 114.0,
+        "value": 165,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 1.8,
+        "value": 1.53,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.03,
+        "value": 0.622,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 3.41,
-        "unit": "N/A"
+        "value": 3.35,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 5.43
+        "value": 4.06
       },
       "Qes": {
-        "value": 0.56
+        "value": 1.057
       },
       "Qts": {
-        "value": 0.51
+        "value": 0.84
       }
     },
     "otherParameters": {
@@ -8450,7 +8776,7 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 30.0,
+        "value": 30,
         "unit": "mm"
       },
       "ratedInput": {
@@ -8458,7 +8784,7 @@
         "unit": "W"
       },
       "maxInput": {
-        "value": 15,
+        "value": 7,
         "unit": "W"
       },
       "overallDiameter": {
@@ -8470,10 +8796,10 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 23k Hz"
+        "value": "fs to 30k Hz"
       },
       "Vas": {
-        "value": 2.38,
+        "value": 0.7,
         "unit": "L"
       },
       "baffleHoleDiameter": {
@@ -8483,12 +8809,16 @@
       "baffleHole": {
         "value": 4
       },
+      "magnetWeight": {
+        "value": 140,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 420,
+        "value": 350,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "Bass-reflex"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -8544,46 +8874,46 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.2,
+        "value": 6.8,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.12,
+        "value": 0.04,
         "unit": "mH"
       },
       "fs": {
-        "value": 98.0,
+        "value": 82,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.2,
+        "value": 3.1,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.95,
+        "value": 1.241,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 4.1,
-        "unit": "N/A"
+        "value": 4.29,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.7
+        "value": 4
       },
       "Qes": {
-        "value": 0.50
+        "value": 0.6
       },
       "Qts": {
-        "value": 0.45
+        "value": 0.53
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 87.0,
+        "value": 88.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -8591,11 +8921,11 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 12,
         "unit": "W"
       },
       "maxInput": {
-        "value": 45,
+        "value": 36,
         "unit": "W"
       },
       "overallDiameter": {
@@ -8607,21 +8937,25 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 16k Hz"
       },
       "Vas": {
         "value": 4.9,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 93.0,
+        "value": 94.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
       "netWeight": {
-        "value": 460,
+        "value": 405,
+        "unit": "g"
+      },
+      "magnetWeight": {
+        "value": 120,
         "unit": "g"
       },
       "recommendedEnclosure": {
@@ -8680,41 +9014,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 14.0,
+        "value": 14.2,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.12,
+        "value": 0.078,
         "unit": "mH"
       },
       "fs": {
-        "value": 68.0,
+        "value": 88,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.0,
+        "value": 2.4,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.9,
+        "value": 1.184,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 7.0,
-        "unit": "N/A"
+        "value": 5.47,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.2
+        "value": 2.847
       },
       "Qes": {
-        "value": 0.36
+        "value": 0.666
       },
       "Qts": {
-        "value": 0.33
+        "value": 0.54
       }
     },
     "otherParameters": {
@@ -8727,11 +9061,11 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 10,
+        "value": 5,
         "unit": "W"
       },
       "maxInput": {
-        "value": 30,
+        "value": 15,
         "unit": "W"
       },
       "overallDiameter": {
@@ -8743,10 +9077,10 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 22k Hz"
+        "value": "fs to 40k Hz"
       },
       "Vas": {
-        "value": 6.3,
+        "value": 4.27,
         "unit": "L"
       },
       "baffleHoleDiameter": {
@@ -8756,12 +9090,16 @@
       "baffleHole": {
         "value": 4
       },
+      "magnetWeight": {
+        "value": 226,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 670,
+        "value": 650,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Bass-reflex"
       }
     },
     "affiriateLinks": {
@@ -8816,46 +9154,46 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.7,
+        "value": 6.5,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.05,
+        "value": 0.035,
         "unit": "mH"
       },
       "fs": {
-        "value": 70.0,
+        "value": 85,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.0,
+        "value": 2.5,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.9,
+        "value": 1.243,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 4.9,
-        "unit": "N/A"
+        "value": 4.15,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.2
+        "value": 2.755
       },
       "Qes": {
-        "value": 0.35
+        "value": 0.525
       },
       "Qts": {
-        "value": 0.32
+        "value": 0.44
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 89.0,
+        "value": 90,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -8863,15 +9201,15 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 5,
         "unit": "W"
       },
       "maxInput": {
-        "value": 45,
+        "value": 15,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 107.5,
+        "value": 107,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -8879,10 +9217,10 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 22k Hz"
+        "value": "fs to 40k Hz"
       },
       "Vas": {
-        "value": 6.3,
+        "value": 4.29,
         "unit": "L"
       },
       "baffleHoleDiameter": {
@@ -8892,12 +9230,16 @@
       "baffleHole": {
         "value": 4
       },
+      "magnetWeight": {
+        "value": 226,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 670,
+        "value": 650,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -8942,7 +9284,7 @@
     "en": {
       "frameText": "Aluminum die-cast frame",
       "categoryText": "8cm Fullrange Limited Unit",
-      "priceText": "¥5,600+tax／1pc",
+      "priceText": "¥5,600+tax/1pc",
       "releaseText": "Released in September 2016",
       "recommendedEnclosureList": []
     },
@@ -8952,21 +9294,21 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.5,
+        "value": 6.9,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.1,
+        "value": 0.3,
         "unit": "mH"
       },
       "fs": {
-        "value": 110,
+        "value": 135,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.3,
+        "value": 1.53,
         "unit": "g"
       },
       "Cms": {
@@ -8974,19 +9316,19 @@
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 3.8,
-        "unit": "N/A"
+        "value": 3.53,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 5.2
+        "value": 3.62
       },
       "Qes": {
-        "value": 0.55
+        "value": 0.79
       },
       "Qts": {
-        "value": 0.51
+        "value": 0.65
       }
     },
     "otherParameters": {
@@ -8995,11 +9337,15 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 40.0,
+        "value": 30.0,
         "unit": "mm"
       },
       "ratedInput": {
         "value": 5.0,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 15.0,
         "unit": "W"
       },
       "overallDiameter": {
@@ -9007,29 +9353,33 @@
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 16.0,
+        "value": 16.4,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 22k Hz"
+        "value": "fs to 40k Hz"
       },
       "Vas": {
-        "value": 0.9,
+        "value": 0.88,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 74.0,
+        "value": 73.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
+      "magnetWeight": {
+        "value": 187.0,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 350.0,
+        "value": 470.0,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -9088,50 +9438,50 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.2,
+        "value": 7.0,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.02,
+        "value": 0.06,
         "unit": "mH"
       },
       "fs": {
-        "value": 92.0,
+        "value": 105.5,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.9,
+        "value": 2.2,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.92,
+        "value": 1.04,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 3.92,
-        "unit": "N/A"
+        "value": 4.47,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.06
+        "value": 3.91
       },
       "Qes": {
-        "value": 0.52
+        "value": 0.51
       },
       "Qts": {
-        "value": 0.46
+        "value": 0.45
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 88.5,
+        "value": 87.5,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 32.0,
+        "value": 34.25,
         "unit": "mm"
       },
       "ratedInput": {
@@ -9139,37 +9489,41 @@
         "unit": "W"
       },
       "maxInput": {
-        "value": 30,
+        "value": 15,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 106.0,
+        "value": 112,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 20.0,
+        "value": 16.4,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 28k Hz"
+        "value": "fs to 30k Hz"
       },
       "Vas": {
-        "value": 3.6,
+        "value": 2,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 88.0,
+        "value": 90.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
+      "magnetWeight": {
+        "value": 584,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 780,
+        "value": 1145,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -9230,46 +9584,46 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.8,
+        "value": 6.4,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.04,
+        "value": 0.2,
         "unit": "mH"
       },
       "fs": {
-        "value": 41.0,
+        "value": 43.5,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 19.6,
+        "value": 14.3,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.65,
+        "value": 0.93,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 10.85,
-        "unit": "N/A"
+        "value": 12.8,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.13
+        "value": 6.7
       },
       "Qes": {
-        "value": 0.23
+        "value": 0.15
       },
       "Qts": {
-        "value": 0.22
+        "value": 0.15
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 96.5,
+        "value": 96.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -9277,41 +9631,45 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 30,
+        "value": 35,
         "unit": "W"
       },
       "maxInput": {
-        "value": 60,
+        "value": 100,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 208.0,
+        "value": 230.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 39.0,
+        "value": 35.5,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
         "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 47.7,
+        "value": 56,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 185.0,
+        "value": 184.0,
         "unit": "mm"
       },
       "baffleHole": {
-        "value": 4
+        "value": 8
+      },
+      "magnetWeight": {
+        "value": 3672,
+        "unit": "g"
       },
       "netWeight": {
-        "value": 5200,
+        "value": 8700,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -9371,21 +9729,21 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.1,
+        "value": 7.7,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.12,
+        "value": 0.2,
         "unit": "mH"
       },
       "fs": {
-        "value": 76.9,
+        "value": 91.8,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.3,
+        "value": 2.5,
         "unit": "g"
       },
       "Cms": {
@@ -9393,24 +9751,24 @@
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 4.58,
+        "value": 4.7,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 5.43
+        "value": 5.20
       },
       "Qes": {
-        "value": 0.52
+        "value": 0.50
       },
       "Qts": {
-        "value": 0.48
+        "value": 0.46
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 88.0,
+        "value": 88.5,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -9418,11 +9776,11 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 10,
+        "value": 5,
         "unit": "W"
       },
       "maxInput": {
-        "value": 30,
+        "value": 15,
         "unit": "W"
       },
       "overallDiameter": {
@@ -9452,7 +9810,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -9480,7 +9838,7 @@
       "NS",
       "8Ω",
       "20cm",
-      "4H"
+      "8H"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208ns/1.png",
@@ -9512,46 +9870,46 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.8,
+        "value": 6.6,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.08,
+        "value": 0.19,
         "unit": "mH"
       },
       "fs": {
-        "value": 35.5,
+        "value": 45,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 16.8,
+        "value": 14.07,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.17,
+        "value": 0.91,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 11.0,
+        "value": 10.79,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.37
+        "value": 6.87
       },
       "Qes": {
-        "value": 0.24
+        "value": 0.22
       },
       "Qts": {
-        "value": 0.23
+        "value": 0.22
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 97.0,
+        "value": 94,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -9559,41 +9917,45 @@
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 30,
+        "value": 40,
         "unit": "W"
       },
       "maxInput": {
-        "value": 90,
-        "unit": "W"
+        "value": "",
+        "unit": ""
       },
       "overallDiameter": {
-        "value": 208.0,
+        "value": 230.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 35.0,
+        "value": 35.5,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
         "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 93.0,
+        "value": 54.57,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 188.0,
+        "value": 185,
         "unit": "mm"
       },
       "baffleHole": {
-        "value": 4
+        "value": 8
+      },
+      "magnetWeight": {
+        "value": "",
+        "unit": ""
       },
       "netWeight": {
-        "value": 3.2,
-        "unit": "kg"
+        "value": 4500,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -9657,37 +10019,37 @@
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.13,
+        "value": 0.1,
         "unit": "mH"
       },
       "fs": {
-        "value": 42.0,
+        "value": 44.7,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 13.0,
+        "value": 15.2,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.85,
+        "value": 0.8,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 12.8,
+        "value": 10.7,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.22
+        "value": 7.25
       },
       "Qes": {
-        "value": 0.22
+        "value": 0.27
       },
       "Qts": {
-        "value": 0.21
+        "value": 0.26
       }
     },
     "otherParameters": {
@@ -9708,7 +10070,7 @@
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 206.0,
+        "value": 208.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -9716,10 +10078,10 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 18k Hz"
       },
       "Vas": {
-        "value": 82.0,
+        "value": 50.2,
         "unit": "L"
       },
       "baffleHoleDiameter": {
@@ -9730,11 +10092,11 @@
         "value": 4
       },
       "netWeight": {
-        "value": 2.2,
-        "unit": "kg"
+        "value": 3200,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -9794,41 +10156,41 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.2,
+        "value": 7.8,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.14,
+        "value": 0.8,
         "unit": "mH"
       },
       "fs": {
-        "value": 58.2,
+        "value": 49.6,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 6.7,
+        "value": 7.0,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.79,
+        "value": 1.5,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 8.66,
+        "value": 7.7,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 7.07
+        "value": 7.88
       },
       "Qes": {
-        "value": 0.39
+        "value": 0.28
       },
       "Qts": {
-        "value": 0.37
+        "value": 0.27
       }
     },
     "otherParameters": {
@@ -9837,15 +10199,15 @@
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 70.0,
+        "value": 65.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 22,
         "unit": "W"
       },
       "maxInput": {
-        "value": 45,
+        "value": 65,
         "unit": "W"
       },
       "overallDiameter": {
@@ -9853,29 +10215,29 @@
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 35.0,
+        "value": 25.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
         "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 24.0,
+        "value": 36.9,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 151.0,
+        "value": 146.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
       "netWeight": {
-        "value": 1.3,
-        "unit": "kg"
+        "value": 1600,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -9939,58 +10301,58 @@
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.1,
+        "value": 0.2,
         "unit": "mH"
       },
       "fs": {
-        "value": 75.8,
+        "value": 79.1,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.2,
+        "value": 3.0,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.16,
+        "value": 1.4,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 5.16,
+        "value": 5.3,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 3.95
+        "value": 3.51
       },
       "Qes": {
-        "value": 0.36
+        "value": 0.37
       },
       "Qts": {
-        "value": 0.33
+        "value": 0.34
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 91.0,
+        "value": 92.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 50.0,
+        "value": 46.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 10,
+        "value": 15,
         "unit": "W"
       },
       "maxInput": {
-        "value": 30,
+        "value": 45,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 126.0,
+        "value": 117.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -9998,25 +10360,25 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 18k Hz"
+        "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 6.9,
+        "value": 8.5,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 114.0,
+        "value": 104.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
       "netWeight": {
-        "value": 0.92,
-        "unit": "kg"
+        "value": 1000,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -10191,88 +10553,88 @@
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.45,
+        "value": 0.14,
         "unit": "mH"
       },
       "fs": {
-        "value": 37.0,
+        "value": 32.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 18.7,
+        "value": 15.1,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.62,
+        "value": 1.68,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 14.9,
+        "value": 10.74,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 7.8
+        "value": 1.8
       },
       "Qes": {
-        "value": 0.28
+        "value": 0.19
       },
       "Qts": {
-        "value": 0.27
+        "value": 0.17
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 96.0,
+        "value": 94.5,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 85.0,
+        "value": 80.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 35,
         "unit": "W"
       },
       "maxInput": {
-        "value": 60,
-        "unit": "W"
+        "value": "",
+        "unit": ""
       },
       "overallDiameter": {
-        "value": 206.0,
+        "value": 230.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 26.0,
+        "value": 40.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 23k Hz"
       },
       "Vas": {
-        "value": 62.2,
+        "value": 96.38,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 185.0,
+        "value": 186,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 8
       },
       "magnetWeight": {
-        "value": 1540.0,
-        "unit": "g/unit"
+        "value": "",
+        "unit": ""
       },
       "netWeight": {
-        "value": 3140.0,
+        "value": 8260,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -10333,92 +10695,92 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.2,
+        "value": 7.4,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.23,
+        "value": 0.40,
         "unit": "mH"
       },
       "fs": {
-        "value": 52.0,
+        "value": 54.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 8.7,
+        "value": 9.54,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.68,
+        "value": 0.91,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 8.8,
+        "value": 8.81,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 8.2
+        "value": 1.94
       },
       "Qes": {
-        "value": 0.36
+        "value": 0.31
       },
       "Qts": {
-        "value": 0.34
+        "value": 0.27
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 93.0,
+        "value": 91.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 70.0,
+        "value": 60.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 27,
         "unit": "W"
       },
       "maxInput": {
-        "value": 60,
-        "unit": "W"
+        "value": "",
+        "unit": ""
       },
       "overallDiameter": {
-        "value": 166.0,
+        "value": 190.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 26.0,
+        "value": 30.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 25k Hz"
       },
       "Vas": {
-        "value": 26.3,
+        "value": 16.54,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 140.0,
+        "value": 151.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 8
       },
       "magnetWeight": {
-        "value": 780.0,
-        "unit": "g/unit"
+        "value": "",
+        "unit": ""
       },
       "netWeight": {
-        "value": 2050.0,
+        "value": 5300,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -10444,6 +10806,8 @@
       "FE",
       "FE168",
       "EΣ",
+      "HP",
+      "UDRT",
       "8Ω",
       "16cm",
       "8H"
@@ -10480,92 +10844,96 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.7,
+        "value": 6.8,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.1,
+        "value": 0.056,
         "unit": "mH"
       },
       "fs": {
-        "value": 47.0,
+        "value": 51,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 10.7,
+        "value": 8.7,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.55,
+        "value": 1.278,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 10.4,
-        "unit": "N/A"
+        "value": 8,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 7.20
+        "value": 5.328
       },
       "Qes": {
-        "value": 0.25
+        "value": 0.27
       },
       "Qts": {
-        "value": 0.24
+        "value": 0.26
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 94.0,
+        "value": 94.5,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 70.0,
+        "value": 60.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 15,
+        "value": 27,
         "unit": "W"
       },
       "maxInput": {
-        "value": 50,
+        "value": 80,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 166.0,
+        "value": 190.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 26.0,
+        "value": 30.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 21k Hz"
       },
       "Vas": {
-        "value": 22.9,
+        "value": 23.7,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 140.0,
+        "value": 155.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 8
       },
       "magnetWeight": {
-        "value": 820.0,
+        "value": 721.0,
         "unit": "g/unit"
       },
       "netWeight": {
-        "value": 2040.0,
+        "value": 2600.0,
         "unit": "g"
       },
+      "depth": {
+        "value": 88.0,
+        "unit": "mm"
+      },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -10626,59 +10994,59 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.5,
+        "value": 7.4,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.12,
+        "value": 0.03,
         "unit": "mH"
       },
       "fs": {
-        "value": 82.0,
+        "value": 75.0,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 3.4,
+        "value": 2.66,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.05,
+        "value": 1.69,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 4.75,
+        "value": 5.13,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 4.55
+        "value": 3.11
       },
       "Qes": {
-        "value": 0.53
+        "value": 0.35
       },
       "Qts": {
-        "value": 0.48
+        "value": 0.32
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 89.5,
+        "value": 87,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 40.0,
+        "value": 39.5,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 5,
+        "value": 15,
         "unit": "W"
       },
       "maxInput": {
-        "value": 15,
-        "unit": "W"
+        "value": "",
+        "unit": ""
       },
       "overallDiameter": {
         "value": 128.0,
@@ -10689,25 +11057,25 @@
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 30k Hz"
+        "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 5.53,
+        "value": 5.37,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 103.0,
+        "value": 100.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
       "netWeight": {
-        "value": 1.17,
-        "unit": "kg"
+        "value": 1080,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -10767,46 +11135,46 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.7,
+        "value": 7.2,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.4,
+        "value": 0.1,
         "unit": "mH"
       },
       "fs": {
-        "value": 42.4,
+        "value": 44.7,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 18.6,
+        "value": 15.2,
         "unit": "g"
       },
       "Cms": {
-        "value": 0.93,
+        "value": 0.8,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 9.4,
+        "value": 10.7,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.09
+        "value": 7.25
       },
       "Qes": {
-        "value": 0.33
+        "value": 0.27
       },
       "Qts": {
-        "value": 0.31
+        "value": 0.26
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 97.0,
+        "value": 96.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
@@ -10822,18 +11190,18 @@
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 206.0,
+        "value": 208.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 26.0,
+        "value": 35.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 18k Hz"
       },
       "Vas": {
-        "value": 45.0,
+        "value": 50.2,
         "unit": "L"
       },
       "baffleHoleDiameter": {
@@ -10844,11 +11212,11 @@
         "value": 4
       },
       "netWeight": {
-        "value": 2.68,
-        "unit": "kg"
+        "value": 3200,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -10908,58 +11276,58 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 6.7,
+        "value": 7.8,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.4,
+        "value": 0.8,
         "unit": "mH"
       },
       "fs": {
-        "value": 51.3,
+        "value": 49.6,
         "unit": "Hz"
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 10.0,
+        "value": 7.0,
         "unit": "g"
       },
       "Cms": {
-        "value": 1.0,
+        "value": 1.5,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 7.6,
+        "value": 7.7,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.85
+        "value": 7.88
       },
       "Qes": {
-        "value": 0.36
+        "value": 0.28
       },
       "Qts": {
-        "value": 0.34
+        "value": 0.27
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 95.0,
+        "value": 94.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 70.0,
+        "value": 65.0,
         "unit": "mm"
       },
       "ratedInput": {
-        "value": 20,
+        "value": 22,
         "unit": "W"
       },
       "maxInput": {
-        "value": 50,
+        "value": 65,
         "unit": "W"
       },
       "overallDiameter": {
@@ -10967,29 +11335,29 @@
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 26.0,
+        "value": 25.0,
         "unit": "mm"
       },
       "reproductionFrequencyResponse": {
         "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 21.0,
+        "value": 36.9,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 150.0,
+        "value": 146.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
       "netWeight": {
-        "value": 1.16,
-        "unit": "kg"
+        "value": 1600,
+        "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -11049,15 +11417,15 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.4,
+        "value": 7.1,
         "unit": "ohm"
       },
       "Le": {
-        "value": 0.24,
+        "value": 0.2,
         "unit": "mH"
       },
       "fs": {
-        "value": 90.2,
+        "value": 79.1,
         "unit": "Hz"
       }
     },
@@ -11067,32 +11435,32 @@
         "unit": "g"
       },
       "Cms": {
-        "value": 1.05,
+        "value": 1.4,
         "unit": "mm/N"
       },
       "Bl": {
-        "value": 5.0,
+        "value": 5.3,
         "unit": "N/A"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 6.8
+        "value": 3.51
       },
       "Qes": {
-        "value": 0.33
+        "value": 0.37
       },
       "Qts": {
-        "value": 0.31
+        "value": 0.34
       }
     },
     "otherParameters": {
       "SPL": {
-        "value": 91.0,
+        "value": 92.0,
         "unit": "dB/W (1m)"
       },
       "equivalentDiaphragmRadius": {
-        "value": 52.5,
+        "value": 46.0,
         "unit": "mm"
       },
       "ratedInput": {
@@ -11100,11 +11468,11 @@
         "unit": "W"
       },
       "maxInput": {
-        "value": 30,
+        "value": 45,
         "unit": "W"
       },
       "overallDiameter": {
-        "value": 126.0,
+        "value": 117.0,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
@@ -11115,22 +11483,22 @@
         "value": "fs to 20k Hz"
       },
       "Vas": {
-        "value": 5.0,
+        "value": 8.5,
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 115.0,
+        "value": 104.0,
         "unit": "mm"
       },
       "baffleHole": {
         "value": 4
       },
       "netWeight": {
-        "value": 620,
+        "value": 1000,
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -11271,7 +11639,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -11416,7 +11784,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -11562,7 +11930,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -11672,6 +12040,10 @@
         "value": 5.0,
         "unit": "W"
       },
+      "maxInput": {
+        "value": "",
+        "unit": ""
+      },
       "overallDiameter": {
         "value": 128.0,
         "unit": "mm"
@@ -11703,7 +12075,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -11844,7 +12216,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -11951,6 +12323,10 @@
         "value": 5.0,
         "unit": "W"
       },
+      "maxInput": {
+        "value": 15.0,
+        "unit": "W"
+      },
       "overallDiameter": {
         "value": 83,
         "unit": "mm"
@@ -11982,7 +12358,7 @@
         "unit": "g"
       },
       "recommendedEnclosure": {
-        "value": "BH"
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
