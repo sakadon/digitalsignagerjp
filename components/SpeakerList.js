@@ -30,12 +30,12 @@ export default function SpeakerList({ speakers }) {
 
               <div className="leading-5">
                 <div className="mb-1">
-                  <span className="font-bold tracking-tight">
+                  <span className="speaker_title font-bold tracking-tight">
                     <span className="text-orange-600">{speaker.brand}</span> {speaker.name}
                   </span><br />
                   <small>{locale === 'ja' ? speaker.ja.categoryText : speaker.en.categoryText}</small>
                 </div>
-                <div className="flex flex-wrap gap-1">
+                <div className="speaker_cats flex flex-wrap gap-1">
                   {speaker.category && speaker.category.map((cat, index) => (
                     <span key={index} className="bg-gray-100 text-blue-800 px-1 py-0.5 rounded text-xs">
                       {cat}
@@ -47,6 +47,12 @@ export default function SpeakerList({ speakers }) {
           </Link>
         </li>
       ))}
+
+      <style jsx>{`
+        .speaker_cats {
+          font-family: 'Fira Mono', monospace;
+        }
+      `}</style>
     </ul>
   );
 }

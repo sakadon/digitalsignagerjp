@@ -5,16 +5,16 @@
   "menu": {
     "home": "Home",
     "bh_speaker_units_db": "Speaker Units for BH",
-    "speaker_components_list": "Speaker Units(Components) DB for BH",
-    "grouped_by_baffle_hole_diameter": "Grouped by Baffle Hole Diameter"
+    "speaker_components_list": "Speaker Units(Components) List",
+    "grouped_by_baffle_hole_diameter": "Grouped by Baffle Hole Diameter",
+    "grouped_by_categories": "Grouped by Categories"
   },
 
-  "backloadedhorn_speakers": {
+  "speakers": {
     "title": "Speaker Units(Components) Database for Back-loaded Horn.",
     "baffle_hole_diameter": "Baffle Hole Diameter",
     "grouped_by_baffle_hole_diameter": "Grouped by Baffle Hole Diameter"
   },
-
   "categories": {
     "title": "Grouped by Category",
     "description": "Grouped by Category"

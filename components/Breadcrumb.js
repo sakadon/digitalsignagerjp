@@ -44,6 +44,7 @@ export default function Breadcrumbs() {
 
       <style jsx>{`
         nav {
+          font-family: 'Fira Mono', monospace;
           border-bottom: double 3px #ccc;
         }
       `}</style>

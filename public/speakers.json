@@ -1128,7 +1128,7 @@
       "outline": "/images/speakers/fostex-mg100hr-s/4.png"
     },
     "ja": {
-      "frameText": "マグネシウムフレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cm純マグネシウムフルレンジ限定ユニット",
       "priceText": "税込￥29,925／1台",
       "releaseText": "平成21年4月発売",
@@ -1137,7 +1137,7 @@
       ]
     },
     "en": {
-      "frameText": "Magnesium frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Pure Magnesium Fullrange Limited Unit",
       "priceText": "¥29,925 (tax included)/1pc",
       "releaseText": "Released in April 2009",
@@ -10035,15 +10035,15 @@
       "outline": "/images/speakers/fostex-fe83-sol/4.webp"
     },
     "ja": {
-      "frameText": "アルミダイキャストフレーム",
+      "frameText": "鉄板フレーム",
       "categoryText": "8cmフルレンジ限定ユニット",
       "priceText": "¥5,600+消費税／1台",
       "releaseText": "2016年9月発売",
       "recommendedEnclosureList": []
     },
     "en": {
-      "frameText": "Aluminum Die-cast Frame",
-      "categoryText": "8cm Fullrange Limited Unit",
+      "frameText": "Steel Frame",
+      "categoryText": "8cm Full Range Limited Unit",
       "priceText": "¥5,600+tax/1pc",
       "releaseText": "Released in September 2016",
       "recommendedEnclosureList": []

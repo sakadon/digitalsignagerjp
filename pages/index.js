@@ -49,13 +49,24 @@ export default function Home({ data }) {
         <p className="leading-relaxed mt-4 mb-4">{td.content}</p>
       )}
 
-      <nav>
-        <ul>
-          <li>
-            <Link className="text-blue-600 hover:text-blue-800 hover:underline" href="/backloadedhorn-speakers">{t.menu.speaker_components_list}</Link>
-          </li>
-        </ul>
-      </nav>
+      {t.menu && (
+        <nav>
+          <ul className="list-decimal  ml-6">
+            <li>
+              <Link className="text-blue-600 hover:text-blue-800 hover:underline" href="/speakers">{t.menu.speaker_components_list}</Link>
+              <ul className="list-[circle] hover:list-disc ml-6">
+                <li>
+                  <Link className="text-blue-600 hover:text-blue-800 hover:underline" href="/speakers/grouped_by_baffle_hole_diameter">{t.menu.grouped_by_baffle_hole_diameter}</Link>
+                </li>
+                <li>
+                  <Link className="text-blue-600 hover:text-blue-800 hover:underline" href="/speakers/grouped_by_categories">{t.menu.grouped_by_categories}</Link>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      )}
+
     </section>
   );
 }

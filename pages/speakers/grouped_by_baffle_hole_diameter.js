@@ -80,16 +80,16 @@ export default function BackloadedHornSpeakers({ data, speakers }) {
   return (
     <section>
       <Head>
-        <title>{`${t.backloadedhorn_speakers.grouped_by_baffle_hole_diameter} / ${t.backloadedhorn_speakers.title} - ${t.title}}`}</title>
+        <title>{`${t.speakers.grouped_by_baffle_hole_diameter} / ${t.speakers.title} - ${t.title}}`}</title>
       </Head>
       <Breadcrumb />
 
-      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">{t.backloadedhorn_speakers.title}</h2>
+      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">{t.speakers.title}</h2>
 
-      <h3 className="mt-8 mb-4 text-4xl font-bold text-green-600 text-center">{t.backloadedhorn_speakers.grouped_by_baffle_hole_diameter}</h3>
+      <h3 className="mt-8 mb-4 text-4xl font-bold text-green-600 text-center">{t.speakers.grouped_by_baffle_hole_diameter}</h3>
       {groupedSpeakers.map((group, groupIndex) => (
         <div key={groupIndex} className="mt-4 mb-8">
-          <h4 className="mt-4 mb-4 text-2xl font-bold text-green-800">{t.backloadedhorn_speakers.baffle_hole_diameter}: Φ{group[0].otherParameters.baffleHoleDiameter.value}mm ±3mm</h4>
+          <h4 className="mt-4 mb-4 text-2xl font-bold text-green-800">{t.speakers.baffle_hole_diameter}: Φ{group[0].otherParameters.baffleHoleDiameter.value}mm ±3mm</h4>
           <SpeakerList speakers={group} />
         </div>
       ))}
