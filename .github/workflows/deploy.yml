@@ -31,6 +31,8 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         port: ${{ secrets.SSH_PORT }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
+        passphrase: ${{ secrets.SSH_PASSPHRASE }}
+        debug: true
         script: |
           rm -rf /home/xs933293/digitalsignager.jp/public_html/out/*
           cp -r out/* /home/xs933293/digitalsignager.jp/public_html/out/
