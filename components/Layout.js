@@ -1,15 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import en from '../locales/en.json';
-import ja from '../locales/ja.json';
+import useTranslation from 'next-translate/useTranslation'
 
 export default function Layout({ children }) {
   const { asPath, locale } = useRouter();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
-
-  const t = locale === 'ja' ? ja : en;
+  const { t } = useTranslation('common');
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -38,15 +36,15 @@ export default function Layout({ children }) {
 
   const menuItems = [
     {
-      value: t.menu.home,
+      value: t('menu.home'),
       href: "/"
     },
     {
-      value: t.menu.speaker_components_list,
+      value: t('menu.speaker_components_list'),
       content: [
-        { value: t.menu.speaker_components_list, href: "/speakers" },
-        { value: t.menu.grouped_by_baffle_hole_diameter, href: "/speakers/grouped_by_baffle_hole_diameter" },
-        { value: t.menu.grouped_by_categories, href: "/speakers/grouped_by_categories" }
+        { value: t('menu.speaker_components_list'), href: "/speakers" },
+        { value: t('menu.grouped_by_baffle_hole_diameter'), href: "/speakers/grouped_by_baffle_hole_diameter" },
+        { value: t('menu.grouped_by_categories'), href: "/speakers/grouped_by_categories" }
       ]
     }
   ];
@@ -55,7 +53,7 @@ export default function Layout({ children }) {
     <div className="layout">
       <header className="bg-gray-900 text-white px-6 py-4">
         <div className="wrapper w-full sm:w-[600px] md:w-[800px] lg:w-[1000px] xl:w-[1200px] mx-auto px-4">
-          <h1 title={t.description} className="inline-block pb-2 font-bold">{t.title}</h1>
+          <h1 title={t('description')} className="inline-block pb-2 font-bold">{t('title')}</h1>
           <p className="ml-10 inline-block">
             <Link className={`relative mx-5 ${locale === 'en' ? 'underline' : ''} text-gray-300 hover:text-white hover:underline`} href={asPath} locale="en">English</Link>
             <Link className={`relative ${locale === 'ja' ? 'underline' : ''} text-gray-300 hover:text-white hover:underline`} href={asPath} locale="ja">日本語</Link>

@@ -1,10 +1,8 @@
 import { useState } from 'react';
-import { useRouter } from 'next/router';
 import Head from 'next/head';
 import path from 'path';
 import { promises as fs } from 'fs';
-import en from '../../locales/en.json';
-import ja from '../../locales/ja.json';
+import useTranslation from 'next-translate/useTranslation'
 import Breadcrumb from '../../components/Breadcrumb'; // パンくずリストのインポート
 
 import SpeakerList from '../../components/SpeakerList';
@@ -37,11 +35,9 @@ const groupByBrand = (speakers) => {
   }, {});
 };
 
-
 export default function BackloadedHornSpeakers({ speakers }) {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
-  const { locale } = useRouter();
-  const t = locale === 'ja' ? ja : en;
+  const { t } = useTranslation('common'); // `speakers.json`の翻訳ファイルを使用
 
   // スピーカーをbrandごとにグループ化
   const groupedSpeakers = groupByBrand(speakers);
@@ -53,12 +49,14 @@ export default function BackloadedHornSpeakers({ speakers }) {
   return (
     <section>
       <Head>
-        <title>{t.speakers_dir.title} - {t.title}</title>
+        <title>{t('speakers_dir.title')} - {t('title')}</title>
       </Head>
       <Breadcrumb />
 
-      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">{t.speakers_dir.title}</h2>
-      <p className="mb-4">{t.speakers_dir.abst}</p>
+      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">
+        {t('speakers_dir.title')}
+      </h2>
+      <p className="mb-4">{t('speakers_dir.abst')}</p>
 
       {/* ブランドごとにスピーカーリストを表示 */}
       {Object.keys(groupedSpeakers).map((brand) => (

@@ -12,9 +12,11 @@
 
   "speakers_dir": {
     "title": "Speaker Units(Components) Database",
-    "abst": "登録されているスピーカーユニット全部表示",
+    "abst": "All Speaker Units",
 
-    "for_backloadedhorn": "BH向けスピーカーユニット一覧",
+    "speakers_id_title": "Speaker Unit Details",
+
+    "for_backloadedhorn": "for Backloaded-Horn Speaker Units List",
 
     "grouped_by_baffle_hole_diameter": {
       "title": "Grouped by Baffle Hole Diameter",
@@ -24,5 +26,15 @@
     "grouped_by_categories": {
       "title": "Grouped by Categories"
     }
+  },
+
+  "breadcrumbs": {
+    "home": "HOME",
+    "speakers": "Speakers",
+    "grouped_by_baffle_hole_diameter": "Grouped by Baffle Hole Diameter",
+    "grouped_by_categories": "Grouped by Categories",
+    "backloaded_horn_speakers": "for Backloaded-Horn Speakers",
+    "categories": "Categories",
+    "details": "Details"
   }
 }

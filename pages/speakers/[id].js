@@ -3,8 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import path from 'path';
 import { promises as fs } from 'fs';
-import en from '../../locales/en.json';
-import ja from '../../locales/ja.json';
+import useTranslation from 'next-translate/useTranslation'
 import Breadcrumb from '../../components/Breadcrumb'; // パンくずリストのインポート
 
 // スピーカーのデータを取得
@@ -32,28 +31,21 @@ export async function getStaticProps({ params }) {
 }
 
 // 全てのスピーカーのIDを動的に取得
-export async function getStaticPaths({ locales }) {
-  // JSONファイルのパスを取得
+export async function getStaticPaths({ locales = [] }) { // localesがundefinedの場合は空配列を使用
   const filePath = path.join(process.cwd(), 'public', 'speakers.json');
   const jsonData = await fs.readFile(filePath, 'utf8');
   const speakers = JSON.parse(jsonData);
 
-  // 各言語ごとのパスを生成
-  const paths = [];
-  speakers.forEach((speaker) => {
-    locales.forEach((locale) => {
-      paths.push({
-        params: { id: speaker.id },
-        locale: locale, // 各言語用のパスを生成
-      });
-    });
-  });
-
-  console.log('Generated paths:', paths); // 追加: pathsの確認
+  const paths = speakers.flatMap((speaker) =>
+    (locales.length ? locales : ['en', 'ja']).map((locale) => ({ // 空配列の場合にデフォルト言語を指定
+      params: { id: speaker.id },
+      locale,
+    }))
+  );
 
   return {
     paths,
-    fallback: false // 存在しないページは404エラーにする
+    fallback: false,
   };
 }
 
@@ -62,22 +54,24 @@ export default function SpeakerDetail({ speaker }) {
   if (!speaker) return null;
 
   const router = useRouter();
-  const t = router.locale === 'ja' ? ja : en;
-  const languageData = router.locale === 'ja' ? speaker.ja : speaker.en; // ロケールに基づいてテキストを選択
+
+  const { t, lang } = useTranslation('speakers');
+  const { t: tCommon } = useTranslation('common');
+  const languageData = lang === 'ja' ? speaker.ja : speaker.en; // `useTranslation`から取得した`lang`を使用
 
   if (router.isFallback) {
-    return <div>Loading...</div>;
+    return <p>Now Loading...</p>;
   }
 
   return (
     <div>
       <Head>
-        <title>スピーカーユニット詳細 {speaker.brand} {speaker.name} - {t.title}</title>
+        <title>{tCommon('speakers_dir.speakers_id_title')} {speaker.brand} {speaker.name} - {tCommon('title')}</title>
       </Head>
       <Breadcrumb />
 
       <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">
-        スピーカーユニット詳細<br />
+        {tCommon('speakers_dir.speakers_id_title')}<br />
         <span className="text-orange-600 text-3xl">{speaker.brand}</span>&nbsp;
         <span className="text-3xl" title={speaker.model}>{speaker.name}</span>
       </h2>

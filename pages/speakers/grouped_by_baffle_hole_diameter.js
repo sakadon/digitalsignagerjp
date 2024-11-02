@@ -1,11 +1,9 @@
-import { useRouter } from 'next/router';
 import Head from 'next/head';
 import path from 'path';
 import { promises as fs } from 'fs';
-import en from '../../locales/en.json';
-import ja from '../../locales/ja.json';
-import Breadcrumb from '../../components/Breadcrumb'; // パンくずリストのインポート
+import useTranslation from 'next-translate/useTranslation'
 
+import Breadcrumb from '../../components/Breadcrumb'; // パンくずリストのインポート
 import SpeakerList from '../../components/SpeakerList';
 
 export async function getStaticProps() {
@@ -84,9 +82,7 @@ const groupSpeakersByBaffleHoleDiameter = (speakers) => {
 };
 
 export default function BackloadedHornSpeakers({ speakers }) {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === 'ja' ? ja : en;
+  const { t } = useTranslation('common');
 
   // スピーカーをbaffleHoleDiameterの値でグループ化し、さらにmountingHolesでサブグループ化
   const groupedSpeakers = groupSpeakersByBaffleHoleDiameter(speakers);
@@ -94,19 +90,19 @@ export default function BackloadedHornSpeakers({ speakers }) {
   return (
     <section>
       <Head>
-        <title>{`${t.speakers_dir.grouped_by_baffle_hole_diameter.title} / ${t.speakers_dir.title} - ${t.title}`}</title>
+        <title>${t('speakers_dir.grouped_by_baffle_hole_diameter.title')} / ${t('speakers_dir.title')} - ${t('title')}</title>
       </Head>
       <Breadcrumb />
 
       <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">
-        <small>{t.speakers_dir.title}</small><br />
-        {t.speakers_dir.grouped_by_baffle_hole_diameter.title}
+        <small>{t('speakers_dir.title')}</small><br />
+        {t('speakers_dir.grouped_by_baffle_hole_diameter.title')}
       </h2>
 
       {groupedSpeakers.map((group, groupIndex) => (
         <div key={groupIndex} className="rounded-lg bg-gray-100 py-5 px-3 mb-10">
           <h3 className="mb-4 text-4xl font-bold text-blue-900 text-center">
-            {t.speakers_dir.grouped_by_baffle_hole_diameter.baffle_hole_diameter}: Φ{group.diameter}mm ±1mm
+            {t('speakers_dir.grouped_by_baffle_hole_diameter.baffle_hole_diameter')}: Φ{group.diameter}mm ±1mm
           </h3>
           {Object.entries(group.subGroups).map(([hole, speakers], subGroupIndex) => (
             <div key={subGroupIndex} className="mb-6">

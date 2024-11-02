@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import path from 'path';
 import { promises as fs } from 'fs';
-import en from '../../locales/en.json';
-import ja from '../../locales/ja.json';
+import useTranslation from 'next-translate/useTranslation'
+
 import Breadcrumb from '../../components/Breadcrumb';
 import SpeakerList from '../../components/SpeakerList';
 
@@ -50,9 +50,8 @@ const groupSpeakersByCategories = (speakers) => {
 
 export default function GroupedByCategories({ speakers }) {
   const router = useRouter();
-  const { locale } = router;
+  const { t } = useTranslation('common');
   const [isMounted, setIsMounted] = useState(false);
-  const t = locale === 'ja' ? ja : en;
 
   const groupedSpeakers = groupSpeakersByCategories(speakers);
 
@@ -70,13 +69,13 @@ export default function GroupedByCategories({ speakers }) {
   return (
     <section>
       <Head>
-        <title>{`${t.speakers_dir.grouped_by_categories.title} / ${t.speakers_dir.title} - ${t.title}`}</title>
+        <title>{t('speakers_dir.grouped_by_categories.title')} / {t('speakers_dir.title')} - {t('title')}</title>
       </Head>
       <Breadcrumb />
 
       <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">
-        <small>{t.speakers_dir.title}</small><br />
-        {t.speakers_dir.grouped_by_categories.title}
+        <small>{t('speakers_dir.title')}</small><br />
+        {t('speakers_dir.grouped_by_categories.title')}
       </h2>
 
       <nav className="speaker_cats mb-8 speaker_cats flex flex-wrap gap-1 text-lg">

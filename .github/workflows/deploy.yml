@@ -11,20 +11,18 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: '17.9.1'
+        node-version: '22.x'  # 安定バージョンの指定
 
     - name: Install dependencies
       run: npm install
 
     - name: Build Next.js project
-      run: |
-        npm run build
-        npm run export
+      run: npm run build
 
     - name: Deploy to XSERVER via SSH
       uses: appleboy/ssh-action@master
@@ -35,4 +33,4 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           rm -rf /home/xs933293/digitalsignager.jp/public_html/out/*
-          scp -r out/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/xs933293/digitalsignager.jp/public_html/out/
+          cp -r out/* /home/xs933293/digitalsignager.jp/public_html/out/
