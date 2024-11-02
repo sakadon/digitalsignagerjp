@@ -42,10 +42,11 @@ export default function Layout({ children }) {
       href: "/"
     },
     {
-      value: t.menu.bh_speaker_units_db,
+      value: t.menu.speaker_components_list,
       content: [
-        { value: t.menu.speaker_components_list, href: "/backloadedhorn-speakers" },
-        { value: t.menu.grouped_by_baffle_hole_diameter, href: "/backloadedhorn-speakers/grouped_by_baffle_hole_diameter" }
+        { value: t.menu.speaker_components_list, href: "/speakers" },
+        { value: t.menu.grouped_by_baffle_hole_diameter, href: "/speakers/grouped_by_baffle_hole_diameter" },
+        { value: t.menu.grouped_by_categories, href: "/speakers/grouped_by_categories" }
       ]
     }
   ];
@@ -54,7 +55,11 @@ export default function Layout({ children }) {
     <div className="layout">
       <header className="bg-gray-900 text-white px-6 py-4">
         <div className="wrapper w-full sm:w-[600px] md:w-[800px] lg:w-[1000px] xl:w-[1200px] mx-auto px-4">
-          <h1 title={t.description} className="pb-2 font-bold">{t.title}</h1>
+          <h1 title={t.description} className="inline-block pb-2 font-bold">{t.title}</h1>
+          <p className="ml-10 inline-block">
+            <Link className={`relative mx-5 ${locale === 'en' ? 'underline' : ''} text-gray-300 hover:text-white hover:underline`} href={asPath} locale="en">English</Link>
+            <Link className={`relative ${locale === 'ja' ? 'underline' : ''} text-gray-300 hover:text-white hover:underline`} href={asPath} locale="ja">日本語</Link>
+          </p>
           <nav>
             <ul className="text-base flex space-x-4 items-center">
               {menuItems.map((item, index) => (
@@ -85,10 +90,6 @@ export default function Layout({ children }) {
       <article className="w-full sm:w-[600px] md:w-[800px] lg:w-[1000px] xl:w-[1200px] mx-auto pt-2 pb-8 px-4">{children}</article>
 
       <footer className="bg-gray-900 text-gray-300 text-center">
-        <p>
-          <Link className={`relative mx-5 ${locale === 'en' ? 'underline' : ''} text-gray-300 hover:text-white hover:underline`} href={asPath} locale="en">English</Link>
-          <Link className={`relative ${locale === 'ja' ? 'underline' : ''} text-gray-300 hover:text-white hover:underline`} href={asPath} locale="ja">日本語</Link>
-        </p>
         <p>&copy; DigitalSignager.JP, <Link className="text-gray-300 hover:underline hover:text-white" href="https://dwo.jp">DigitalWideOffice.</Link> </p>
       </footer>
 

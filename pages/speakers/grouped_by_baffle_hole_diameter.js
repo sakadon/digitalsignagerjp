@@ -16,85 +16,112 @@ export async function getStaticProps() {
   // JSONデータをオブジェクトに変換
   const speakers = JSON.parse(jsonData);
 
-  const data = {};
-
   return {
     props: {
-      data,
       speakers
     }
   };
 }
 
-// ±3mm以内の値を持つスピーカーをグループ化し、各グループをバッフル経が小さい順、リリース年が新しい順に並べ替える
+// バッフル経±1mmでグループ化し、さらにmountingHolesごとにサブグループ化する関数
 const groupSpeakersByBaffleHoleDiameter = (speakers) => {
+  // バッフル経±1mmでグループ化
   const groupedSpeakers = speakers.reduce((groups, speaker) => {
-    const diameter = speaker.otherParameters.baffleHoleDiameter.value;
-    let foundGroup = false;
+    const diameter = speaker.otherParameters?.baffleHoleDiameter?.value || 0;
 
-    for (const group of groups) {
-      const referenceDiameter = group[0].otherParameters.baffleHoleDiameter.value;
-      if (Math.abs(referenceDiameter - diameter) <= 3) {
-        group.push(speaker);
-        foundGroup = true;
-        break;
-      }
-    }
+    let foundGroup = groups.find(group =>
+      Math.abs(group.diameter - diameter) <= 1
+    );
 
     if (!foundGroup) {
-      groups.push([speaker]); // 新しいグループを作成
+      foundGroup = {
+        diameter,
+        speakers: [],
+      };
+      groups.push(foundGroup);
     }
+
+    foundGroup.speakers.push(speaker);
 
     return groups;
   }, []);
 
+  // 各バッフル経グループ内でmountingHolesごとにさらにグループ化
+  const groupedByBaffleHole = groupedSpeakers.map(group => {
+    const subGroups = group.speakers.reduce((subGroups, speaker) => {
+      const hole = speaker.otherParameters?.mountingHoles?.value || 0;
+
+      if (!subGroups[hole]) {
+        subGroups[hole] = [];
+      }
+
+      subGroups[hole].push(speaker);
+
+      return subGroups;
+    }, {});
+
+    return {
+      diameter: group.diameter,
+      subGroups,
+    };
+  });
+
   // グループ全体をバッフル経が小さい順に並べ替え
-  const sortedGroups = groupedSpeakers.sort((a, b) =>
-    a[0].otherParameters.baffleHoleDiameter.value - b[0].otherParameters.baffleHoleDiameter.value
-  );
+  groupedByBaffleHole.sort((a, b) => a.diameter - b.diameter);
 
-  // 各グループ内をリリース年（または年月）が新しい順に並べ替える
-  sortedGroups.forEach(group => {
-    group.sort((a, b) => {
-      const releaseA = a.release || '1970';  // releaseがない場合は古いデフォルトの年
-      const releaseB = b.release || '1970';
-
-      const yearA = releaseA.slice(0, 4);  // 年を取り出す
-      const yearB = releaseB.slice(0, 4);
-
-      return yearB - yearA;  // 新しい年が先に来るようにソート
+  // 各サブグループ内をリリース年（または年月）が新しい順に並べ替える
+  groupedByBaffleHole.forEach(group => {
+    Object.values(group.subGroups).forEach(subGroup => {
+      subGroup.sort((a, b) => {
+        const releaseA = a.release || '1970';
+        const releaseB = b.release || '1970';
+        return releaseB.slice(0, 4) - releaseA.slice(0, 4);
+      });
     });
   });
 
-  return sortedGroups;
+  return groupedByBaffleHole;
 };
 
-export default function BackloadedHornSpeakers({ data, speakers }) {
+export default function BackloadedHornSpeakers({ speakers }) {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'ja' ? ja : en;
 
-  // スピーカーをbaffleHoleDiameterの値でグループ化
+  // スピーカーをbaffleHoleDiameterの値でグループ化し、さらにmountingHolesでサブグループ化
   const groupedSpeakers = groupSpeakersByBaffleHoleDiameter(speakers);
 
   return (
     <section>
       <Head>
-        <title>{`${t.speakers.grouped_by_baffle_hole_diameter} / ${t.speakers.title} - ${t.title}}`}</title>
+        <title>{`${t.speakers_dir.grouped_by_baffle_hole_diameter.title} / ${t.speakers_dir.title} - ${t.title}`}</title>
       </Head>
       <Breadcrumb />
 
-      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">{t.speakers.title}</h2>
+      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">
+        <small>{t.speakers_dir.title}</small><br />
+        {t.speakers_dir.grouped_by_baffle_hole_diameter.title}
+      </h2>
 
-      <h3 className="mt-8 mb-4 text-4xl font-bold text-green-600 text-center">{t.speakers.grouped_by_baffle_hole_diameter}</h3>
       {groupedSpeakers.map((group, groupIndex) => (
-        <div key={groupIndex} className="mt-4 mb-8">
-          <h4 className="mt-4 mb-4 text-2xl font-bold text-green-800">{t.speakers.baffle_hole_diameter}: Φ{group[0].otherParameters.baffleHoleDiameter.value}mm ±3mm</h4>
-          <SpeakerList speakers={group} />
+        <div key={groupIndex} className="rounded-lg bg-gray-100 py-5 px-3 mb-10">
+          <h3 className="mb-4 text-4xl font-bold text-blue-900 text-center">
+            {t.speakers_dir.grouped_by_baffle_hole_diameter.baffle_hole_diameter}: Φ{group.diameter}mm ±1mm
+          </h3>
+          {Object.entries(group.subGroups).map(([hole, speakers], subGroupIndex) => (
+            <div key={subGroupIndex} className="mb-6">
+              <h4 className="mb-2 text-2xl font-semibold text-gray-700 text-center">Mounting Holes: {hole}</h4>
+              <SpeakerList speakers={speakers} />
+            </div>
+          ))}
         </div>
       ))}
 
       <style jsx>{`
+        h3,
+        h4 {
+          font-family: 'Fira Mono', monospace;
+        }
       `}</style>
     </section>
   );

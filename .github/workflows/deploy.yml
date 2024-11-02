@@ -34,5 +34,5 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          rm -rf /home/xs933293/digitalsignager.jp/public_html/*
-          scp -r out/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/xs933293/digitalsignager.jp/public_html/
+          rm -rf /home/xs933293/digitalsignager.jp/public_html/out/*
+          scp -r out/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/xs933293/digitalsignager.jp/public_html/out/

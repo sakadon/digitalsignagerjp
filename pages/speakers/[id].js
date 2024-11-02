@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import Head from 'next/head';
 import path from 'path';
 import { promises as fs } from 'fs';
@@ -8,8 +9,6 @@ import Breadcrumb from '../../components/Breadcrumb'; // パンくずリスト�
 
 // スピーカーのデータを取得
 export async function getStaticProps({ params }) {
-  console.log('getStaticProps called with params:', params); // 追加: パラメータの確認
-
   // JSONファイルのパスを取得
   const filePath = path.join(process.cwd(), 'public', 'speakers.json');
   const jsonData = await fs.readFile(filePath, 'utf8');
@@ -17,8 +16,6 @@ export async function getStaticProps({ params }) {
 
   // パラメータのIDに基づいてスピーカーを検索
   const speaker = speakers.find(s => s.id === params.id);
-
-  console.log('Found speaker:', speaker); // 追加: スピーカーが見つかったかどうか確認
 
   // スピーカーが見つからない場合は404エラーを返す
   if (!speaker) {
@@ -67,7 +64,6 @@ export default function SpeakerDetail({ speaker }) {
   const router = useRouter();
   const t = router.locale === 'ja' ? ja : en;
   const languageData = router.locale === 'ja' ? speaker.ja : speaker.en; // ロケールに基づいてテキストを選択
-
 
   if (router.isFallback) {
     return <div>Loading...</div>;
@@ -118,9 +114,7 @@ export default function SpeakerDetail({ speaker }) {
 
       <div className="speaker_cats mb-4 flex flex-wrap gap-2">
         {speaker.category && speaker.category.map((cat, index) => (
-          <span key={index} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-s">
-            {cat}
-          </span>
+          <Link className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-s" key={index} href={`/speakers/grouped_by_categories#${cat}`}>{cat}</Link>
         ))}
       </div>
 

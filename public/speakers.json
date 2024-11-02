@@ -12,7 +12,8 @@
       "6Ω",
       "W VoiceCoil",
       "10cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/pioneer-dvc-1000/1.jpg",
@@ -117,7 +118,7 @@
         "value": 93.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -146,7 +147,7 @@
     "release": "2013-01",
     "category": [
       "DCU",
-      "F123W",
+      "F12*",
       "6Ω",
       "10cm",
       "4H",
@@ -257,7 +258,7 @@
         "value": 100.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -286,7 +287,7 @@
     "release": "2013-07",
     "category": [
       "DCU",
-      "F121A",
+      "F12*",
       "6Ω",
       "10cm",
       "4H",
@@ -395,7 +396,7 @@
         "value": 100.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -424,7 +425,7 @@
     "release": "2013-07",
     "category": [
       "DCU",
-      "F121K",
+      "F12*",
       "6Ω",
       "10cm",
       "4H",
@@ -533,7 +534,7 @@
         "value": 100.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -562,12 +563,13 @@
     "release": "2017-11",
     "category": [
       "DCU",
-      "F125W",
+      "F12*",
       "8Ω",
       "10cm",
       "4H",
       "WoodCorn",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/parcaudio-dcu-f125w/1.jpg",
@@ -672,7 +674,7 @@
         "value": 100,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -701,11 +703,12 @@
     "release": "2010-10",
     "category": [
       "DCU",
-      "F081PP",
+      "F08*",
       "6Ω",
       "8cm",
       "4H",
-      "PP"
+      "PP",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/parcaudio-dcu-f081pp/1.webp",
@@ -810,7 +813,7 @@
         "value": 72.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -839,12 +842,13 @@
     "release": "2010-05",
     "category": [
       "DCU",
-      "F122W",
+      "F12*",
       "8Ω",
       "10cm",
       "4H",
       "WoodCorn",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/parcaudio-dcu-f122w/1.webp",
@@ -949,7 +953,7 @@
         "value": 100.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -978,7 +982,7 @@
     "release": "2011-12",
     "category": [
       "DCU",
-      "F102W",
+      "F10*",
       "6Ω",
       "8cm",
       "4H",
@@ -1084,7 +1088,7 @@
         "value": 80.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -1119,7 +1123,8 @@
       "8Ω",
       "10cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-mg100hr-s/1.png",
@@ -1216,7 +1221,7 @@
       "reproductionFrequencyResponse": {
         "value": "f0 to 55k Hz"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "equivalentDiaphragmRadius": {
@@ -1262,6 +1267,7 @@
     "category": [
       "FF",
       "FF225",
+      "K",
       "8Ω",
       "20cm"
     ],
@@ -1357,7 +1363,7 @@
         "value": 3720,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "equivalentDiaphragmRadius": {
@@ -1402,6 +1408,7 @@
     "category": [
       "FF",
       "FF165",
+      "K",
       "8Ω",
       "16cm",
       "4H"
@@ -1490,7 +1497,7 @@
         "value": 73.7,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "voiceCoilDiameter": {
@@ -1640,7 +1647,7 @@
         "value": 930,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "equivalentDiaphragmRadius": {
@@ -1681,13 +1688,14 @@
     "model": "FF85K",
     "limited": false,
     "price": null,
-    "release": "2000-XX",
+    "release": "2000",
     "category": [
       "FF",
       "FF85",
+      "K",
       "8Ω",
       "8cm",
-      "FullRange"
+      "4H"
     ],
     "image": {
       "main": "/images/speakers/fostex-ff85k/1.png",
@@ -1719,38 +1727,38 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.1,
+        "value": 7.08,
         "unit": "ohm"
       },
       "fs": {
-        "value": 115,
+        "value": 122,
         "unit": "Hz"
       },
       "Le": {
-        "value": 0.03,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       }
     },
     "mechanicalParameters": {
       "Mms": {
-        "value": 2.3,
+        "value": 1.8,
         "unit": "g"
       },
-      "Vas": {
-        "value": 1.96,
-        "unit": "L"
+      "Cms": {
+        "value": 0.001,
+        "unit": "mm/N"
       },
-      "Xmax": {
-        "value": 0.4,
-        "unit": "mm"
+      "Bl": {
+        "value": 4.33,
+        "unit": "Tesla/m"
       }
     },
     "lossFactors": {
       "Qms": {
-        "value": 2.58
+        "value": 5.54
       },
       "Qes": {
-        "value": 0.57
+        "value": 0.52
       },
       "Qts": {
         "value": 0.47
@@ -1761,24 +1769,54 @@
         "value": 88,
         "unit": "dB/W (1m)"
       },
-      "baffleHoleDiameter": {
-        "value": 70,
+      "equivalentDiaphragmRadius": {
+        "value": 30,
         "unit": "mm"
       },
+      "ratedInput": {
+        "value": 5,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 15,
+        "unit": "W"
+      },
       "overallDiameter": {
-        "value": 85,
+        "value": 83,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 20,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "f0 to 125k Hz"
+      },
+      "Vas": {
+        "value": 1.07,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 72,
         "unit": "mm"
       },
       "depth": {
-        "value": 43.6,
+        "value": 49,
         "unit": "mm"
       },
-      "netWeight": {
-        "value": 450,
+      "magnetWeight": {
+        "value": 228.3,
         "unit": "g"
       },
-      "reproductionFrequencyResponse": {
-        "value": "fs to 23k Hz"
+      "netWeight": {
+        "value": 565,
+        "unit": "g"
+      },
+      "mountingHoles": {
+        "value": 4
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -1805,7 +1843,8 @@
       "FE206",
       "8Ω",
       "20cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206e/1.png",
@@ -1910,7 +1949,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -1951,9 +1990,11 @@
     "category": [
       "FE",
       "FE166",
+      "E",
       "8Ω",
       "16cm",
-      "FullRange"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe166e/1.png",
@@ -2058,7 +2099,7 @@
         "value": 146.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -2101,7 +2142,8 @@
       "FE126",
       "8Ω",
       "12cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe126e/1.png",
@@ -2206,7 +2248,7 @@
         "value": 104.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -2238,7 +2280,8 @@
       "FE",
       "FE103",
       "8Ω",
-      "10cm"
+      "10cm",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103e/1.png",
@@ -2328,7 +2371,7 @@
         "value": 630,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "equivalentDiaphragmRadius": {
@@ -2382,7 +2425,8 @@
       "FE83",
       "8Ω",
       "4H",
-      "8cm"
+      "8cm",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe83e/1.png",
@@ -2483,7 +2527,7 @@
         "value": 10,
         "unit": "W"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "voiceCoilDiameter": {
@@ -2620,7 +2664,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -2753,7 +2797,7 @@
         "value": 146.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -2894,7 +2938,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3035,7 +3079,7 @@
         "value": 146.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3172,7 +3216,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3310,7 +3354,7 @@
         "value": 104,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3447,7 +3491,7 @@
         "value": 143.4,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3584,7 +3628,7 @@
         "value": 112,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3621,7 +3665,8 @@
       "20cm",
       "8Ω",
       "16Ω",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206-sigma/1.png",
@@ -3722,7 +3767,7 @@
         "value": 185,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3764,7 +3809,8 @@
       "10cm",
       "8Ω",
       "16Ω",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe106-sigma/1.png",
@@ -3865,7 +3911,7 @@
         "value": 98,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -3906,7 +3952,8 @@
       "10cm",
       "8Ω",
       "16Ω",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103-sigma/1.png",
@@ -4007,7 +4054,7 @@
         "value": 92,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -4048,7 +4095,8 @@
       "FE204",
       "20cm",
       "8Ω",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe204/1.png",
@@ -4161,7 +4209,7 @@
         "value": 2400,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -4196,7 +4244,8 @@
       "FE164",
       "16cm",
       "8Ω",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe164/1.png",
@@ -4309,7 +4358,7 @@
         "value": 1100,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -4344,7 +4393,8 @@
       "FE83",
       "8Ω",
       "8cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe83/1.png",
@@ -4451,7 +4501,7 @@
         "value": 360,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -4486,7 +4536,8 @@
       "FE103",
       "8Ω",
       "10cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103/1.png",
@@ -4601,7 +4652,7 @@
         "value": 630,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -4638,7 +4689,8 @@
       "Σ",
       "8Ω",
       "16cm",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe168-sigma/1.png",
@@ -4753,7 +4805,7 @@
         "value": 2100,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "depth": {
@@ -4790,7 +4842,8 @@
       "Σ",
       "8Ω",
       "10cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108-sigma/1.png",
@@ -4905,7 +4958,7 @@
         "value": 980,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -4940,11 +4993,13 @@
       "FE",
       "FE108",
       "EΣ",
+      "Σ",
       "HP",
       "UDRT",
       "8Ω",
       "10cm",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108e-sigma/1.png",
@@ -5053,7 +5108,7 @@
         "value": 65,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -5095,7 +5150,8 @@
       "8Ω",
       "16cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe163en-s/1.png",
@@ -5198,7 +5254,7 @@
         "value": 151,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -5240,11 +5296,12 @@
     "category": [
       "FE",
       "FE203",
-      "En",
+      "En-S",
       "8Ω",
       "20cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe203en-s/1.jpg",
@@ -5345,7 +5402,7 @@
         "value": 185,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -5390,7 +5447,8 @@
       "8Ω",
       "10cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103en-s/1.jpg",
@@ -5491,7 +5549,7 @@
         "value": 102,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -5536,7 +5594,8 @@
       "8Ω",
       "4H",
       "10cm",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108super/1.png",
@@ -5643,7 +5702,7 @@
         "value": 102.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -5690,7 +5749,8 @@
       "8Ω",
       "4H",
       "10cm",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe108super/1.png",
@@ -5797,7 +5857,7 @@
         "value": 102.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -5845,7 +5905,8 @@
       "8Ω",
       "8H",
       "10cm",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108esii/1.png",
@@ -5954,7 +6015,7 @@
         "value": 102.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -6002,7 +6063,8 @@
       "8.5cm",
       "8Ω",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe88es-r/1.png",
@@ -6115,7 +6177,7 @@
         "value": 1130,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth" : {
@@ -6155,7 +6217,8 @@
       "13cm",
       "8Ω",
       "6H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe138es-r/1.png",
@@ -6274,6 +6337,9 @@
       },
       "recommendedEnclosure": {
         "value": "Turkey by Sumiyama Akira"
+      },
+      "mountingHoles": {
+        "value": 6
       }
     },
     "affiriateLinks": {
@@ -6302,7 +6368,8 @@
       "8H",
       "20cm",
       "8Ω",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206es-r/1.png",
@@ -6415,7 +6482,7 @@
         "value": 6400.0,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "depth": {
@@ -6452,7 +6519,8 @@
       "4H",
       "16cm",
       "8Ω",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe166es-r/1.png",
@@ -6557,12 +6625,23 @@
         "value": 150,
         "unit": "mm"
       },
+      "magnetWeight": {
+        "value": 899,
+        "unit": "g"
+      },
       "netWeight": {
-        "value": 2650.0,
+        "value": 2800,
         "unit": "g"
       },
       "recommendedEnclosure": {
         "value": "Back-loaded horn"
+      },
+      "mountingHoles": {
+        "value": 4
+      },
+      "depth": {
+        "value": 76.3,
+        "unit": "mm"
       }
     },
     "affiriateLinks": {
@@ -6591,7 +6670,8 @@
       "4H",
       "16cm",
       "8Ω",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe166super/1.png",
@@ -6704,7 +6784,7 @@
         "value": 3000,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -6744,7 +6824,8 @@
       "20cm",
       "Alnico",
       "8Ω",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208es-r/1.webp",
@@ -6857,7 +6938,7 @@
         "value": 6300.0,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "depth": {
@@ -6896,7 +6977,8 @@
       "8Ω",
       "16cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe168es/1.png",
@@ -7009,7 +7091,7 @@
         "value": 4900,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "depth": {
@@ -7045,7 +7127,8 @@
       "NS",
       "8Ω",
       "16cm",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe168ns/1.png",
@@ -7164,6 +7247,9 @@
       },
       "recommendedEnclosure": {
         "value": "Back-loaded Horn"
+      },
+      "mountingHoles": {
+        "value": 8
       }
     },
     "affiriateLinks": {
@@ -7194,7 +7280,8 @@
       "8Ω",
       "8cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe88es/1.png",
@@ -7313,7 +7400,7 @@
         "value": 785,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -7353,7 +7440,8 @@
       "8Ω",
       "10cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe108es/1.png",
@@ -7466,7 +7554,7 @@
         "value": 1080.0,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -7504,7 +7592,8 @@
       "8Ω",
       "16cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe168ss/1.png",
@@ -7611,7 +7700,7 @@
         "value": 151,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -7657,7 +7746,8 @@
       "SS",
       "20cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe208ss/1.png",
@@ -7776,7 +7866,7 @@
         "value": 111.5,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "recommendedEnclosure": {
@@ -7812,7 +7902,8 @@
       "8Ω",
       "20cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208es-2/1.png",
@@ -7925,7 +8016,7 @@
         "value": 10500,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "depth": {
@@ -7964,7 +8055,8 @@
       "8Ω",
       "20cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208es-1/1.png",
@@ -8077,7 +8169,7 @@
         "value": 10500,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "depth": {
@@ -8113,7 +8205,8 @@
       "Σ",
       "8Ω",
       "20cm",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208-sigma/1.png",
@@ -8226,7 +8319,7 @@
         "value": 3800,
         "unit": "g"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "depth": {
@@ -8263,7 +8356,8 @@
       "Super",
       "20cm",
       "limited",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-6n-fe208super/1.png",
@@ -8381,6 +8475,9 @@
       },
       "recommendedEnclosure": {
         "value": "バックロードホーン"
+      },
+      "mountingHoles": {
+        "value": 8
       }
     },
     "affiriateLinks": {
@@ -8411,7 +8508,8 @@
       "8Ω",
       "20cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206super/1.png",
@@ -8516,7 +8614,7 @@
         "value": 184.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -8561,7 +8659,8 @@
       "8Ω",
       "20cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208super/1.png",
@@ -8666,7 +8765,7 @@
         "value": 184.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "netWeight": {
@@ -8708,11 +8807,13 @@
       "FE",
       "FE208",
       "EΣ",
+      "Σ",
       "HP",
       "UDRT",
       "8Ω",
       "20cm",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208e-sigma/1.png",
@@ -8819,7 +8920,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -8861,9 +8962,11 @@
     "category": [
       "FE",
       "FE206",
+      "En",
       "8Ω",
       "20cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206en/1.png",
@@ -8968,7 +9071,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "depth": {
@@ -9009,9 +9112,11 @@
     "category": [
       "FE",
       "FE166",
+      "En",
       "8Ω",
       "16cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe166en/1.png",
@@ -9116,7 +9221,7 @@
         "value": 146.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -9160,7 +9265,8 @@
       "En",
       "8Ω",
       "12cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe126en/1.png",
@@ -9265,7 +9371,7 @@
         "value": 104.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -9306,9 +9412,11 @@
     "category": [
       "FE",
       "FE103",
+      "En",
       "8Ω",
       "10cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103en/1.png",
@@ -9413,7 +9521,7 @@
         "value": 93.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -9457,7 +9565,8 @@
       "En",
       "4H",
       "8Ω",
-      "8cm"
+      "8cm",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe83en/1.png",
@@ -9562,7 +9671,7 @@
         "value": 73.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -9707,7 +9816,7 @@
         "value": 94.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -9746,7 +9855,8 @@
       "16Ω",
       "10cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103-sol-16ohm/1.png",
@@ -9847,7 +9957,7 @@
         "value": 93.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -9886,7 +9996,8 @@
       "8Ω",
       "10cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103-sol-8ohm/1.png",
@@ -9987,7 +10098,7 @@
         "value": 93.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -10026,7 +10137,8 @@
       "8Ω",
       "8cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe83-sol/1.png",
@@ -10127,7 +10239,7 @@
         "value": 73.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -10166,7 +10278,8 @@
       "8Ω",
       "8.5cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe88-sol/1.webp",
@@ -10271,7 +10384,7 @@
         "value": 102.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -10312,7 +10425,8 @@
       "8Ω",
       "20cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208-sol/1.png",
@@ -10417,7 +10531,7 @@
         "value": 184.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -10457,7 +10571,8 @@
       "NV",
       "8Ω",
       "10cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103nv/1.png",
@@ -10562,7 +10677,7 @@
         "value": 93.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -10598,7 +10713,8 @@
       "NS",
       "8Ω",
       "20cm",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208ns/1.png",
@@ -10703,7 +10819,7 @@
         "value": 185,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -10743,7 +10859,8 @@
       "NV",
       "8Ω",
       "20cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206nv/1.png",
@@ -10848,7 +10965,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -10884,7 +11001,8 @@
       "NV",
       "8Ω",
       "16cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe166nv/1.png",
@@ -10989,7 +11107,7 @@
         "value": 146.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -11025,7 +11143,8 @@
       "NV",
       "8Ω",
       "12cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe126nv/1.png",
@@ -11130,7 +11249,7 @@
         "value": 104.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -11239,7 +11358,7 @@
         "value": 102,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -11279,7 +11398,8 @@
       "8Ω",
       "20cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe208ss-hp/1.png",
@@ -11384,7 +11504,7 @@
         "value": 186,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -11427,7 +11547,8 @@
       "8Ω",
       "16cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe168ss-hp/1.png",
@@ -11532,7 +11653,7 @@
         "value": 151.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -11574,11 +11695,13 @@
       "FE",
       "FE168",
       "EΣ",
+      "Σ",
       "HP",
       "UDRT",
       "8Ω",
       "16cm",
-      "8H"
+      "8H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe168e-sigma/1.png",
@@ -11685,7 +11808,7 @@
         "value": 151.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -11730,7 +11853,8 @@
       "NS",
       "8Ω",
       "10cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108ns/1.png",
@@ -11835,7 +11959,7 @@
         "value": 100.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -11868,10 +11992,11 @@
     "category": [
       "FE",
       "FE206",
-      "NV",
+      "NV2",
       "8Ω",
       "20cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe206nv2/1.jpg",
@@ -11976,7 +12101,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -12009,10 +12134,11 @@
     "category": [
       "FE",
       "FE166",
-      "NV",
+      "NV2",
       "8Ω",
       "16cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe166nv2/1.png",
@@ -12117,7 +12243,7 @@
         "value": 146.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -12150,10 +12276,11 @@
     "category": [
       "FE",
       "FE126",
-      "NV",
+      "NV2",
       "8Ω",
       "12cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe126nv2/1.png",
@@ -12258,7 +12385,7 @@
         "value": 104.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -12291,10 +12418,11 @@
     "category": [
       "FE",
       "FE103",
-      "NV",
+      "NV2",
       "8Ω",
       "10cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe103nv2/1.png",
@@ -12399,7 +12527,7 @@
         "value": 93.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "netWeight": {
@@ -12437,7 +12565,8 @@
       "8Ω",
       "20cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe203sigma-re/1.jpg",
@@ -12540,7 +12669,7 @@
         "value": 185.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -12583,7 +12712,8 @@
       "10cm",
       "4H",
       "limited",
-      "reissued"
+      "reissued",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108-sol/1.png",
@@ -12686,7 +12816,7 @@
         "value": 103.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -12724,7 +12854,8 @@
       "8Ω",
       "10cm",
       "4H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108-sol/1.png",
@@ -12831,7 +12962,7 @@
         "value": 103.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -12866,12 +12997,13 @@
       "FE",
       "FE108",
       "SS-HP",
-      "HP-Diaphragm",
+      "HP",
       "UDRT",
       "8Ω",
       "10cm",
       "8H",
-      "limited"
+      "limited",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe108ss-hp/1.png",
@@ -12972,7 +13104,7 @@
         "value": 102.0,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 8
       },
       "magnetWeight": {
@@ -13001,15 +13133,16 @@
     "name": "FE83NV2",
     "model": "FE83NV2",
     "limited": false,
-    "price": 5500,
+    "price": 6160,
     "release": "2022-07",
     "category": [
       "FE",
       "FE83",
-      "NV",
+      "NV2",
       "8Ω",
       "8cm",
-      "4H"
+      "4H",
+      "for BH"
     ],
     "image": {
       "main": "/images/speakers/fostex-fe83nv2/1.png",
@@ -13114,7 +13247,7 @@
         "value": 73,
         "unit": "mm"
       },
-      "baffleHole": {
+      "mountingHoles": {
         "value": 4
       },
       "magnetWeight": {
@@ -13129,7 +13262,148 @@
         "value": "Back-loaded Horn"
       },
       "depth": {
-        "value": 40,
+        "value": 46.4,
+        "unit": "mm"
+      }
+    },
+    "affiriateLinks": {
+      "koizumi": "",
+      "amazon": "",
+      "rakuten": "",
+      "yodobashi": "",
+      "eleshop": ""
+    }
+  },
+  {
+    "id": "fostex-fe83nv",
+    "brand": "FOSTEX",
+    "name": "FE83NV",
+    "model": "FE83NV",
+    "limited": false,
+    "price": 5720,
+    "release": "2019-07",
+    "category": [
+      "FE",
+      "FE83",
+      "NV",
+      "8Ω",
+      "8cm",
+      "4H",
+      "for BH"
+    ],
+    "image": {
+      "main": "/images/speakers/fostex-fe83nv/1.png",
+      "sub": "/images/speakers/fostex-fe83nv/2.png",
+      "frequency": "/images/speakers/fostex-fe83nv/3.png",
+      "outline": "/images/speakers/fostex-fe83nv/4.png"
+    },
+    "ja": {
+      "frameText": "鉄板フレーム",
+      "categoryText": "8cmフルレンジユニット",
+      "priceText": "¥5,720（税込）／1台",
+      "releaseText": "2019年7月発売"
+    },
+    "en": {
+      "frameText": "Steel frame",
+      "categoryText": "8cm Full Range Unit",
+      "priceText": "¥5,720(tax included)/1pc",
+      "releaseText": "Released in July 2019"
+    },
+    "electricalParameters": {
+      "nominalImpedance": {
+        "value": 8.0,
+        "unit": "ohm"
+      },
+      "Re": {
+        "value": 7.1,
+        "unit": "ohm"
+      },
+      "Le": {
+        "value": 0.1,
+        "unit": "mH"
+      },
+      "fs": {
+        "value": 149.7,
+        "unit": "Hz"
+      }
+    },
+    "mechanicalParameters": {
+      "Mms": {
+        "value": 1.4,
+        "unit": "g"
+      },
+      "Cms": {
+        "value": 0.8,
+        "unit": "mm/N"
+      },
+      "Bl": {
+        "value": 3.2,
+        "unit": "N/A"
+      }
+    },
+    "lossFactors": {
+      "Qms": {
+        "value": 4.21
+      },
+      "Qes": {
+        "value": 0.96
+      },
+      "Qts": {
+        "value": 0.78
+      }
+    },
+    "otherParameters": {
+      "SPL": {
+        "value": 87.5,
+        "unit": "dB/W (1m)"
+      },
+      "equivalentDiaphragmRadius": {
+        "value": 30.0,
+        "unit": "mm"
+      },
+      "ratedInput": {
+        "value": 5.0,
+        "unit": "W"
+      },
+      "maxInput": {
+        "value": 15.0,
+        "unit": "W"
+      },
+      "overallDiameter": {
+        "value": 83,
+        "unit": "mm"
+      },
+      "voiceCoilDiameter": {
+        "value": 16,
+        "unit": "mm"
+      },
+      "reproductionFrequencyResponse": {
+        "value": "fs to 22k Hz"
+      },
+      "Vas": {
+        "value": 0.9,
+        "unit": "L"
+      },
+      "baffleHoleDiameter": {
+        "value": 73,
+        "unit": "mm"
+      },
+      "mountingHoles": {
+        "value": 4
+      },
+      "magnetWeight": {
+        "value": 0,
+        "unit": "g"
+      },
+      "netWeight": {
+        "value": 371,
+        "unit": "g"
+      },
+      "recommendedEnclosure": {
+        "value": "Back-loaded Horn"
+      },
+      "depth": {
+        "value": 46.4,
         "unit": "mm"
       }
     },

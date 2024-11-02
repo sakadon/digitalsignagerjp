@@ -5,82 +5,109 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import en from '../../locales/en.json';
 import ja from '../../locales/ja.json';
-
+import Breadcrumb from '../../components/Breadcrumb';
 import SpeakerList from '../../components/SpeakerList';
-import SpeakerModal from '../../components/SpeakerModal';
 
 export async function getStaticProps() {
-  // JSONファイルのパスを取得
   const filePath = path.join(process.cwd(), 'public', 'speakers.json');
-  // JSONファイルの内容を読み込む
   const jsonData = await fs.readFile(filePath, 'utf8');
-  // JSONデータをオブジェクトに変換
   const speakers = JSON.parse(jsonData);
-
-  const data = {
-  };
-
   return {
-    props: {
-      data,
-      speakers
-    }
+    props: { speakers }
   };
 }
 
-export default function GroupedByCategories({ data, speakers }) {
-  const [selectedSpeaker, setSelectedSpeaker] = useState(null);
+// カスタムソート関数: 数値を優先してソート
+const customSortCategories = (a, b) => {
+  const extractNumber = (str) => parseInt(str.match(/^\d+/), 10) || 0;
+  const aNum = extractNumber(a);
+  const bNum = extractNumber(b);
+  if (aNum !== bNum) return aNum - bNum;
+  return a.localeCompare(b);
+};
+
+// 各カテゴリのスピーカーをグループ化し、カスタムソートを適用する関数
+const groupSpeakersByCategories = (speakers) => {
+  const categoryGroups = {};
+  speakers.forEach((speaker) => {
+    speaker.category.forEach((cat) => {
+      if (!categoryGroups[cat]) categoryGroups[cat] = [];
+      categoryGroups[cat].push(speaker);
+    });
+  });
+
+  return Object.entries(categoryGroups)
+    .sort(([a], [b]) => customSortCategories(a, b))
+    .map(([category, speakers]) => ({
+      category,
+      speakers: speakers.sort((a, b) => {
+        const releaseA = a.release || '1970';
+        const releaseB = b.release || '1970';
+        return releaseB.slice(0, 4) - releaseA.slice(0, 4); // 新しい順
+      })
+    }));
+};
+
+export default function GroupedByCategories({ speakers }) {
   const router = useRouter();
-  const { locale, query } = router;
+  const { locale } = router;
+  const [isMounted, setIsMounted] = useState(false);
   const t = locale === 'ja' ? ja : en;
-  const td = locale === 'ja' ? data.ja : data.en;
 
   const groupedSpeakers = groupSpeakersByCategories(speakers);
 
-  // ハッシュが指定されていた場合に該当するスピーカーを自動的に選択
+  useEffect(() => setIsMounted(true), []);
   useEffect(() => {
-    if (router.isReady) {
-      const speakerId = window.location.hash.replace('#', '');
-      if (speakerId && speakers) {
-        const speaker = speakers.find(s => s.id === speakerId);
-        if (speaker) {
-          setSelectedSpeaker(speaker);
-        }
-      }
+    if (router.isReady && window.location.hash) {
+      const elementId = window.location.hash.replace('#', '');
+      const element = document.getElementById(elementId);
+      if (element) element.scrollIntoView({ behavior: 'smooth' });
     }
-  }, [router.isReady, speakers]);
+  }, [router.isReady]);
 
-  // モーダルを開いたときにURLにハッシュを設定
-  const handleClick = (speaker) => {
-    setSelectedSpeaker(speaker);
-    router.push(`${router.asPath}#${speaker.id}`, undefined, { shallow: true });
-  };
-
-  // モーダルを閉じたときにURLからハッシュを消す
-  const handleClose = () => {
-    setSelectedSpeaker(null);
-    router.push(`${router.asPath.split('#')[0]}`, undefined, { shallow: true });
-  };
-
+  if (!isMounted) return null;
 
   return (
     <section>
       <Head>
-        <title>{`${t.categories.title} / ${t.speakers.title} - Digital Signager}`}</title>
+        <title>{`${t.speakers_dir.grouped_by_categories.title} / ${t.speakers_dir.title} - ${t.title}`}</title>
       </Head>
-      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">{t.speakers.title}</h2>
+      <Breadcrumb />
 
-      <h3 className="mt-8 mb-4 text-4xl font-bold text-green-600 text-center">{t.speakers.grouped_by_baffle_hole_diameter}</h3>
+      <h2 className="mt-4 mb-4 text-2xl text-center font-bold text-gray-900 tracking-wide">
+        <small>{t.speakers_dir.title}</small><br />
+        {t.speakers_dir.grouped_by_categories.title}
+      </h2>
+
+      <nav className="speaker_cats mb-8 speaker_cats flex flex-wrap gap-1 text-lg">
+        {groupedSpeakers.map((group, index) => (
+          <a
+            key={index}
+            href={`#${group.category}`}
+            className="bg-gray-100 text-blue-800 px-1 py-0.5 mr-1 rounded hover:underline hover:bg-gray-200"
+          >
+            {group.category}
+          </a>
+        ))}
+      </nav>
+
       {groupedSpeakers.map((group, groupIndex) => (
-        <div key={groupIndex} className="mt-4 mb-8">
-          <h4 className="mt-4 mb-4 text-2xl font-bold text-green-800">{t.speakers.baffle_hole_diameter}: Φ{group[0].otherParameters.baffleHoleDiameter.value}mm ±3mm</h4>
-          <SpeakerList speakers={group} onSelect={handleClick} />
+        <div key={groupIndex} id={group.category} className="rounded-lg bg-gray-100 py-5 px-3 mb-10">
+          <h3 className="mb-4 text-4xl font-bold text-blue-900 text-center">
+            {group.category}
+          </h3>
+          <SpeakerList speakers={group.speakers} />
         </div>
       ))}
 
-      <SpeakerModal speaker={selectedSpeaker} onClose={handleClose} />
-
       <style jsx>{`
+        h3,
+        h4 {
+          font-family: 'Fira Mono', monospace;
+        }
+        .speaker_cats {
+          font-family: 'Fira Mono', monospace;
+        }
       `}</style>
     </section>
   );

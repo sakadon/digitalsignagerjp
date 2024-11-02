@@ -10,13 +10,19 @@
     "grouped_by_categories": "カテゴリー毎にグループ化"
   },
 
-  "speakers": {
-    "title": "BH向けスピーカーユニット データベース",
-    "baffle_hole_diameter": "バッフル穴径",
-    "grouped_by_baffle_hole_diameter": "バッフル径別にグループ化した一覧"
-  },
-  "categories": {
-    "title": "カテゴリー毎の一覧",
-    "description": "カテゴリー毎の一覧です"
+  "speakers_dir": {
+    "title": "スピーカーユニット データベース",
+    "abst": "登録されているスピーカーユニット全部表示",
+
+    "for_backloadedhorn": "BH向けスピーカーユニット一覧",
+
+    "grouped_by_baffle_hole_diameter": {
+      "title": "バッフル径別にグループ化した一覧",
+      "baffle_hole_diameter": "バッフル径"
+    },
+
+    "grouped_by_categories": {
+      "title": "カテゴリー毎にグループ化した一覧"
+    }
   }
 }

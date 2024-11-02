@@ -9,9 +9,9 @@ export default function SpeakerList({ speakers }) {
       {speakers.map((speaker) => (
         <li
           key={speaker.id}
-          className="bg-white shadow-md rounded-lg pt-4 pr-4 pl-4 pb-2 hover:bg-gray-100 flex"
+          className="bg-white shadow-md hover:shadow-gray-600/40 rounded-lg pt-4 pr-4 pl-4 pb-2 hover:bg-amber-50	 flex"
         >
-          <Link href={`/backloadedhorn-speakers/${speaker.id}`}>
+          <Link href={`/speakers/${speaker.id}`}>
             <div className="flex w-full cursor-pointer">
               <div className="w-20 h-20 mr-4 flex-shrink-0">
                 {speaker.image ? (
@@ -30,10 +30,8 @@ export default function SpeakerList({ speakers }) {
 
               <div className="leading-5">
                 <div className="mb-1">
-                  <span className="speaker_title font-bold tracking-tight">
-                    <span className="text-orange-600">{speaker.brand}</span> {speaker.name}
-                  </span><br />
-                  <small>{locale === 'ja' ? speaker.ja.categoryText : speaker.en.categoryText}</small>
+                  <span className="speaker_title font-bold tracking-tight">{speaker.name}</span><br />
+                  <small className="tracking-tight"><span className="text-orange-600 font-bold">{speaker.brand}</span> {locale === 'ja' ? speaker.ja.categoryText : speaker.en.categoryText}</small>
                 </div>
                 <div className="speaker_cats flex flex-wrap gap-1">
                   {speaker.category && speaker.category.map((cat, index) => (
