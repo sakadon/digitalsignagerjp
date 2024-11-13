@@ -22,7 +22,7 @@ export default function Home() {
 
       {tCommon('menu') && (
         <nav>
-          <ul className="list-decimal  ml-6">
+          <ul className="list-decimal ml-6">
             <li>
               <Link className="text-blue-600 hover:text-blue-800 hover:underline" href="/speakers">{tCommon('menu.speaker_components_list')}</Link>
               <ul className="list-[circle] hover:list-disc ml-6">
@@ -37,6 +37,19 @@ export default function Home() {
           </ul>
         </nav>
       )}
+
+      <h3 className="mt-10 mb-4 text-3xl font-bold text-gray-900 tracking-wide italic">{tIndex('disclaimer_title')}</h3>
+
+      {Array.isArray(tIndex('disclaimer', {}, { returnObjects: true })) && (
+        tIndex('disclaimer', {}, { returnObjects: true }).map((text, index) => (
+          <p
+            className="leading-relaxed mt-4 mb-4"
+            key={index}
+            dangerouslySetInnerHTML={{ __html: text }}
+          />
+        ))
+      )}
+
     </section>
   );
 }
