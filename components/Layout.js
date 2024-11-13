@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/next';
 
 export default function Layout({ children }) {
   const { asPath, locale } = useRouter();
@@ -86,6 +88,9 @@ export default function Layout({ children }) {
       </header>
 
       <article className="w-full sm:w-[600px] md:w-[800px] lg:w-[1000px] xl:w-[1200px] mx-auto pt-2 pb-8 px-4">{children}</article>
+
+      <SpeedInsights />
+      <Analytics />
 
       <footer className="bg-gray-900 text-gray-300 text-center">
         <p>&copy; DigitalSignager.JP, <Link className="text-gray-300 hover:underline hover:text-white" href="https://dwo.jp">DigitalWideOffice.</Link> </p>
