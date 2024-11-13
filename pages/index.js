@@ -20,7 +20,7 @@ export default function Home() {
         ))
       )}
 
-      {tCommon('menu') && (
+      {tCommon('menu', {}, { returnObjects: true }) && (
         <nav>
           <ul className="list-decimal ml-6">
             <li>
