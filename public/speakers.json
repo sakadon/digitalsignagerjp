@@ -10385,7 +10385,7 @@
         "unit": "L"
       },
       "baffleHoleDiameter": {
-        "value": 102.0,
+        "value": 90,
         "unit": "mm"
       },
       "mountingHoles": {
