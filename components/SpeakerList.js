@@ -9,7 +9,7 @@ export default function SpeakerList({ speakers }) {
       {speakers.map((speaker) => (
         <li
           key={speaker.id}
-          className="bg-white shadow-md hover:shadow-gray-600/40 rounded-lg pt-4 pr-4 pl-4 pb-2 hover:bg-amber-50	 flex"
+          className="bg-white shadow-md hover:shadow-gray-600/40 rounded-lg pt-2 pr-4 pl-4 pb-2 hover:bg-amber-50	 flex"
         >
           <Link href={`/speakers/${speaker.id}`}>
             <div className="flex w-full cursor-pointer">
