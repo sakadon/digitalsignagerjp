@@ -10,16 +10,17 @@ import SpeakerTextEn from '../../components/SpeakerTextEn';
 import SpeakerParametersEn from '../../components/SpeakerParametersEn';
 import SpeakerImageListEn from '../../components/SpeakerImageListEn';
 import SpeakerLabel from '../../components/SpeakerLabel';
+import RelatedSpeakersList from '../../components/RelatedSpeakersList';
 
 // スピーカーのデータを取得
 export async function getStaticProps({ params }) {
   // JSONファイルのパスを取得
   const filePath = path.join(process.cwd(), 'public', 'speakers.json');
   const jsonData = await fs.readFile(filePath, 'utf8');
-  const speakers = JSON.parse(jsonData);
+  const allSpeakers = JSON.parse(jsonData);
 
   // パラメータのIDに基づいてスピーカーを検索
-  const speaker = speakers.find(s => s.id === params.id);
+  const speaker = allSpeakers.find(s => s.id === params.id);
 
   // スピーカーが見つからない場合は404エラーを返す
   if (!speaker) {
@@ -30,7 +31,8 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      speaker
+      speaker,
+      allSpeakers, // 全スピーカーのデータも渡す
     }
   };
 }
@@ -54,14 +56,14 @@ export async function getStaticPaths({ locales = [] }) { // localesがundefined�
   };
 }
 
-export default function SpeakerDetail({ speaker }) {
+export default function SpeakerDetail({ speaker, allSpeakers}) {
   if (!speaker) return null;
 
   const router = useRouter();
 
   const { t, lang } = useTranslation('speakers');
   const { t: tCommon } = useTranslation('common');
-  const languageData = lang === 'ja' ? speaker.ja : speaker.en; // `useTranslation`から取得した`lang`を使用
+  const languageData = lang === 'ja' ? speaker.ja : speaker.en;
 
   if (router.isFallback) {
     return <p>Now Loading...</p>;
@@ -112,6 +114,8 @@ export default function SpeakerDetail({ speaker }) {
       <SpeakerParametersEn speaker={speaker} />
 
       <SpeakerImageListEn speaker={speaker} />
+
+      <RelatedSpeakersList speaker={speaker} allSpeakers={allSpeakers} tCommon={tCommon} />
 
       <style jsx>{`
         .speaker_cats {

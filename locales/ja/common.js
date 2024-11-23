@@ -16,6 +16,7 @@ export default {
     abst: "このサイトに登録されているスピーカーユニット全部表示します。",
 
     speakers_id_title: "スピーカーユニット詳細",
+    related_speakers_title: "関連スピーカーユニットリスト",
 
     grouped_by_baffle_hole_diameter: {
       title: "バッフル径別にグループ化した一覧",

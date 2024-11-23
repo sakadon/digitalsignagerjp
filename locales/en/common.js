@@ -16,6 +16,7 @@ export default {
     abst: "Displays all the speaker units registered on this site.",
 
     speakers_id_title: "Speaker Unit Details",
+    related_speakers_title: "Related Speaker Units List",
 
     grouped_by_baffle_hole_diameter: {
       title: "List Grouped by Baffle Hole Diameter",
