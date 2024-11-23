@@ -15,11 +15,18 @@ const getRelatedSpeakers = (speakers, currentSpeaker) => {
 export default function RelatedSpeakersList({ speaker, allSpeakers, tCommon }) {
   if (!speaker) return null;
 
-  const relatedSpeakers = getRelatedSpeakers( allSpeakers, speaker );
+  const relatedSpeakers = getRelatedSpeakers(allSpeakers, speaker);
+
+  // カテゴリーごとにスピーカーをグループ化
+  const groupedSpeakers = speaker.category.map((cat) => {
+    const speakersInCategory = relatedSpeakers.filter((relatedSpeaker) =>
+      relatedSpeaker.category.includes(cat)
+    );
+    return { category: cat, speakers: speakersInCategory };
+  });
 
   return (
     <div id="RelatedSpeakersList" data-component-name="RelatedSpeakersList">
-
       {/* 同カテゴリーのスピーカー一覧をカテゴリーごとにグループ化 */}
       {relatedSpeakers.length > 0 && (
         <div className="mt-24 border-t-4 border-double border-gray-500">
@@ -27,29 +34,22 @@ export default function RelatedSpeakersList({ speaker, allSpeakers, tCommon }) {
             {tCommon('speakers_dir.related_speakers_title')}
           </h3>
 
-          {/* 開いているスピーカーのカテゴリーに限定 */}
-          {speaker.category.map((cat) => {
-            const speakersInCategory = relatedSpeakers.filter((relatedSpeaker) =>
-              relatedSpeaker.category.includes(cat)
-            );
-
-            if (speakersInCategory.length === 0) return null; // 該当するスピーカーがない場合はスキップ
-
-            // トグル用の状態を管理
+          {groupedSpeakers.map((group, index) => {
             const [isOpen, setIsOpen] = useState(false);
 
+            if (group.speakers.length === 0) return null; // 該当スピーカーがない場合はスキップ
+
             return (
-              <div key={cat} className="rounded-lg bg-gray-100 py-1 px-3 mb-10">
+              <div key={index} className="rounded-lg bg-gray-100 py-1 px-3 mb-10">
                 <h4
                   className="my-4 text-lg font-bold text-blue-800 cursor-pointer"
                   onClick={() => setIsOpen(!isOpen)} // クリックでトグル
                 >
-                  {cat} {isOpen ? '▼' : '▶'}
+                  {group.category} {isOpen ? '▼' : '▶'}
                 </h4>
                 {isOpen && (
-                  // カテゴリー内のスピーカー一覧
                   <div className="mb-4">
-                    <SpeakerList speakers={speakersInCategory} />
+                    <SpeakerList speakers={group.speakers} />
                   </div>
                 )}
               </div>
@@ -57,9 +57,6 @@ export default function RelatedSpeakersList({ speaker, allSpeakers, tCommon }) {
           })}
         </div>
       )}
-
-      <style jsx>{`
-      `}</style>
     </div>
   );
 }
