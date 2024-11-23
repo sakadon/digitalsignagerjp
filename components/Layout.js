@@ -132,6 +132,21 @@ export default function Layout({ children }) {
       <SpeedInsights />
       <Analytics />
 
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(h,o,t,j,a,r){
+                  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                  h._hjSettings={hjid:5218739,hjsv:6};
+                  a=o.getElementsByTagName('head')[0];
+                  r=o.createElement('script');r.async=1;
+                  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                  a.appendChild(r);
+              })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+            `,
+          }}
+        ></script>
+
       <footer className="bg-gray-900 text-gray-300 text-center">
         <p>&copy; DigitalSignager.JP, <Link className="text-gray-300 hover:underline hover:text-white" href="https://dwo.jp">DigitalWideOffice.</Link> </p>
       </footer>
