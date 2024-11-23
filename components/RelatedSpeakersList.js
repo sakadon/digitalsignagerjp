@@ -17,13 +17,15 @@ export default function RelatedSpeakersList({ speaker, allSpeakers, tCommon }) {
 
   const relatedSpeakers = getRelatedSpeakers(allSpeakers, speaker);
 
-  // カテゴリーごとにスピーカーをグループ化
-  const groupedSpeakers = speaker.category.map((cat) => {
-    const speakersInCategory = relatedSpeakers.filter((relatedSpeaker) =>
-      relatedSpeaker.category.includes(cat)
-    );
-    return { category: cat, speakers: speakersInCategory };
-  });
+  // トグルの状態を管理するステートをカテゴリーごとに作成
+  const [openCategories, setOpenCategories] = useState({});
+
+  const toggleCategory = (category) => {
+    setOpenCategories((prevState) => ({
+      ...prevState,
+      [category]: !prevState[category],
+    }));
+  };
 
   return (
     <div id="RelatedSpeakersList" data-component-name="RelatedSpeakersList">
@@ -34,22 +36,26 @@ export default function RelatedSpeakersList({ speaker, allSpeakers, tCommon }) {
             {tCommon('speakers_dir.related_speakers_title')}
           </h3>
 
-          {groupedSpeakers.map((group, index) => {
-            const [isOpen, setIsOpen] = useState(false);
+          {/* 開いているスピーカーのカテゴリーに限定 */}
+          {speaker.category.map((cat) => {
+            const speakersInCategory = relatedSpeakers.filter((relatedSpeaker) =>
+              relatedSpeaker.category.includes(cat)
+            );
 
-            if (group.speakers.length === 0) return null; // 該当スピーカーがない場合はスキップ
+            if (speakersInCategory.length === 0) return null; // 該当するスピーカーがない場合はスキップ
 
             return (
-              <div key={index} className="rounded-lg bg-gray-100 py-1 px-3 mb-10">
+              <div key={cat} className="rounded-lg bg-gray-100 py-1 px-3 mb-10">
                 <h4
                   className="my-4 text-lg font-bold text-blue-800 cursor-pointer"
-                  onClick={() => setIsOpen(!isOpen)} // クリックでトグル
+                  onClick={() => toggleCategory(cat)} // トグル操作
                 >
-                  {group.category} {isOpen ? '▼' : '▶'}
+                  {cat} {openCategories[cat] ? '▼' : '▶'}
                 </h4>
-                {isOpen && (
+                {openCategories[cat] && (
+                  // カテゴリー内のスピーカー一覧
                   <div className="mb-4">
-                    <SpeakerList speakers={group.speakers} />
+                    <SpeakerList speakers={speakersInCategory} />
                   </div>
                 )}
               </div>
