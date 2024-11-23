@@ -20,7 +20,7 @@ export default function Home() {
         ))
       )}
 
-      {tCommon('menu', {}, { returnObjects: true }) && (
+      {tCommon('menu') && (
         <nav>
           <ul className="list-decimal ml-6">
             <li>
@@ -31,6 +31,9 @@ export default function Home() {
                 </li>
                 <li>
                   <Link className="text-blue-600 hover:text-blue-800 hover:underline" href="/speakers/grouped_by_categories">{tCommon('menu.grouped_by_categories')}</Link>
+                </li>
+                <li>
+                  <Link className="text-blue-600 hover:text-blue-800 hover:underline" href="/speakers/for_backloadedhorn">{tCommon('menu.for_backloadedhorn')}</Link>
                 </li>
               </ul>
             </li>
@@ -49,7 +52,6 @@ export default function Home() {
           />
         ))
       )}
-
     </section>
   );
 }

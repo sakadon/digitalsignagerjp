@@ -8358,9 +8358,10 @@
       "FE208",
       "6N",
       "Super",
+      "8Ω",
       "20cm",
-      "limited",
       "8H",
+      "limited",
       "for BH"
     ],
     "image": {
@@ -8370,18 +8371,18 @@
       "outline": ""
     },
     "ja": {
-      "frameText": "鋳鉄フレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "20cmフルレンジ限定ユニット",
-      "priceText": "特記なし",
+      "priceText": "",
       "releaseText": "1995年7月発売",
       "recommendedEnclosureList": [
         "大型バックロードホーン推奨"
       ]
     },
     "en": {
-      "frameText": "Cast iron frame",
-      "categoryText": "20cm Fullrange Limited Unit",
-      "priceText": "No price specified",
+      "frameText": "Aluminum Die-cast Frame",
+      "categoryText": "20cm Full Range Limited Unit",
+      "priceText": "",
       "releaseText": "Released in July 1995",
       "recommendedEnclosureList": [
         "Recommended large back-loaded horn"
@@ -8393,12 +8394,12 @@
         "unit": "ohm"
       },
       "Re": {
-        "value": 7.7,
-        "unit": "ohm"
+        "value": "",
+        "unit": ""
       },
       "Le": {
-        "value": 0.18,
-        "unit": "mH"
+        "value": "",
+        "unit": ""
       },
       "fs": {
         "value": 45,
@@ -8411,8 +8412,8 @@
         "unit": "g"
       },
       "Cms": {
-        "value": 0.18,
-        "unit": "mm/N"
+        "value": "",
+        "unit": ""
       },
       "Bl": {
         "value": "",
@@ -8421,16 +8422,13 @@
     },
     "lossFactors": {
       "Qms": {
-        "value": "",
-        "unit": ""
+        "value": ""
       },
       "Qes": {
-        "value": "",
-        "unit": ""
+        "value": ""
       },
       "Qts": {
-        "value": "",
-        "unit": ""
+        "value": 0.18
       }
     },
     "otherParameters": {
@@ -8443,45 +8441,49 @@
         "unit": ""
       },
       "ratedInput": {
-        "value": 80,
-        "unit": "W (Mus.)"
+        "value": 34,
+        "unit": "W"
       },
       "maxInput": {
-        "value": "",
-        "unit": ""
+        "value": 100,
+        "unit": "W"
       },
       "overallDiameter": {
-        "value": 220,
+        "value": 208,
         "unit": "mm"
       },
       "voiceCoilDiameter": {
-        "value": 50,
-        "unit": "mm"
+        "value": "",
+        "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "f0 to 20kHz"
+        "value": "fs to 20kHz"
       },
       "Vas": {
-        "value": 121,
-        "unit": "L"
+        "value": "",
+        "unit": ""
       },
       "baffleHoleDiameter": {
-        "value": 184,
+        "value": 184.0,
         "unit": "mm"
+      },
+      "mountingHoles": {
+        "value": 8
+      },
+      "netWeight": {
+        "value": 5500,
+        "unit": "g"
       },
       "magnetWeight": {
         "value": 1821,
         "unit": "g"
       },
-      "netWeight": {
-        "value": 5700,
-        "unit": "g"
+      "depth": {
+        "value": 92,
+        "unit": "mm"
       },
       "recommendedEnclosure": {
-        "value": "バックロードホーン"
-      },
-      "mountingHoles": {
-        "value": 8
+        "value": "Back-loaded Horn"
       }
     },
     "affiriateLinks": {
@@ -8683,7 +8685,7 @@
     },
     "en": {
       "frameText": "Aluminum Die-cast Frame",
-      "categoryText": "20cm Fullrange Unit",
+      "categoryText": "20cm Full Range Limited Unit",
       "priceText": "",
       "releaseText": "Released in October 1990",
       "recommendedEnclosureList": [
@@ -8759,7 +8761,7 @@
         "unit": ""
       },
       "reproductionFrequencyResponse": {
-        "value": "fs to 20k Hz"
+        "value": "fs to 20kHz"
       },
       "Vas": {
         "value": "",

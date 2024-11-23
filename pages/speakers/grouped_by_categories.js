@@ -77,6 +77,7 @@ export default function GroupedByCategories({ speakers }) {
         <small>{t('speakers_dir.title')}</small><br />
         {t('speakers_dir.grouped_by_categories.title')}
       </h2>
+      <p className="mb-4 leading-7">{t('speakers_dir.grouped_by_categories.abst')}</p>
 
       <nav className="speaker_cats mb-8 speaker_cats flex flex-wrap gap-1 text-lg">
         {groupedSpeakers.map((group, index) => (

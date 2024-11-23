@@ -81,7 +81,7 @@ const groupSpeakersByBaffleHoleDiameter = (speakers) => {
   return groupedByBaffleHole;
 };
 
-export default function BackloadedHornSpeakers({ speakers }) {
+export default function GroupedByBaffleHoleDiameterList({ speakers }) {
   const { t } = useTranslation('common');
 
   // スピーカーをbaffleHoleDiameterの値でグループ化し、さらにmountingHolesでサブグループ化
@@ -98,6 +98,7 @@ export default function BackloadedHornSpeakers({ speakers }) {
         <small>{t('speakers_dir.title')}</small><br />
         {t('speakers_dir.grouped_by_baffle_hole_diameter.title')}
       </h2>
+      <p className="mb-8 leading-7">{t('speakers_dir.grouped_by_baffle_hole_diameter.abst')}</p>
 
       {groupedSpeakers.map((group, groupIndex) => (
         <div key={groupIndex} className="rounded-lg bg-gray-100 py-5 px-3 mb-10">
