@@ -96,10 +96,10 @@ export default function SpeakerTextJa({ speaker, languageData }) {
           <>総質量は{speaker.otherParameters.netWeight.value}{speaker.otherParameters.netWeight.unit}となります。</>
         )}
         {speaker.otherParameters?.overallDiameter?.value && (
-          <>本体全体の直径は{speaker.otherParameters.overallDiameter.value}{speaker.otherParameters.overallDiameter.unit}、</>
+          <>本体全体の直径は{speaker.otherParameters.overallDiameter.value}{speaker.otherParameters.overallDiameter.unit}</>
         )}
         {speaker.otherParameters?.depth?.value && (
-          <>奥行きが{speaker.otherParameters.depth.value}{speaker.otherParameters.depth.unit}あります。</>
+          <>、奥行きが{speaker.otherParameters.depth.value}{speaker.otherParameters.depth.unit}あります。</>
         )}
       </p>
 

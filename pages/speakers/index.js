@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Head from 'next/head';
 import path from 'path';
 import { promises as fs } from 'fs';
@@ -6,7 +5,6 @@ import useTranslation from 'next-translate/useTranslation'
 import Breadcrumb from '../../components/Breadcrumb'; // パンくずリストのインポート
 
 import SpeakerList from '../../components/SpeakerList';
-import SpeakerModal from '../../components/SpeakerModal';
 
 export async function getStaticProps() {
   // JSONファイルのパスを取得
@@ -23,9 +21,9 @@ export async function getStaticProps() {
   };
 }
 
-// JSONデータをbrandでグループ化する関数
-const groupByBrand = (speakers) => {
-  return speakers.reduce((brands, speaker) => {
+// JSONデータをbrandでグループ化し、リリース順にソートする関数
+const groupByBrandAndSortByRelease = (speakers) => {
+  const grouped = speakers.reduce((brands, speaker) => {
     const brand = speaker.brand;
     if (!brands[brand]) {
       brands[brand] = [];
@@ -33,18 +31,24 @@ const groupByBrand = (speakers) => {
     brands[brand].push(speaker);
     return brands;
   }, {});
+
+  // 各ブランド内でリリース年順に並べ替え
+  Object.keys(grouped).forEach((brand) => {
+    grouped[brand] = grouped[brand].sort((a, b) => {
+      const releaseA = parseInt(a.release?.slice(0, 4), 10) || 1970; // 数値に変換、デフォルト1970
+      const releaseB = parseInt(b.release?.slice(0, 4), 10) || 1970; // 数値に変換、デフォルト1970
+      return releaseB - releaseA; // 新しい順
+    });
+  });
+
+  return grouped;
 };
 
-export default function BackloadedHornSpeakers({ speakers }) {
-  const [selectedSpeaker, setSelectedSpeaker] = useState(null);
+export default function SpeakersAllList({ speakers }) {
   const { t } = useTranslation('common'); // `speakers.json`の翻訳ファイルを使用
 
   // スピーカーをbrandごとにグループ化
-  const groupedSpeakers = groupByBrand(speakers);
-
-  const handleClick = (speaker) => {
-    setSelectedSpeaker(speaker);
-  };
+  const groupedSpeakers = groupByBrandAndSortByRelease(speakers);
 
   return (
     <section>
@@ -62,11 +66,9 @@ export default function BackloadedHornSpeakers({ speakers }) {
       {Object.keys(groupedSpeakers).map((brand) => (
         <div key={brand} className="rounded-lg bg-gray-100 py-5 px-3 mb-10">
           <h3 className="mb-4 text-4xl font-bold text-blue-900 text-center">{brand}</h3>
-          <SpeakerList speakers={groupedSpeakers[brand]} onSelect={handleClick} />
+          <SpeakerList speakers={groupedSpeakers[brand]} />
         </div>
       ))}
-
-      <SpeakerModal speaker={selectedSpeaker} onClose={() => setSelectedSpeaker(null)} />
 
       <style jsx>{`
         h3 {
