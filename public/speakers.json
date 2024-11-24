@@ -291,7 +291,7 @@
       "6Ω",
       "10cm",
       "4H",
-      "Alminum"
+      "Alminium"
     ],
     "image": {
       "main": "/images/speakers/parcaudio-dcu-f121a/1.png",
@@ -2569,6 +2569,7 @@
     "category": [
       "FF",
       "FF225",
+      "N",
       "8Ω",
       "20cm",
       "4H"
@@ -2702,6 +2703,7 @@
     "category": [
       "FF",
       "FF165",
+      "N",
       "8Ω",
       "16cm",
       "4H"
@@ -6213,7 +6215,7 @@
     "release": "2008-01",
     "category": [
       "FE",
-      "FE208",
+      "FE138",
       "ES-R",
       "UDRT",
       "HP",
