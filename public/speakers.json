@@ -5746,7 +5746,7 @@
     "model": "6N-FE108Super",
     "limited": true,
     "price": "",
-    "release": "1992",
+    "release": "1995-12",
     "category": [
       "FE",
       "FE108",
@@ -5768,7 +5768,7 @@
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "",
-      "releaseText": "1992年",
+      "releaseText": "1995年12月",
       "recommendedEnclosureList": [
         "スーパースワン",
         "リアカノンⅡ"
@@ -5778,7 +5778,7 @@
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Full Range Limited Unit",
       "priceText": "",
-      "releaseText": "Released in 1992",
+      "releaseText": "Released in 1995, Dec.",
       "recommendedEnclosureList": [
         "Super Swan",
         "Rear Canon II"
@@ -5901,7 +5901,7 @@
     "model": "FE108ESⅡ",
     "limited": true,
     "price": "",
-    "release": "2007",
+    "release": "2001-03",
     "category": [
       "FE",
       "FE108",
@@ -5924,7 +5924,7 @@
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "",
-      "releaseText": "2007年",
+      "releaseText": "2001年3月・11月",
       "recommendedEnclosureList": [
         "D101",
         "D101S",
@@ -5935,7 +5935,7 @@
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "10cm Fullrange Limited Unit",
       "priceText": "",
-      "releaseText": "Released in 2007",
+      "releaseText": "Released in 2001, Mar. & Nov.",
       "recommendedEnclosureList": [
         "D101",
         "D101S",
@@ -7437,7 +7437,7 @@
     "model": "6N-FE108ES",
     "limited": true,
     "price": "",
-    "release": "1988",
+    "release": "1998-12",
     "category": [
       "6N",
       "FE",
@@ -7459,7 +7459,7 @@
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "10cmフルレンジ限定ユニット",
       "priceText": "",
-      "releaseText": "1988年",
+      "releaseText": "1998年12月",
       "recommendedEnclosureList": [
         "Fostex推奨エンクロージャ"
       ]
@@ -7468,7 +7468,7 @@
       "frameText": "Cast Aluminum Frame",
       "categoryText": "10cm Full Range Unit",
       "priceText": "",
-      "releaseText": "Released in 1988",
+      "releaseText": "Released in 1998, Dec.",
       "recommendedEnclosureList": [
         "Recommended Enclosure by Fostex"
       ]
@@ -7608,7 +7608,7 @@
       "outline": "/images/speakers/fostex-6n-fe168ss/4.png"
     },
     "ja": {
-      "frameText": "鉄板フレーム",
+      "frameText": "アルミダイキャストフレーム",
       "categoryText": "16cmフルレンジ限定ユニット",
       "priceText": "",
       "releaseText": "1997年5月",
@@ -7618,7 +7618,7 @@
       ]
     },
     "en": {
-      "frameText": "Steel frame",
+      "frameText": "Aluminum Die-cast Frame",
       "categoryText": "16cm Fullrange Limited Unit",
       "priceText": "",
       "releaseText": "Released in May 1997",
@@ -11545,7 +11545,7 @@
     "model": "FE168SS-HP",
     "limited": true,
     "price": 38500,
-    "release": "2018-11",
+    "release": "2021-03",
     "category": [
       "FE",
       "FE168",
@@ -11568,7 +11568,7 @@
       "frameText": "アルミダイキャストフレーム",
       "categoryText": "16cmフルレンジ限定ユニット",
       "priceText": "¥38,500（税込）／1台",
-      "releaseText": "2018年11月",
+      "releaseText": "2021年3月",
       "recommendedEnclosureList": [
         "FE168SS-HP専用バックロードホーンエンクロージャー"
       ]
@@ -11577,7 +11577,7 @@
       "frameText": "Aluminum Die-cast Frame",
       "categoryText": "16cm Fullrange Limited Unit",
       "priceText": "¥38,500(tax included)/1pc",
-      "releaseText": "Released in November 2018",
+      "releaseText": "Released in 2021, March",
       "recommendedEnclosureList": [
         "Dedicated back-loaded horn enclosure for FE168SS-HP"
       ]
@@ -13309,7 +13309,7 @@
       "frameText": "鉄板フレーム",
       "categoryText": "8cmフルレンジユニット",
       "priceText": "¥5,720（税込）／1台",
-      "releaseText": "2019年7月発売"
+      "releaseText": "2019年7月"
     },
     "en": {
       "frameText": "Steel frame",
