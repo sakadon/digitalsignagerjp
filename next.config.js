@@ -6,4 +6,7 @@ module.exports = nextTranslate({
     includePaths: [path.join(__dirname, 'styles')],
   },
   trailingSlash: true,
+  experimental: {
+    scrollRestoration: true,
+  },
 });

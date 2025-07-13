@@ -56,13 +56,45 @@ export default function GroupedByCategories({ speakers }) {
   const groupedSpeakers = groupSpeakersByCategories(speakers);
 
   useEffect(() => setIsMounted(true), []);
-  useEffect(() => {
-    if (router.isReady && window.location.hash) {
+  
+  // アンカー位置へのスクロール処理
+  const scrollToHash = () => {
+    if (window.location.hash) {
       const elementId = window.location.hash.replace('#', '');
       const element = document.getElementById(elementId);
-      if (element) element.scrollIntoView({ behavior: 'smooth' });
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
+  // 初回ロード時のスクロール
+  useEffect(() => {
+    if (router.isReady) {
+      scrollToHash();
     }
   }, [router.isReady]);
+
+  // ルーター変更時のスクロール（ブラウザバック対応）
+  useEffect(() => {
+    const handleRouteChange = () => {
+      // 少し遅延を入れてDOMが確実に描画されてからスクロール
+      setTimeout(scrollToHash, 100);
+    };
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+    
+    // popstateイベントでブラウザバック時のハッシュ変更を検知
+    const handlePopState = () => {
+      setTimeout(scrollToHash, 100);
+    };
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, [router.events]);
 
   if (!isMounted) return null;
 
