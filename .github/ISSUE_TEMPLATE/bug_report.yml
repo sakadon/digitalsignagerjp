@@ -1,0 +1,59 @@
+name: バグ報告・修正依頼
+description: バグの修正をAIコーディングエージェントに依頼する
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: バグの内容
+      placeholder: "どの画面・機能でどのような不具合が発生しているかを記載してください。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: 再現手順
+      placeholder: |
+        1. 例: `/speakers/` を開く
+        2. 例: 特定の条件でフィルターを変更する
+        3. 例: エラーや表示崩れを確認する
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 期待する動作
+      placeholder: "本来どう動作するべきかを記載してください。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: 実際の動作
+      placeholder: "実際に起きている挙動やエラーメッセージを記載してください。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: completion-criteria
+    attributes:
+      label: 修正の完了条件
+      placeholder: |
+        - [ ] 例: 再現手順で不具合が発生しない
+        - [ ] 例: 関連画面でも同様の問題が起きない
+        - [ ] 例: `npm run build` が成功する
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: 該当箇所（ファイルや行数）
+      placeholder: "例: `/pages/speakers/index.js`、`/components/SpeakerList.jsx` など"
+    validations:
+      required: false
