@@ -76,7 +76,7 @@ export default function GroupedByCategories({ speakers }) {
       {groupedSpeakers.map((group, groupIndex) => (
         <div key={groupIndex} id={group.category} className="rounded-lg bg-gray-100 py-5 px-3 mb-10">
           <h3 className="mb-4 text-4xl font-bold text-blue-900 text-center">
-            Sorted by Qts (lowest first)
+            {t('speakers_dir.for_backloadedhorn.section_heading')}
           </h3>
           <SpeakerList speakers={group.speakers} />
         </div>
