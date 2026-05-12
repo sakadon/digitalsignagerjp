@@ -1,0 +1,54 @@
+name: 機能追加・改善リクエスト
+description: 新機能や改善をAIコーディングエージェントに依頼する
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: 何をしてほしいか（1行で）
+      placeholder: "例: スピーカー一覧ページにブランド絞り込みフィルターを追加したい"
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 詳細・背景
+      placeholder: 現在の課題、期待する改善内容、利用シーンなどを具体的に記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: 完了条件 (AIへの具体的な指示)
+      placeholder: |
+        - [ ] 例: 一覧画面で条件を選択できる
+        - [ ] 例: 条件変更時に表示内容が更新される
+        - [ ] 例: 日本語・英語の両方で表示崩れがない
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target
+    attributes:
+      label: 変更対象
+      options:
+        - コンポーネント
+        - ページ
+        - データ
+        - スタイル
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: 注意事項・制約
+      description: 任意。セキュリティ上の制約、変更禁止箇所、レビュー観点などがあれば記載してください。
+      placeholder: "例: 環境変数は追加しないこと。公開リポジトリのためログ出力にも注意すること。"
+    validations:
+      required: false

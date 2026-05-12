@@ -1,0 +1,33 @@
+name: PRビルドチェック
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: ビルド確認
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    # セキュリティ注意:
+    # - 環境変数をこの YAML にハードコードしないこと
+    # - 必要な値は `${{ secrets.XXX }}` を使って注入すること
+    # - 公開リポジトリのため CI ログも公開される前提で秘密情報を出力しないこと
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.js 20 をセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: 依存関係をインストール
+        run: npm ci
+
+      - name: ビルドを実行
+        run: npm run build
