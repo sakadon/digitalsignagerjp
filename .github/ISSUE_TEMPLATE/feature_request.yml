@@ -4,7 +4,7 @@ title: "[Feature] "
 labels:
   - enhancement
 body:
-  - type: textarea
+  - type: input
     id: summary
     attributes:
       label: 何をしてほしいか（1行で）

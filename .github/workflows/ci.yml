@@ -9,6 +9,8 @@ jobs:
   build:
     name: ビルド確認
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     # セキュリティ注意:
     # - 環境変数をこの YAML にハードコードしないこと
