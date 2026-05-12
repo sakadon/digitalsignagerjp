@@ -31,6 +31,7 @@ export default {
 
     for_backloadedhorn: {
       title: "List of Speaker Units for Back-Loaded Horn",
+      section_heading: "Sorted by Qts (lowest first)",
       abst: "For selecting speaker units suitable for back-loaded horn enclosures, it is commonly recommended to choose units with a strong magnetic circuit, a low Qts (Total Quality Factor, also referred to as Q0) indicating an over-damped tendency, and components made from high-rigidity materials with appropriate internal loss (often paper, kenaf, kevlar, etc.). These characteristics often result in units with high efficiency (Sound Pressure Level, SPL). Here, we have listed speaker units explicitly designed for back-loaded horn enclosures by manufacturers, sorted by Qts values. Please use this as a reference for your selection."
     }
   },
