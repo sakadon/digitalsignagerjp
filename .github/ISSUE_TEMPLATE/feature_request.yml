@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: acceptance-criteria
     attributes:
-      label: 完了条件（AIへの具体的な指示）
+      label: 完了条件 (AIへの具体的な指示)
       placeholder: |
         - [ ] 例: 一覧画面で条件を選択できる
         - [ ] 例: 条件変更時に表示内容が更新される
