@@ -5,7 +5,7 @@ import useTranslation from 'next-translate/useTranslation';
 import Breadcrumb from '../../components/Breadcrumb';
 import EnclosureList from '../../components/EnclosureList';
 
-const MISSING_RELEASE_YEAR = 1970;
+const FALLBACK_SORT_YEAR = 1970;
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'public', 'enclosures.json');
@@ -31,8 +31,8 @@ const groupByBrandAndSortByRelease = (enclosures) => {
 
   Object.keys(grouped).forEach((brand) => {
     grouped[brand] = grouped[brand].sort((a, b) => {
-      const releaseA = parseInt(a.release?.slice(0, 4), 10) || MISSING_RELEASE_YEAR;
-      const releaseB = parseInt(b.release?.slice(0, 4), 10) || MISSING_RELEASE_YEAR;
+      const releaseA = parseInt(a.release?.slice(0, 4), 10) || FALLBACK_SORT_YEAR;
+      const releaseB = parseInt(b.release?.slice(0, 4), 10) || FALLBACK_SORT_YEAR;
       return releaseB - releaseA;
     });
   });

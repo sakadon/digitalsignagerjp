@@ -53,8 +53,7 @@ export default function EnclosureDetail({ enclosure, allSpeakers }) {
   if (!enclosure) return null;
 
   const router = useRouter();
-  const { lang } = useTranslation('common');
-  const { t: tCommon } = useTranslation('common');
+  const { t: tCommon, lang } = useTranslation('common');
   const languageData = lang === 'ja' ? enclosure.ja : enclosure.en;
 
   if (router.isFallback) {
@@ -136,7 +135,7 @@ export default function EnclosureDetail({ enclosure, allSpeakers }) {
       <section className="mb-6">
         <h3 className="text-xl font-semibold mb-3">{lang === 'ja' ? '適合スピーカーユニット' : 'Linked speaker units'}</h3>
         <LinkedSpeakerUnits
-          linkedSpeakerUnitIds={enclosure.linkedSpeakerUnitIds}
+          speakerIds={enclosure.linkedSpeakerUnitIds}
           allSpeakers={allSpeakers}
           mountHoleDiameter={enclosure.specifications?.speakerMountHoleDiameter?.value}
           locale={lang}

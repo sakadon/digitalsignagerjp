@@ -9,8 +9,8 @@ const getMountHoleValue = (speaker) => {
   return Number.isFinite(numeric) ? numeric : null;
 };
 
-export default function LinkedSpeakerUnits({ linkedSpeakerUnitIds = [], allSpeakers = [], mountHoleDiameter, locale = 'en' }) {
-  const linkedSpeakers = allSpeakers.filter((speaker) => linkedSpeakerUnitIds.includes(speaker.id));
+export default function LinkedSpeakerUnits({ speakerIds = [], allSpeakers = [], mountHoleDiameter, locale = 'en' }) {
+  const linkedSpeakers = allSpeakers.filter((speaker) => speakerIds.includes(speaker.id));
 
   if (linkedSpeakers.length === 0) return null;
 
