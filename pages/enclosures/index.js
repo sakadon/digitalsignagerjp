@@ -5,6 +5,8 @@ import useTranslation from 'next-translate/useTranslation';
 import Breadcrumb from '../../components/Breadcrumb';
 import EnclosureList from '../../components/EnclosureList';
 
+const DEFAULT_FALLBACK_YEAR = 1970;
+
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'public', 'enclosures.json');
   const jsonData = await fs.readFile(filePath, 'utf8');
@@ -29,8 +31,8 @@ const groupByBrandAndSortByRelease = (enclosures) => {
 
   Object.keys(grouped).forEach((brand) => {
     grouped[brand] = grouped[brand].sort((a, b) => {
-      const releaseA = parseInt(a.release?.slice(0, 4), 10) || 1970;
-      const releaseB = parseInt(b.release?.slice(0, 4), 10) || 1970;
+      const releaseA = parseInt(a.release?.slice(0, 4), 10) || DEFAULT_FALLBACK_YEAR;
+      const releaseB = parseInt(b.release?.slice(0, 4), 10) || DEFAULT_FALLBACK_YEAR;
       return releaseB - releaseA;
     });
   });

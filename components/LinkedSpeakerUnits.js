@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+const MOUNT_HOLE_TOLERANCE_MM = 1;
+
 const getMountHoleValue = (speaker) => {
   const value = speaker?.otherParameters?.baffleHoleDiameter?.value;
   const numeric = Number(value);
@@ -17,7 +19,7 @@ export default function LinkedSpeakerUnits({ linkedSpeakerUnitIds = [], allSpeak
 
     if (Number.isFinite(speakerHole) && Number.isFinite(enclosureHole)) {
       const diff = Math.abs(speakerHole - enclosureHole);
-      if (diff <= 1) {
+      if (diff <= MOUNT_HOLE_TOLERANCE_MM) {
         return locale === 'ja'
           ? `取付穴径が近い（Φ${speakerHole}mm / 差${diff}mm）`
           : `Mount hole fit is close (Φ${speakerHole}mm / diff ${diff}mm)`;
