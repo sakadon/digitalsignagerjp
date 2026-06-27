@@ -1,5 +1,6 @@
 export default function EnclosureImageSection({ enclosure, locale = 'en' }) {
   if (!enclosure) return null;
+  const thumbnailImageKeys = ['sub', 'blueprint', 'frequency'];
 
   const labels = locale === 'ja'
     ? {
@@ -50,7 +51,7 @@ export default function EnclosureImageSection({ enclosure, locale = 'en' }) {
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        {['sub', 'blueprint', 'frequency'].map((key) => (
+        {thumbnailImageKeys.map((key) => (
           <div key={key} className="bg-gray-100 rounded p-2">
             <p className="text-xs font-medium mb-1">{labels[key]}</p>
             <img

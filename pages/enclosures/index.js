@@ -5,8 +5,6 @@ import useTranslation from 'next-translate/useTranslation';
 import Breadcrumb from '../../components/Breadcrumb';
 import EnclosureList from '../../components/EnclosureList';
 
-const FALLBACK_SORT_YEAR = 1970;
-
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'public', 'enclosures.json');
   const jsonData = await fs.readFile(filePath, 'utf8');
@@ -20,6 +18,7 @@ export async function getStaticProps() {
 }
 
 const groupByBrandAndSortByRelease = (enclosures) => {
+  const FALLBACK_SORT_YEAR = 1970;
   const grouped = enclosures.reduce((brands, enclosure) => {
     const brand = enclosure.brand;
     if (!brands[brand]) {

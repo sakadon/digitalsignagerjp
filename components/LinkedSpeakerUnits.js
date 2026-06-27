@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
 
-// Use ±1mm tolerance for mount-hole matching in this component.
+// Phase 1 requirement defines compatibility around mount-hole ±1mm.
 const MOUNT_HOLE_TOLERANCE_MM = 1;
 
 const getMountHoleValue = (speaker) => {
