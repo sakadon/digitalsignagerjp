@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+// Mount-hole recommendation in this project follows ±1mm compatibility checks.
 const MOUNT_HOLE_TOLERANCE_MM = 1;
 
 const getMountHoleValue = (speaker) => {
