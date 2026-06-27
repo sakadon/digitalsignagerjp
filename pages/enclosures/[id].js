@@ -81,51 +81,51 @@ export default function EnclosureDetail({ enclosure, allSpeakers }) {
       <EnclosureImageSection enclosure={enclosure} locale={lang} />
 
       <section className="mb-6">
-        <h3 className="text-xl font-semibold mb-3">{lang === 'ja' ? '基本仕様' : 'Basic specifications'}</h3>
+        <h3 className="text-xl font-semibold mb-3">{tCommon('enclosures_dir.sections.basic_specifications')}</h3>
         <div className="bg-gray-100 rounded p-4 space-y-2">
           <p>
-            {lang === 'ja' ? '外径寸法' : 'External dimensions'}: W{enclosure.dimensions?.width?.value}
+            {tCommon('enclosures_dir.labels.external_dimensions')}: W{enclosure.dimensions?.width?.value}
             ×H{enclosure.dimensions?.height?.value}×D{enclosure.dimensions?.depth?.value} {enclosure.dimensions?.width?.unit}
           </p>
-          <p>{lang === 'ja' ? '推奨材質' : 'Recommended material'}: {enclosure.specifications?.recommendedMaterial}</p>
+          <p>{tCommon('enclosures_dir.labels.recommended_material')}: {enclosure.specifications?.recommendedMaterial}</p>
           <p>
-            {lang === 'ja' ? '板材厚さ' : 'Panel thickness'}: {enclosure.specifications?.panelThickness?.value}
+            {tCommon('enclosures_dir.labels.panel_thickness')}: {enclosure.specifications?.panelThickness?.value}
             {enclosure.specifications?.panelThickness?.unit}
           </p>
           <p>
-            {lang === 'ja' ? '完成重量' : 'Finished weight'}: {enclosure.specifications?.finishedWeight?.value}
+            {tCommon('enclosures_dir.labels.finished_weight')}: {enclosure.specifications?.finishedWeight?.value}
             {enclosure.specifications?.finishedWeight?.unit}
           </p>
         </div>
       </section>
 
       <section className="mb-6">
-        <h3 className="text-xl font-semibold mb-3">{lang === 'ja' ? '音道パラメータ' : 'Acoustic path parameters'}</h3>
+        <h3 className="text-xl font-semibold mb-3">{tCommon('enclosures_dir.sections.acoustic_path_parameters')}</h3>
         <div className="bg-gray-100 rounded p-4 space-y-2">
           <p>
-            {lang === 'ja' ? 'バックキャビティー容積' : 'Back cavity volume'}: {enclosure.specifications?.backCavityVolume?.value}
+            {tCommon('enclosures_dir.labels.back_cavity_volume')}: {enclosure.specifications?.backCavityVolume?.value}
             {enclosure.specifications?.backCavityVolume?.unit}
           </p>
           <p>
-            {lang === 'ja' ? 'スロート断面積' : 'Throat cross-section area'}: {enclosure.specifications?.throatCrossSectionArea?.value}
+            {tCommon('enclosures_dir.labels.throat_cross_section_area')}: {enclosure.specifications?.throatCrossSectionArea?.value}
             {enclosure.specifications?.throatCrossSectionArea?.unit}
           </p>
           <p>
-            {lang === 'ja' ? '最終開口部面積' : 'Final opening area'}: {enclosure.specifications?.finalOpeningArea?.value}
+            {tCommon('enclosures_dir.labels.final_opening_area')}: {enclosure.specifications?.finalOpeningArea?.value}
             {enclosure.specifications?.finalOpeningArea?.unit}
           </p>
           <p>
-            {lang === 'ja' ? '音道長' : 'Sound path length'}: {enclosure.specifications?.soundPathLength?.value}
+            {tCommon('enclosures_dir.labels.sound_path_length')}: {enclosure.specifications?.soundPathLength?.value}
             {enclosure.specifications?.soundPathLength?.unit}
           </p>
         </div>
       </section>
 
       <section className="mb-6">
-        <h3 className="text-xl font-semibold mb-3">{lang === 'ja' ? 'マウント情報' : 'Mount information'}</h3>
+        <h3 className="text-xl font-semibold mb-3">{tCommon('enclosures_dir.sections.mount_information')}</h3>
         <div className="bg-gray-100 rounded p-4">
           <p>
-            {lang === 'ja' ? 'スピーカー取付穴径' : 'Speaker mount hole diameter'}: Φ
+            {tCommon('enclosures_dir.labels.speaker_mount_hole_diameter')}: Φ
             {enclosure.specifications?.speakerMountHoleDiameter?.value}
             {enclosure.specifications?.speakerMountHoleDiameter?.unit}
           </p>
@@ -133,12 +133,11 @@ export default function EnclosureDetail({ enclosure, allSpeakers }) {
       </section>
 
       <section className="mb-6">
-        <h3 className="text-xl font-semibold mb-3">{lang === 'ja' ? '適合スピーカーユニット' : 'Linked speaker units'}</h3>
+        <h3 className="text-xl font-semibold mb-3">{tCommon('enclosures_dir.sections.linked_speaker_units')}</h3>
         <LinkedSpeakerUnits
           speakerIds={enclosure.linkedSpeakerUnitIds}
           allSpeakers={allSpeakers}
           mountHoleDiameter={enclosure.specifications?.speakerMountHoleDiameter?.value}
-          locale={lang}
         />
       </section>
     </div>

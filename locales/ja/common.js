@@ -40,6 +40,29 @@ export default {
     title: "スピーカーエンクロージャ図鑑",
     abst: "バックロードホーンを中心とした様々なスピーカーエンクロージャを掲載しています。",
     enclosures_id_title: "エンクロージャ詳細",
+    sections: {
+      basic_specifications: "基本仕様",
+      acoustic_path_parameters: "音道パラメータ",
+      mount_information: "マウント情報",
+      linked_speaker_units: "適合スピーカーユニット",
+    },
+    labels: {
+      external_dimensions: "外径寸法",
+      recommended_material: "推奨材質",
+      panel_thickness: "板材厚さ",
+      finished_weight: "完成重量",
+      back_cavity_volume: "バックキャビティー容積",
+      throat_cross_section_area: "スロート断面積",
+      final_opening_area: "最終開口部面積",
+      sound_path_length: "音道長",
+      speaker_mount_hole_diameter: "スピーカー取付穴径",
+      view_details: "詳細を見る",
+    },
+    reasons: {
+      mount_hole_close: "取付穴径が近い（Φ{{speakerHole}}mm / 差{{diff}}mm）",
+      mount_hole_check: "取付穴径の差を要確認（Φ{{speakerHole}}mm / 差{{diff}}mm）",
+      mount_hole_incomplete: "取付穴径情報が不足しているため要確認",
+    },
   },
 
   breadcrumbs: {

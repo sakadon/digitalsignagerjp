@@ -1,6 +1,7 @@
 import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
 
-// Mount-hole recommendation in this project follows ±1mm compatibility checks.
+// Use ±1mm tolerance for mount-hole matching in this component.
 const MOUNT_HOLE_TOLERANCE_MM = 1;
 
 const getMountHoleValue = (speaker) => {
@@ -9,7 +10,8 @@ const getMountHoleValue = (speaker) => {
   return Number.isFinite(numeric) ? numeric : null;
 };
 
-export default function LinkedSpeakerUnits({ speakerIds = [], allSpeakers = [], mountHoleDiameter, locale = 'en' }) {
+export default function LinkedSpeakerUnits({ speakerIds = [], allSpeakers = [], mountHoleDiameter }) {
+  const { t: tCommon } = useTranslation('common');
   const linkedSpeakers = allSpeakers.filter((speaker) => speakerIds.includes(speaker.id));
 
   if (linkedSpeakers.length === 0) return null;
@@ -21,19 +23,13 @@ export default function LinkedSpeakerUnits({ speakerIds = [], allSpeakers = [], 
     if (Number.isFinite(speakerHole) && Number.isFinite(enclosureHole)) {
       const diff = Math.abs(speakerHole - enclosureHole);
       if (diff <= MOUNT_HOLE_TOLERANCE_MM) {
-        return locale === 'ja'
-          ? `取付穴径が近い（Φ${speakerHole}mm / 差${diff}mm）`
-          : `Mount hole fit is close (Φ${speakerHole}mm / diff ${diff}mm)`;
+        return tCommon('enclosures_dir.reasons.mount_hole_close', { speakerHole, diff });
       }
 
-      return locale === 'ja'
-        ? `取付穴径の差を要確認（Φ${speakerHole}mm / 差${diff}mm）`
-        : `Check mount hole difference (Φ${speakerHole}mm / diff ${diff}mm)`;
+      return tCommon('enclosures_dir.reasons.mount_hole_check', { speakerHole, diff });
     }
 
-    return locale === 'ja'
-      ? '取付穴径情報が不足しているため要確認'
-      : 'Mount-hole data is incomplete; verify compatibility';
+    return tCommon('enclosures_dir.reasons.mount_hole_incomplete');
   };
 
   return (
@@ -61,7 +57,7 @@ export default function LinkedSpeakerUnits({ speakerIds = [], allSpeakers = [], 
               href={`/speakers/${speaker.id}`}
               className="inline-block w-full text-center bg-blue-600 text-white rounded px-3 py-2 text-sm hover:bg-blue-700"
             >
-              {locale === 'ja' ? '詳細を見る' : 'View Details'}
+              {tCommon('enclosures_dir.labels.view_details')}
             </Link>
           </article>
         ))}

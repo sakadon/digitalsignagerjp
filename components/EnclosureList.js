@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import useTranslation from 'next-translate/useTranslation';
 
 export default function EnclosureList({ enclosures }) {
   const { locale } = useRouter();
+  const { t: tCommon } = useTranslation('common');
 
   return (
     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -37,7 +39,7 @@ export default function EnclosureList({ enclosures }) {
               href={`/enclosures/${enclosure.id}`}
               className="mt-auto inline-block text-center bg-blue-600 text-white rounded px-3 py-2 hover:bg-blue-700"
             >
-              {locale === 'ja' ? '詳細を見る' : 'View Details'}
+              {tCommon('enclosures_dir.labels.view_details')}
             </Link>
           </li>
         );

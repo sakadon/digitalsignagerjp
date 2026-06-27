@@ -40,6 +40,29 @@ export default {
     title: "Speaker Enclosure Encyclopedia",
     abst: "This section introduces various speaker enclosures centered on back-loaded horn designs.",
     enclosures_id_title: "Enclosure Details",
+    sections: {
+      basic_specifications: "Basic specifications",
+      acoustic_path_parameters: "Acoustic path parameters",
+      mount_information: "Mount information",
+      linked_speaker_units: "Linked speaker units",
+    },
+    labels: {
+      external_dimensions: "External dimensions",
+      recommended_material: "Recommended material",
+      panel_thickness: "Panel thickness",
+      finished_weight: "Finished weight",
+      back_cavity_volume: "Back cavity volume",
+      throat_cross_section_area: "Throat cross-section area",
+      final_opening_area: "Final opening area",
+      sound_path_length: "Sound path length",
+      speaker_mount_hole_diameter: "Speaker mount hole diameter",
+      view_details: "View Details",
+    },
+    reasons: {
+      mount_hole_close: "Mount hole fit is close (Φ{{speakerHole}}mm / diff {{diff}}mm)",
+      mount_hole_check: "Check mount hole difference (Φ{{speakerHole}}mm / diff {{diff}}mm)",
+      mount_hole_incomplete: "Mount-hole data is incomplete; verify compatibility",
+    },
   },
 
   breadcrumbs: {
