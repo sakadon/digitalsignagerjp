@@ -1,0 +1,312 @@
+[
+  {
+    "id": "bh-compact-60l",
+    "brand": "FOSTEX",
+    "name": "Compact Backloaded Horn",
+    "model": "BK-60C",
+    "limited": false,
+    "price": 42000,
+    "release": "2023-04",
+    "category": [
+      "ブックシェルフ",
+      "バックロードホーン",
+      "フルレンジ1発のみ"
+    ],
+    "image": {
+      "main": "/images/enclosures/bh-compact-60l/main.jpg",
+      "sub": "/images/enclosures/bh-compact-60l/sub.jpg",
+      "blueprint": "/images/enclosures/bh-compact-60l/blueprint.jpg",
+      "frequency": "/images/enclosures/bh-compact-60l/frequency.jpg",
+      "cross_section": "/images/enclosures/bh-compact-60l/cross_section.jpg"
+    },
+    "ja": {
+      "frameText": "高密度MDF",
+      "categoryText": "小型バックロードホーン",
+      "priceText": "¥42,000（税込）",
+      "releaseText": "2023年4月",
+      "descriptionText": "10cmクラス向けの小型バックロードホーン。省スペースで量感ある低域を狙った設計です。"
+    },
+    "en": {
+      "frameText": "High-density MDF",
+      "categoryText": "Compact back-loaded horn",
+      "priceText": "¥42,000 (tax included)",
+      "releaseText": "Released in April 2023",
+      "descriptionText": "A compact back-loaded horn for 10cm full-range units, designed to deliver rich low-end in limited space."
+    },
+    "dimensions": {
+      "width": { "value": 220, "unit": "mm" },
+      "height": { "value": 540, "unit": "mm" },
+      "depth": { "value": 330, "unit": "mm" },
+      "externalVolume": { "value": 39.2, "unit": "L" }
+    },
+    "specifications": {
+      "recommendedMaterial": "MDF",
+      "panelThickness": { "value": 15, "unit": "mm" },
+      "speakerMountHoleDiameter": { "value": 102, "unit": "mm" },
+      "finishedWeight": { "value": 11.5, "unit": "kg" },
+      "backCavityVolume": { "value": 6.5, "unit": "L" },
+      "throatCrossSectionArea": { "value": 45, "unit": "cm²" },
+      "finalOpeningArea": { "value": 130, "unit": "cm²" },
+      "soundPathLength": { "value": 135, "unit": "cm" }
+    },
+    "linkedSpeakerUnitIds": [
+      "fostex-fe108ns",
+      "fostex-fe108e-sigma",
+      "fostex-fe108ss-hp",
+      "fostex-fe103en-s"
+    ],
+    "links": {
+      "manufacturer": "https://www.fostex.jp",
+      "diyBlog": "https://digitalsignager.jp",
+      "audioDatabase": "https://digitalsignager.jp/speakers/"
+    }
+  },
+  {
+    "id": "bh-large-180l",
+    "brand": "FOSTEX",
+    "name": "Large Backloaded Horn",
+    "model": "BK-180L",
+    "limited": false,
+    "price": 128000,
+    "release": "2022-11",
+    "category": [
+      "トールボーイ",
+      "バックロードホーン",
+      "フルレンジ1発のみ"
+    ],
+    "image": {
+      "main": "/images/enclosures/bh-large-180l/main.jpg",
+      "sub": "/images/enclosures/bh-large-180l/sub.jpg",
+      "blueprint": "/images/enclosures/bh-large-180l/blueprint.jpg",
+      "frequency": "/images/enclosures/bh-large-180l/frequency.jpg",
+      "cross_section": "/images/enclosures/bh-large-180l/cross_section.jpg"
+    },
+    "ja": {
+      "frameText": "シナ合板",
+      "categoryText": "大型バックロードホーン",
+      "priceText": "¥128,000（税込）",
+      "releaseText": "2022年11月",
+      "descriptionText": "20cmユニット向けの大型バックロードホーン。広い開口部と長い音道でスケール感を重視。"
+    },
+    "en": {
+      "frameText": "Birch plywood",
+      "categoryText": "Large back-loaded horn",
+      "priceText": "¥128,000 (tax included)",
+      "releaseText": "Released in November 2022",
+      "descriptionText": "A large back-loaded horn for 20cm units, emphasizing scale with a wide mouth and long sound path."
+    },
+    "dimensions": {
+      "width": { "value": 360, "unit": "mm" },
+      "height": { "value": 1080, "unit": "mm" },
+      "depth": { "value": 540, "unit": "mm" },
+      "externalVolume": { "value": 209.9, "unit": "L" }
+    },
+    "specifications": {
+      "recommendedMaterial": "シナ合板",
+      "panelThickness": { "value": 18, "unit": "mm" },
+      "speakerMountHoleDiameter": { "value": 185, "unit": "mm" },
+      "finishedWeight": { "value": 38.0, "unit": "kg" },
+      "backCavityVolume": { "value": 32, "unit": "L" },
+      "throatCrossSectionArea": { "value": 120, "unit": "cm²" },
+      "finalOpeningArea": { "value": 703, "unit": "cm²" },
+      "soundPathLength": { "value": 170, "unit": "cm" }
+    },
+    "linkedSpeakerUnitIds": [
+      "fostex-fe206nv2",
+      "fostex-fe206nv",
+      "fostex-fe203sigma-re",
+      "fostex-fe208e-sigma"
+    ],
+    "links": {
+      "manufacturer": "https://www.fostex.jp",
+      "diyBlog": "https://digitalsignager.jp",
+      "audioDatabase": "https://digitalsignager.jp/speakers/for_backloadedhorn/"
+    }
+  },
+  {
+    "id": "bassreflex-bookshelf-35l",
+    "brand": "YAMAHA",
+    "name": "Bass Reflex Bookshelf",
+    "model": "BR-35B",
+    "limited": false,
+    "price": 36000,
+    "release": "2024-02",
+    "category": [
+      "ブックシェルフ",
+      "バスレフ",
+      "2ウェイ"
+    ],
+    "image": {
+      "main": "/images/enclosures/bassreflex-bookshelf-35l/main.jpg",
+      "sub": "/images/enclosures/bassreflex-bookshelf-35l/sub.jpg",
+      "blueprint": "/images/enclosures/bassreflex-bookshelf-35l/blueprint.jpg",
+      "frequency": "/images/enclosures/bassreflex-bookshelf-35l/frequency.jpg",
+      "cross_section": "/images/enclosures/bassreflex-bookshelf-35l/cross_section.jpg"
+    },
+    "ja": {
+      "frameText": "MDF",
+      "categoryText": "バスレフ型ブックシェルフ",
+      "priceText": "¥36,000（税込）",
+      "releaseText": "2024年2月",
+      "descriptionText": "中低域の量感を確保しやすいバスレフ型。10cm～12cmクラスのフルレンジにも対応。"
+    },
+    "en": {
+      "frameText": "MDF",
+      "categoryText": "Bass-reflex bookshelf",
+      "priceText": "¥36,000 (tax included)",
+      "releaseText": "Released in February 2024",
+      "descriptionText": "A bass-reflex bookshelf enclosure offering solid low-mid body, suitable for 10-12cm class units."
+    },
+    "dimensions": {
+      "width": { "value": 250, "unit": "mm" },
+      "height": { "value": 420, "unit": "mm" },
+      "depth": { "value": 330, "unit": "mm" },
+      "externalVolume": { "value": 34.7, "unit": "L" }
+    },
+    "specifications": {
+      "recommendedMaterial": "MDF",
+      "panelThickness": { "value": 18, "unit": "mm" },
+      "speakerMountHoleDiameter": { "value": 104, "unit": "mm" },
+      "finishedWeight": { "value": 10.2, "unit": "kg" },
+      "backCavityVolume": { "value": 24, "unit": "L" },
+      "throatCrossSectionArea": { "value": 62, "unit": "cm²" },
+      "finalOpeningArea": { "value": 95, "unit": "cm²" },
+      "soundPathLength": { "value": 42, "unit": "cm" }
+    },
+    "linkedSpeakerUnitIds": [
+      "fostex-fe126nv2",
+      "fostex-fe126nv",
+      "fostex-fe126en",
+      "fostex-ff125k"
+    ],
+    "links": {
+      "manufacturer": "https://jp.yamaha.com",
+      "diyBlog": "https://digitalsignager.jp",
+      "audioDatabase": "https://digitalsignager.jp/speakers/"
+    }
+  },
+  {
+    "id": "sealed-monitor-22l",
+    "brand": "ONKYO",
+    "name": "Sealed Monitor",
+    "model": "SM-22",
+    "limited": true,
+    "price": 54000,
+    "release": "2021-09",
+    "category": [
+      "ブックシェルフ",
+      "密閉型",
+      "2ウェイ"
+    ],
+    "image": {
+      "main": "/images/enclosures/sealed-monitor-22l/main.jpg",
+      "sub": "/images/enclosures/sealed-monitor-22l/sub.jpg",
+      "blueprint": "/images/enclosures/sealed-monitor-22l/blueprint.jpg",
+      "frequency": "/images/enclosures/sealed-monitor-22l/frequency.jpg",
+      "cross_section": "/images/enclosures/sealed-monitor-22l/cross_section.jpg"
+    },
+    "ja": {
+      "frameText": "バーチ合板",
+      "categoryText": "密閉型モニター",
+      "priceText": "¥54,000（税込）",
+      "releaseText": "2021年9月",
+      "descriptionText": "密閉型らしい立ち上がりの良さを狙ったモニター系エンクロージャ。"
+    },
+    "en": {
+      "frameText": "Birch plywood",
+      "categoryText": "Sealed monitor",
+      "priceText": "¥54,000 (tax included)",
+      "releaseText": "Released in September 2021",
+      "descriptionText": "A monitor-focused sealed enclosure targeting tight transient response."
+    },
+    "dimensions": {
+      "width": { "value": 260, "unit": "mm" },
+      "height": { "value": 390, "unit": "mm" },
+      "depth": { "value": 300, "unit": "mm" },
+      "externalVolume": { "value": 30.4, "unit": "L" }
+    },
+    "specifications": {
+      "recommendedMaterial": "バーチ合板",
+      "panelThickness": { "value": 18, "unit": "mm" },
+      "speakerMountHoleDiameter": { "value": 146, "unit": "mm" },
+      "finishedWeight": { "value": 12.8, "unit": "kg" },
+      "backCavityVolume": { "value": 18, "unit": "L" },
+      "throatCrossSectionArea": { "value": 0, "unit": "cm²" },
+      "finalOpeningArea": { "value": 0, "unit": "cm²" },
+      "soundPathLength": { "value": 0, "unit": "cm" }
+    },
+    "linkedSpeakerUnitIds": [
+      "fostex-fe166nv2",
+      "fostex-fe166nv",
+      "fostex-fe166en",
+      "fostex-fe166e"
+    ],
+    "links": {
+      "manufacturer": "https://www.onkyo.net",
+      "diyBlog": "https://digitalsignager.jp",
+      "audioDatabase": "https://digitalsignager.jp/speakers/"
+    }
+  },
+  {
+    "id": "resonator-tube-70l",
+    "brand": "TangBand",
+    "name": "Resonator Tube Tower",
+    "model": "RT-70",
+    "limited": false,
+    "price": 47000,
+    "release": "2020-06",
+    "category": [
+      "トールボーイ",
+      "共鳴管",
+      "フルレンジ1発のみ"
+    ],
+    "image": {
+      "main": "/images/enclosures/resonator-tube-70l/main.jpg",
+      "sub": "/images/enclosures/resonator-tube-70l/sub.jpg",
+      "blueprint": "/images/enclosures/resonator-tube-70l/blueprint.jpg",
+      "frequency": "/images/enclosures/resonator-tube-70l/frequency.jpg",
+      "cross_section": "/images/enclosures/resonator-tube-70l/cross_section.jpg"
+    },
+    "ja": {
+      "frameText": "MDF",
+      "categoryText": "共鳴管型タワー",
+      "priceText": "¥47,000（税込）",
+      "releaseText": "2020年6月",
+      "descriptionText": "比較的細身のタワーで、長い音道を活かして低域を補強する共鳴管設計です。"
+    },
+    "en": {
+      "frameText": "MDF",
+      "categoryText": "Resonator tube tower",
+      "priceText": "¥47,000 (tax included)",
+      "releaseText": "Released in June 2020",
+      "descriptionText": "A slim tower resonator tube design that reinforces low frequencies with a long acoustic path."
+    },
+    "dimensions": {
+      "width": { "value": 210, "unit": "mm" },
+      "height": { "value": 920, "unit": "mm" },
+      "depth": { "value": 300, "unit": "mm" },
+      "externalVolume": { "value": 58.0, "unit": "L" }
+    },
+    "specifications": {
+      "recommendedMaterial": "MDF",
+      "panelThickness": { "value": 15, "unit": "mm" },
+      "speakerMountHoleDiameter": { "value": 93, "unit": "mm" },
+      "finishedWeight": { "value": 14.5, "unit": "kg" },
+      "backCavityVolume": { "value": 9.2, "unit": "L" },
+      "throatCrossSectionArea": { "value": 52, "unit": "cm²" },
+      "finalOpeningArea": { "value": 110, "unit": "cm²" },
+      "soundPathLength": { "value": 150, "unit": "cm" }
+    },
+    "linkedSpeakerUnitIds": [
+      "fostex-fe103nv2",
+      "fostex-fe103nv",
+      "fostex-fe103-sol-8ohm",
+      "pioneer-dvc-1000"
+    ],
+    "links": {
+      "manufacturer": "https://www.tb-speaker.com",
+      "diyBlog": "https://digitalsignager.jp",
+      "audioDatabase": "https://digitalsignager.jp/speakers/"
+    }
+  }
+]
