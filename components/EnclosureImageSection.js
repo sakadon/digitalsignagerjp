@@ -17,7 +17,7 @@ export default function EnclosureImageSection({ enclosure, locale = 'en' }) {
       frequency: 'Frequency response',
     };
 
-  const fallbackSrc = '/images/no-image.jpg';
+  const fallbackSrc = '/images/noimage.jpg';
 
   const imageSrc = (value) => value || fallbackSrc;
 

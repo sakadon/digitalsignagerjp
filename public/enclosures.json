@@ -41,7 +41,7 @@
     },
     "specifications": {
       "recommendedMaterial": "MDF",
-      "panelThickness": { "value": "15", "unit": "mm" },
+      "panelThickness": { "value": 15, "unit": "mm" },
       "speakerMountHoleDiameter": { "value": 102, "unit": "mm" },
       "finishedWeight": { "value": 11.5, "unit": "kg" },
       "backCavityVolume": { "value": 6.5, "unit": "L" },
@@ -103,7 +103,7 @@
     },
     "specifications": {
       "recommendedMaterial": "シナ合板",
-      "panelThickness": { "value": "18", "unit": "mm" },
+      "panelThickness": { "value": 18, "unit": "mm" },
       "speakerMountHoleDiameter": { "value": 185, "unit": "mm" },
       "finishedWeight": { "value": 38.0, "unit": "kg" },
       "backCavityVolume": { "value": 32, "unit": "L" },
@@ -165,7 +165,7 @@
     },
     "specifications": {
       "recommendedMaterial": "MDF",
-      "panelThickness": { "value": "18", "unit": "mm" },
+      "panelThickness": { "value": 18, "unit": "mm" },
       "speakerMountHoleDiameter": { "value": 104, "unit": "mm" },
       "finishedWeight": { "value": 10.2, "unit": "kg" },
       "backCavityVolume": { "value": 24, "unit": "L" },
@@ -227,7 +227,7 @@
     },
     "specifications": {
       "recommendedMaterial": "バーチ合板",
-      "panelThickness": { "value": "18", "unit": "mm" },
+      "panelThickness": { "value": 18, "unit": "mm" },
       "speakerMountHoleDiameter": { "value": 146, "unit": "mm" },
       "finishedWeight": { "value": 12.8, "unit": "kg" },
       "backCavityVolume": { "value": 18, "unit": "L" },
@@ -289,7 +289,7 @@
     },
     "specifications": {
       "recommendedMaterial": "MDF",
-      "panelThickness": { "value": "15", "unit": "mm" },
+      "panelThickness": { "value": 15, "unit": "mm" },
       "speakerMountHoleDiameter": { "value": 93, "unit": "mm" },
       "finishedWeight": { "value": 14.5, "unit": "kg" },
       "backCavityVolume": { "value": 9.2, "unit": "L" },

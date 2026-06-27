@@ -40,11 +40,11 @@ export default function LinkedSpeakerUnits({ linkedSpeakerUnitIds = [], allSpeak
           <article key={speaker.id} className="border rounded-lg p-3 bg-white shadow-sm">
             <div className="aspect-square mb-3 bg-gray-100 rounded overflow-hidden">
               <img
-                src={speaker.image?.main || '/images/no-image.jpg'}
+                src={speaker.image?.main || '/images/noimage.jpg'}
                 alt={`${speaker.brand} ${speaker.name}`}
                 className="w-full h-full object-contain"
                 onError={(e) => {
-                  e.target.src = '/images/no-image.jpg';
+                  e.target.src = '/images/noimage.jpg';
                 }}
               />
             </div>

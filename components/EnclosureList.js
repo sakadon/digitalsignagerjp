@@ -16,11 +16,11 @@ export default function EnclosureList({ enclosures }) {
           >
             <div className="mb-3">
               <img
-                src={enclosure.image?.main || '/images/no-image.jpg'}
+                src={enclosure.image?.main || '/images/noimage.jpg'}
                 alt={`${enclosure.brand} ${enclosure.name}`}
                 className="w-full h-44 object-contain rounded"
                 onError={(e) => {
-                  e.target.src = '/images/no-image.jpg';
+                  e.target.src = '/images/noimage.jpg';
                 }}
               />
             </div>
