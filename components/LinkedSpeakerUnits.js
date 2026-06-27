@@ -58,7 +58,7 @@ export default function LinkedSpeakerUnits({ linkedSpeakerUnitIds = [], allSpeak
               href={`/speakers/${speaker.id}`}
               className="inline-block w-full text-center bg-blue-600 text-white rounded px-3 py-2 text-sm hover:bg-blue-700"
             >
-              詳細を見る
+              {locale === 'ja' ? '詳細を見る' : 'View Details'}
             </Link>
           </article>
         ))}
