@@ -36,10 +36,17 @@ export default {
     }
   },
 
+  enclosures_dir: {
+    title: "Speaker Enclosure Encyclopedia",
+    abst: "This section introduces various speaker enclosures centered on back-loaded horn designs.",
+    enclosures_id_title: "Enclosure Details",
+  },
+
   breadcrumbs: {
     home: "HOME",
 
     speakers: "Speakers",
+    enclosures: "Enclosures",
     grouped_by_baffle_hole_diameter: "Grouped by Baffle Hole Diameter",
     grouped_by_categories: "Grouped by Categories",
     backloaded_horn_speakers: "for Backloaded-Horn Speakers",

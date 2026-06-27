@@ -36,10 +36,17 @@ export default {
     }
   },
 
+  enclosures_dir: {
+    title: "スピーカーエンクロージャ図鑑",
+    abst: "バックロードホーンを中心とした様々なスピーカーエンクロージャを掲載しています。",
+    enclosures_id_title: "エンクロージャ詳細",
+  },
+
   breadcrumbs: {
     home: "ホーム",
 
     speakers: "スピーカー",
+    enclosures: "エンクロージャ",
     grouped_by_baffle_hole_diameter: "バッフル開口径でグループ化",
     grouped_by_categories: "カテゴリーでグループ化",
     backloaded_horn_speakers: "バックロードホーンスピーカー",
